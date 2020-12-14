@@ -21,3 +21,26 @@
     transform: rotate(360deg);
   }
 }
+
+.mdl-layout__header-row {
+  background-color:  rgb(49, 85, 58);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.foot {
+  background-color: rgb(49, 85, 58);
+  font-size: 20px;
+  height: 20px;
+  text-align: center;
+}
+
+html {
+  background-color: bisque;
+}
+
+h1 {
+  text-align: center;
+
+}
