@@ -1,33 +1,37 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
-
+import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import Main from './components/main';
+import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
   return (
-<div style={{height: '300px', position: 'relative'}}>
-    <Layout fixedHeader>
-        <Header title={<span><span style={{ color: '#ddd' }}>Area / </span><strong>The Title</strong></span>}>
+<div className="demo-big-content">
+    <Layout>
+        <Header title="Title" scroll>
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/landingpage">Home</Link>
+                <Link to="/about Me">About Me</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
-                <a href="/">Link</a>
+                <Link to="/about Me">About Me</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
             </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+            <div className="page-content" />
+            <Main/>
+        </Content>
     </Layout>
 </div>
-  );
+  )
+  }  
 }
-}
-
 export default App;
