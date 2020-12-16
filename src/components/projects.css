@@ -1,0 +1,21 @@
+.cardsall {
+  width: 85%;
+  height: max-content;
+  margin: 10px auto;
+  display: grid;
+  column-count: auto;
+  grid-gap: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: auto;
+  padding-left: auto;
+
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.inbetween {
+  
+}
+
