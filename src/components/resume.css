@@ -1,0 +1,8 @@
+.resuming {
+    background-image: "./Assetts/Resume.JPG";
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    min-height: 100%;
+    max-height: max-content;
+}
