@@ -5,7 +5,7 @@ import "./resume.css";
 class Resumecard extends Component {
     render() {
         return(
-<div class="container">
+<div class="resumecontainer">
 <img class="resuming" alt="resume" src={Resumeimg} />
 </div>
         )
