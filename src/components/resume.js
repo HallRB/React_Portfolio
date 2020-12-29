@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Resumecard from "./resumecard";
-
 class Resume extends Component {
     render() {
     return(
