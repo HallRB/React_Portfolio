@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Coding1 from "./code1.JPG";
-import Coding2 from "./code2.JPG";
 import "./code.css";
 
 class Code1 extends Component {

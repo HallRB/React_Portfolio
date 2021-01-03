@@ -20,8 +20,8 @@ class App extends Component {
             </Navigation>
         </Header>
         </div>
-        <RemoveScrollBar />
         <Content>
+        <RemoveScrollBar />
             <div className="page-content" />
             <Main/>
         </Content>

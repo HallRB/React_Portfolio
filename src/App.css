@@ -23,7 +23,7 @@
 }
 
 .mdl-layout__header-row {
-  background-color:  rgb(49, 85, 58);
+  background-color:  rgb(0, 0, 0);
   position: fixed;
   top: 0;
   width: 100%;
@@ -37,7 +37,7 @@
 }
 
 html {
-  background-color: rgb(0, 34, 54);
+  background-color: rgb(255, 255, 255);
   overflow: hidden;
   height:100%;
 }
@@ -56,9 +56,10 @@ body {
 .bodycard {
   height:100%; 
     overflow:hidden;
-    margin-bottom: 25%;
+    margin-bottom: -25%;
 }
 
 .cardsall {
   margin-bottom: 25%;
 }
+
