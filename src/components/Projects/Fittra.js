@@ -6,7 +6,7 @@ class Fittra extends Component {
     render() {
         return(
 <Card shadow={0} style={{width: '512px', margin: 'auto'}}>
-    <CardTitle style={{height: '275px'}}><img class="fittraimg"></img></CardTitle>
+    <CardTitle style={{height: '275px'}}><img alt="book" class="fittraimg"></img></CardTitle>
     <CardText>
         Fitness Tracker: An app that trackers the user's exercises over time separated into two categories: Cardo and Resistance.  Enter your workout then view your work outs in a over time in the tracker
     </CardText>

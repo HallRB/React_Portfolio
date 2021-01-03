@@ -3,8 +3,7 @@ import './App.css';
 import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-import Footer from './components/footer';
-import CarouselComponent from "./components/carousel.component";
+import Footer from './components/footer'
 class App extends Component {
   render() {
   return (
@@ -13,6 +12,7 @@ class App extends Component {
         <Header title="Richard B. Hall" scroll>
             <Navigation>
                 <Link to="/landingpage">Home</Link>
+                <Link to="/aboutme">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
@@ -20,9 +20,6 @@ class App extends Component {
         </Header>
         <Content>
             <div className="page-content" />
-            <div className="App">
-               <CarouselComponent />
-            </div>
             <Main/>
         </Content>
         <div class="foot">
