@@ -63,3 +63,8 @@ body {
   margin-bottom: 25%;
 }
 
+.headercss {
+  width: max-content;
+  visibility: visible;
+
+}
