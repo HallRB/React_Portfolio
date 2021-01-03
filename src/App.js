@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
-import Footer from './components/footer'
+import {RemoveScrollBar} from 'react-remove-scroll-bar';
 class App extends Component {
   render() {
   return (
+    <div className="bodycard">
 <div className="demo-big-content">
     <Layout>
-        <Header title="Richard B. Hall" scroll>
+      <div class="headercss">
+        <Header title="Richard B. Hall">
             <Navigation>
                 <Link to="/landingpage">Home</Link>
                 <Link to="/resume">Resume</Link>
@@ -17,17 +19,14 @@ class App extends Component {
                 <Link to="/contact">Contact</Link>
             </Navigation>
         </Header>
+        </div>
+        <RemoveScrollBar />
         <Content>
             <div className="page-content" />
             <Main/>
         </Content>
-        <div class="foot">
-          <Content>
-            Richard B. Hall
-        <Footer/>
-          </Content>
-        </div>
     </Layout>
+</div>
 </div>
   )
   }  
