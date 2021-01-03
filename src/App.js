@@ -12,7 +12,6 @@ class App extends Component {
         <Header title="Richard B. Hall" scroll>
             <Navigation>
                 <Link to="/landingpage">Home</Link>
-                <Link to="/aboutme">About Me</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
