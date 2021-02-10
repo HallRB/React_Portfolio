@@ -3,7 +3,9 @@ import "./contact.css";
 
 
 class Contact extends Component {
+
     render() {
+        
         return(
             <div class="contactcontainer">
                 <h1 class="glow">Contact</h1>
@@ -14,11 +16,15 @@ class Contact extends Component {
   <br/>
   <textarea name='message' placeholder='Message'/>
   <br/>
-  <input type='submit' value='Send' />
+  <input type='submit' value='Send' onClick={() => document.getElementById("sent").innerHTML="Sent!"} />
 </form>
-
+<div id="sent"></div>
             </div>
+
         )
+        
+
     }
+    
 }
 export default Contact
