@@ -8,7 +8,7 @@ class Notespage extends Component {
 <Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="notes"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
-        Fitness Tracker: An app that trackers the user's exercises over time separated into two categories: Cardio and Resistance.  Enter your workout then view your work outs in a over time in the tracker
+       Versapp: An LGBT supportive app which let's you create notes that you can later come back to and delete at your leasure.
     </CardText>
     <CardActions border>
         <Button colored>Check it out!</Button>

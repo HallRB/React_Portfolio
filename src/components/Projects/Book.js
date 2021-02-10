@@ -8,7 +8,7 @@ class Book extends Component {
 <Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
 <CardTitle style={{height: '275px'}}><img alt="" class="book"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
-        Budget Tracker: An app that allows the user to enter in income and expenses tracking them as they come in.  This application can be saved and utilized offline.
+       Book Search: Sign up, search a book and leave a comment for other's to view.  Add or delete your own comments and see what commentary others have left.
     </CardText>
     <CardActions border>
         <Button colored>Check it out!</Button>

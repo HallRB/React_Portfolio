@@ -74,3 +74,8 @@ body {
     margin: auto;
     text-align: left;
   }
+
+  #sent {
+    text-align: center;
+    font-size: x-large;
+  }

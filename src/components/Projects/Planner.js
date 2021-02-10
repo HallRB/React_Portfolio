@@ -7,7 +7,7 @@ class Planner extends Component {
 <Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="planner"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
-        Fitness Tracker: An app that trackers the user's exercises over time separated into two categories: Cardo and Resistance.  Enter your workout then view your work outs in a over time in the tracker
+        Daily Planner: If your life is a mess and completely disorganized, this app is for you.  Enter in your plans for today and this app will keep track for your, letting you know when the time has past for a designated task.
     </CardText>
     <CardActions border>
         <Button colored>Check it out!</Button>

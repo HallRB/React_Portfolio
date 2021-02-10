@@ -7,7 +7,7 @@ class Burgerhub extends Component {
 <Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="burgerhub"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
-        Employee Directory: An app that allows the user to look up employees by name reacting with each letter entered.  User may also sort the results by first or last name.
+       Burger Hub: A fun activity to create a juicy burger of your choice and devour it.
     </CardText>
     <CardActions border>
         <Button colored>Check it out!</Button>
