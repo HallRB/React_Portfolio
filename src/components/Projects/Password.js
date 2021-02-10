@@ -7,7 +7,7 @@ class Password extends Component {
 <Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="password"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
-        Fitness Tracker: An app that trackers the user's exercises over time separated into two categories: Cardo and Resistance.  Enter your workout then view your work outs in a over time in the tracker
+        Random Password Generator:  Need a unique and complicated password to keep those pesky hackers from invading your online accounts.  Swing by and generate a password to your specifications.
     </CardText>
     <CardActions border>
         <Button colored>Check it out!</Button>
