@@ -6,7 +6,7 @@ class Arcadea extends Component {
 <Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
 <CardTitle style={{height: '275px'}}><img alt="" class="arcadea"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
-        Budget Tracker: An app that allows the user to enter in income and expenses tracking them as they come in.  This application can be saved and utilized offline.
+        Arcade Utopia: An epic work in progress.  This game hopes to bring the user back to the age of retro styled RPGs with world exploration and turn based combat.  Design your character, level up, and defeat your enemies.
     </CardText>
     <CardActions border>
         <Button colored>Check it out!</Button>
