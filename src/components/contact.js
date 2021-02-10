@@ -12,9 +12,7 @@ class Contact extends Component {
   <br/>
   <input type='email' name='user_email' placeholder='Email' />
   <br/>
-  <div id="textwrap">
   <textarea name='message' placeholder='Message'/>
-  </div>
   <br/>
   <input type='submit' value='Send' />
 </form>
