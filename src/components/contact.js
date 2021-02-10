@@ -6,11 +6,19 @@ class Contact extends Component {
     render() {
         return(
             <div class="contactcontainer">
-                <h1>Contact</h1>
-                <h2>Richard Brian Hall</h2>
-                <h2>Full Stack Web Developer</h2>
-                <h2>Email: Richardbrianhall@gmail.com</h2>
-                <h2>Phone: (xxx) xxx - xxxx</h2>
+                <h1 class="glow">Contact</h1>
+                <form class="formwrap" id='contact-form'>
+  <input type='text' name='user_name' placeholder='Name' />
+  <br/>
+  <input type='email' name='user_email' placeholder='Email' />
+  <br/>
+  <div id="textwrap">
+  <textarea name='message' placeholder='Message'/>
+  </div>
+  <br/>
+  <input type='submit' value='Send' />
+</form>
+
             </div>
         )
     }

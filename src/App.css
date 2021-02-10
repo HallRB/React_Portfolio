@@ -7,6 +7,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Do Hyeon', sans-serif;
 }
 
 .App-link {
@@ -29,16 +30,10 @@
   width: 100%;
 }
 
-.foot {
-  background-color: rgb(49, 85, 58);
-  font-size: 20px;
-  height: 20px;
-  text-align: center;
-}
-
 html {
   background-image: url("./components/Assetts/synthbackground.jpg");
   background-size: 100% auto;
+  
 }
 
 h1 {
