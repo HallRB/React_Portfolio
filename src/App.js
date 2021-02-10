@@ -10,7 +10,7 @@ class App extends Component {
 <div className="demo-big-content">
     <Layout>
       <div class="headercss">
-        <Header title="Richard B. Hall">
+        <Header title=".">
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>

@@ -14,3 +14,7 @@
   overflow: none;
   margin-top: auto;
 }
+
+.inbetween {
+  background-color: grey;
+}

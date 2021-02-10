@@ -5,7 +5,6 @@ class Landingpage extends Component {
     return(
         <div class="resumecard">
 <Code1></Code1>
-
 </div>
     )
 }

@@ -5,3 +5,40 @@
     width: 100%;
     height: 100%;
 }
+
+.cardwrap {
+    background-color: grey;
+    color: black;
+}
+
+.cardborder {
+    border: solid black 2px;
+}
+
+.cardtext {
+    height: 70px;
+}
+
+.budtraimg {
+    background-image: url("../Assetts/BudTra.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.burgerhub {
+    background-image: url("../Assetts/Burgerhub.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.empdirimg {
+    background-image: url("../Assetts/EmpDir.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
