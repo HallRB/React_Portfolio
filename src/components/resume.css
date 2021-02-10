@@ -11,3 +11,32 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.resumecard {
+    width: 85%;
+    height: 100%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    resize: none;
+    overflow: hidden;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+/* .cardsall {
+    width: 85%;
+    height: 100%;
+    margin: 10px;
+    display: grid;
+    column-count: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    resize: horizontal;
+    overflow: none;
+  } */

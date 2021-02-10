@@ -1,14 +1,16 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Layout, Header, Navigation, Drawer, Content } from 'react-mdl';
+import { Layout, Header, Navigation, Content } from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 class App extends Component {
   render() {
   return (
+    <div className="bodycard">
 <div className="demo-big-content">
     <Layout>
-        <Header title="Richard B. Hall" scroll>
+      <div class="headercss">
+        <Header title="Richard B. Hall">
             <Navigation>
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
@@ -17,13 +19,13 @@ class App extends Component {
                 <Link to="/aboutme">About Me</Link>
             </Navigation>
         </Header>
+        </div>
         <Content>
             <div className="page-content" />
-            <div className="App">
-            </div>
             <Main/>
         </Content>
     </Layout>
+</div>
 </div>
   )
   }  

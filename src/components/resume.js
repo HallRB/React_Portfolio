@@ -3,7 +3,7 @@ import Resumecard from "./resumecard";
 class Resume extends Component {
     render() {
     return(
-        <div class="cardsall">
+        <div class="resumecard">
 <Resumecard></Resumecard>
 </div>
     )
