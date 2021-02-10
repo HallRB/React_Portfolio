@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
-import "./Fittra.css"
+
 
 class Fittra extends Component {
     render() {

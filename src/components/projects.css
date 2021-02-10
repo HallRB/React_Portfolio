@@ -13,8 +13,6 @@
   resize: horizontal;
   overflow: none;
   margin-top: auto;
-}
-
-.inbetween {
-  background-color: grey;
+  gap: 14px;
+  
 }

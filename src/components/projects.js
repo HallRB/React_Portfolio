@@ -11,10 +11,21 @@ import Password from "./Projects/Password";
 import Horiseon from "./Projects/Horiseon";
 import Book from "./Projects/Book";
 import Meta from "./Projects/Meta";
+import Sellify from "./Projects/sellify";
+import Arcadea from "./Projects/arcadeutopia";
 class Projects extends Component {
     render() {
         return(
+
+            <div id="projectwrap">
+                Projects
             <div class="cardsall">
+<div class="inbetween">
+<Arcadea></Arcadea>
+</div>
+<div class="inbetween">
+<Sellify></Sellify>
+</div>
 <div class="inbetween">
 <Empdir></Empdir>
 </div>
@@ -47,6 +58,7 @@ class Projects extends Component {
 </div>
 <div class="inbetween">
 <Meta></Meta>
+</div>
 </div>
 </div>
         )
