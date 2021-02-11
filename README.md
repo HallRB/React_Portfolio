@@ -7,7 +7,7 @@
 #### 
 
 ##  What does it look like?
-#### <img src= "images/home.png" width="800">
+#### <img src= "/reactss.JPG" width="800">
 
 ## What technologies were used?
 #### 
