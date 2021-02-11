@@ -10,7 +10,7 @@ class Password extends Component {
         Random Password Generator:  Need a unique and complicated password to keep those pesky hackers from invading your online accounts.  Swing by and generate a password to your specifications.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+        <a class="github" href="https://github.com/HallRB/Password-Generator">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

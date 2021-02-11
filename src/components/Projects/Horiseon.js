@@ -11,7 +11,8 @@ class Horiseon extends Component {
         Horiseon: A basic html and CSS page demonstrating the use of what creating professional looking web sites can look like.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+    <a class="deployed" href="https://booksearchgooglemern.herokuapp.com/">Deployed Page</a>
+        <a class="github" href="https://github.com/HallRB/Booksearch">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

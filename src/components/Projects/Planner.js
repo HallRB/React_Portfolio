@@ -10,7 +10,7 @@ class Planner extends Component {
         Daily Planner: If your life is a mess and completely disorganized, this app is for you.  Enter in your plans for today and this app will keep track for your, letting you know when the time has past for a designated task.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+        <a class="github" href="https://github.com/HallRB/Day-Planner">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />
