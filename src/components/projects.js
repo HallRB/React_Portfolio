@@ -8,7 +8,6 @@ import Survive from "./Projects/Survive";
 import Planner from "./Projects/Planner";
 import Notespage from "./Projects/Notes";
 import Password from "./Projects/Password";
-import Horiseon from "./Projects/Horiseon";
 import Book from "./Projects/Book";
 import Meta from "./Projects/Meta";
 import Sellify from "./Projects/sellify";
@@ -49,9 +48,6 @@ class Projects extends Component {
 </div>
 <div className="inbetween">
 <Password></Password>
-</div>
-<div className="inbetween">
-<Horiseon></Horiseon>
 </div>
 <div className="inbetween">
 <Book></Book>
