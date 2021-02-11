@@ -7,7 +7,7 @@
 #### 
 
 ##  What does it look like?
-#### [[https://github.com/HallRB/React_Portfolio/reactss.jpg|alt=screenshot]]
+#### <img src= "images/home.png" width="800">
 
 ## What technologies were used?
 #### 
