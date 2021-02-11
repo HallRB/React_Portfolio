@@ -11,7 +11,7 @@ class Book extends Component {
        Book Search: Sign up, search a book and leave a comment for other's to view.  Add or delete your own comments and see what commentary others have left.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+        <a href="www.google.com">Get Reading</a>
     </CardActions>
     <CardMenu>
         <IconButton name="share" />

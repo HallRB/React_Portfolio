@@ -8,6 +8,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: 'Do Hyeon', sans-serif;
+  font-size: 25px;
 }
 
 .App-link {
@@ -31,7 +32,7 @@
 }
 
 html {
-  background-image: url("./components/Assetts/synthbackground.jpg");
+  background-image: url("./components/Assetts/synthgif.gif");
   background-size: 100% auto;
   
 }
@@ -62,3 +63,4 @@ body {
   visibility: visible;
 
 }
+
