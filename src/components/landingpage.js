@@ -3,7 +3,7 @@ import Code1 from "./Codesnips/code1";
 class Landingpage extends Component {
     render() {
     return(
-        <div class="resumecard">
+        <div className="resumecard">
 <Code1></Code1>
 </div>
     )

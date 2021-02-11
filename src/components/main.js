@@ -4,7 +4,7 @@ import Landingpage from './landingpage';
 import Resume from './resume';
 import Projects from './projects';
 import Contact from './contact';
-import AboutMe from "./aboutme";
+import AboutMe from "./aboutme.js";
 
 const Main = () => (
     <Switch>

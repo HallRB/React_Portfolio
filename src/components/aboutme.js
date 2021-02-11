@@ -1,18 +1,13 @@
 import React, { Component } from 'react';
-import "./contact.css";
-
-
-class Contact extends Component {
-    render() {
-        return(
-            <div class="contactcontainer">
-                <h1>Contact</h1>
-                <h2>Richard Brian Hall</h2>
-                <h2>Full Stack Web Developer</h2>
-                <h2>Email: Richardbrianhall@gmail.com</h2>
-                <h2>Phone: (xxx) xxx - xxxx</h2>
-            </div>
+import "./aboutme.css";
+import Biocard from "./AboutMe/bio.js"
+class AboutMe extends Component {
+     
+      render() {
+        return (
+          <Biocard></Biocard>
         )
+      }
     }
-}
-export default Contact
+export default AboutMe
+

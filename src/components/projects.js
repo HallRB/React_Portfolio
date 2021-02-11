@@ -20,43 +20,43 @@ class Projects extends Component {
             <div id="projectwrap">
                 Projects
             <div class="cardsall">
-<div class="inbetween">
+<div className="inbetween">
 <Arcadea></Arcadea>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Sellify></Sellify>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Empdir></Empdir>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Budtra></Budtra>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Fittra></Fittra>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Burgerhub></Burgerhub>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Survive></Survive>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Planner></Planner>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Notespage></Notespage>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Password></Password>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Horiseon></Horiseon>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Book></Book>
 </div>
-<div class="inbetween">
+<div className="inbetween">
 <Meta></Meta>
 </div>
 </div>

@@ -13,10 +13,11 @@
 .resumecontainer {
     margin-left: auto;
     margin-right: auto;
+    width: max-content;
 }
 
 .resumecard {
-    width: 85%;
+    width: 100%;
     height: 100%;
     margin: 10px;
     margin-left: auto;
@@ -43,3 +44,11 @@
     resize: horizontal;
     overflow: none;
   } */
+
+  #download {
+      width: 100px;
+      height: 100px;
+      margin-left: auto;
+      margin-right: auto;
+      border: solid white 3px;
+  }
