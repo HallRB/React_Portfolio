@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Resumeimg from './Assetts/Resume.JPG';
+import Resumeimg from './Assetts/resume.png';
 import "./resume.css";
 
 class Resumecard extends Component {
