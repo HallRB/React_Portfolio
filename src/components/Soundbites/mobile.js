@@ -18,14 +18,14 @@ class Mobile extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="mobileid" onClick={() => this.Sound(soundObj.sound)}> 
+            <button key={index} id="mobileid" onClick={() => this.Sound(soundObj.sound)}>MOBILE 
             </button>
         )
         })
     }
     render() {
         Howler.volume(1.0)
-        return <div className="mobileclass">
+        return <div className="viewexp">
         {this.Soundtwo()}
         </div>
     }

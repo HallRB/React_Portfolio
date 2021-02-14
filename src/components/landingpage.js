@@ -12,7 +12,9 @@ class Landingpage extends Component {
          <div id="landingpageinnerwrap">
 
      <h2 id="cyve">Choose your viewing experience</h2>
+     <div className="mobilewrap">
 <Mobile></Mobile>
+</div>
 <Synth></Synth>
 <Modern></Modern>
 <Classic></Classic>

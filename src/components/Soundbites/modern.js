@@ -18,14 +18,14 @@ class Modern extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="modernid" onClick={() => this.Sound(soundObj.sound)}> 
+            <button key={index} id="modernid" onClick={() => this.Sound(soundObj.sound)}>Modern 
             </button>
         )
         })
     }
     render() {
         Howler.volume(1.0)
-        return <div className="modernclass">
+        return <div className="viewexp">
         {this.Soundtwo()}
         </div>
     }

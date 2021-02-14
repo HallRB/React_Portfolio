@@ -18,14 +18,14 @@ class Retro extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="retroid" onClick={() => this.Sound(soundObj.sound)}> 
+            <button key={index} id="retroid" onClick={() => this.Sound(soundObj.sound)}> Retro
             </button>
         )
         })
     }
     render() {
         Howler.volume(1.0)
-        return <div className="retroclass">
+        return <div className="viewexp">
         {this.Soundtwo()}
         </div>
     }

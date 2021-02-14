@@ -18,7 +18,7 @@ class Classic extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="classicid" onClick={() => this.Sound(soundObj.sound)}> 
+            <button key={index} id="classicid" onClick={() => this.Sound(soundObj.sound)}> Classic
             </button>
         )
         })
