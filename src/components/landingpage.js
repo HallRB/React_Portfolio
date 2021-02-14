@@ -12,13 +12,17 @@ class Landingpage extends Component {
          <div id="landingpageinnerwrap">
 
      <h2 id="cyve">Choose your viewing experience</h2>
+     <div id="buttonwrap">
      <div className="mobilewrap">
 <Mobile></Mobile>
 </div>
 <Synth></Synth>
+<div id="modern">
 <Modern></Modern>
+</div>
 <Classic></Classic>
 <Retro></Retro>
+     </div>
      </div>
      </div>
     )

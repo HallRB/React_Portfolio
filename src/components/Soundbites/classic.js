@@ -25,7 +25,7 @@ class Classic extends Component {
     }
     render() {
         Howler.volume(1.0)
-        return <div className="classicclass">
+        return <div className="viewexp">
         {this.Soundtwo()}
         </div>
     }

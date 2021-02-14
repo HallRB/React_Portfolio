@@ -18,7 +18,7 @@ class Mobile extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="mobileid" onClick={() => this.Sound(soundObj.sound)}>MOBILE 
+            <button key={index} id="mobileid" onClick={() => this.Sound(soundObj.sound)}> 
             </button>
         )
         })
