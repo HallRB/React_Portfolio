@@ -42,6 +42,8 @@ h1 {
 
 }
 
+
+
 body, html {
   height:100%;}
 
@@ -63,4 +65,101 @@ body {
   visibility: visible;
 
 }
+
+/* home page */
+
+#landingpagewrap {
+  margin-left: auto;
+  margin-right: auto;
+ 
+ }
+ 
+ #landingpageinnerwrap {
+   width: min-content;
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   
+ }
+
+.viewexp {
+color: black;
+width: 100%;
+margin-right: auto;
+margin-left: auto;
+}
+
+ #mobver {
+border: solid 4px rgb(64, 91, 116);
+background-color: rgb(255, 255, 255);
+font-family: 'Noto Sans TC', sans-serif;
+font-weight: 300;
+opacity: 1;
+border-radius: 15%;
+width: 30px;
+height: 45px;
+font-size: medium;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+ }
+
+#mobilewrap {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 0%;
+  width: max-content;
+}
+
+ #synthwav {
+  border: 1px solid rgba(255, 255, 255, 0.856);
+  box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
+  background-color: black;
+  color: aqua;
+  width: 100%;
+  margin: 0px;
+ }
+
+ #mod {
+border-left: 3px black solid;
+border-bottom: 3px black solid;
+border-right: 3px black solid;
+border-top: none;
+border-radius: 10%;
+background-repeat: round;
+opacity: .9;
+color: rgb(28, 88, 0);
+font-weight: 900;
+background-color: rgb(255, 253, 220);
+font-family: 'Noto Sans TC', sans-serif;
+height: 30px;
+font-size: large;
+ }
+
+ #modern {
+  background-color: rgb(0, 0, 0);
+  border-radius: 15%;
+  margin-top: 4%;
+}
+ 
+ #bas {
+background-color: white;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+opacity: 1;
+border-radius: 0; 
+}
+
+ #retro {
+border: solid chartreuse 2px;
+background-color: black;
+color: chartreuse;
+opacity: 1;
+ }
+ 
+ #cyve {
+   color: #ffffff;
+   font-size: xx-large;
+   padding-top: 45%;
+ }
 
