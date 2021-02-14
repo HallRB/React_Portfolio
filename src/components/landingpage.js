@@ -1,5 +1,10 @@
 import React, { Component } from 'react';
 import "../App.css";
+import Classic from "./Soundbites/classic.js";
+import Mobile from "./Soundbites/mobile.js";
+import Modern from "./Soundbites/modern.js";
+import Retro from "./Soundbites/retro.js";
+import Synth from "./Soundbites/synth.js"
 class Landingpage extends Component {
     render() {
     return(
@@ -7,15 +12,11 @@ class Landingpage extends Component {
          <div id="landingpageinnerwrap">
 
      <h2 id="cyve">Choose your viewing experience</h2>
-     <div id="mobilewrap">
-     <input type="submit" value="" id="mobver" className="viewexp"></input>
-     </div>
-     <input type="submit" value="Synthwave" id="synthwav" clasName="viewexp"></input>
-     <div id="modern">
-     <input type="submit" value="Modern" id="mod" className="viewexp"></input>
-     </div>
-     <input type="submit" value="Basic" id="bas" className="viewexp"></input>
-     <input type="submit" value="Retro" id="retro" className="viewexp"></input>
+<Mobile></Mobile>
+<Synth></Synth>
+<Modern></Modern>
+<Classic></Classic>
+<Retro></Retro>
      </div>
      </div>
     )
