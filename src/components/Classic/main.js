@@ -4,7 +4,7 @@ import Landingpage from './landingpage';
 import Resume from './resume';
 import Projects from './projects';
 import Contact from './contact';
-import AboutMe from "./aboutmeynthwave.js";
+import AboutMe from "./aboutme.js";
 
 import HomeClassic from "./Classic/homeclassic.js";
 import ResumeClassic from './resumeclassic';
@@ -28,7 +28,7 @@ import HomeModern from "./Modern/homemodern.js";
 import ResumeModern from './resumemodern';
 import ProjectsModern from './projectsmodern';
 import ContactModern from './contactmodern';
-import AboutMeModern from "./aboutmeynthwave.js";
+import AboutMeModern from "./aboutme.js";
 
 import HomeMobile from "./Mobile/homemobile.js";
 import ResumeMobile from './resumemobile.js';
