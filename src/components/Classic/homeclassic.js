@@ -13,7 +13,7 @@ class Classic extends Component {
      <h2 id="cyve">Choose your viewing experience</h2>
      <div id="buttonwrap">
      <div className="mobilewrap">
-<Link to="/homeclassicview" <Mobile></Mobile> </Link>
+<Mobile></Mobile>
 </div>
 <Synth></Synth>
 <div id="modern">
