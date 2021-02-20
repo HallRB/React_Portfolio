@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
+import { Card, CardTitle, CardText, CardActions } from 'react-mdl';
 
 class Survive extends Component {
     render() {
