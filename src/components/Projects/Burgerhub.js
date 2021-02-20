@@ -10,7 +10,7 @@ class Burgerhub extends Component {
        Burger Hub: A fun activity to create a juicy burger of your choice and devour it.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+        <a class="github" href="https://github.com/HallRB/Burger-Hub">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

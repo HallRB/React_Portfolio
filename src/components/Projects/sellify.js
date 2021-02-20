@@ -9,7 +9,8 @@ class Sellify extends Component {
         Sellify: Selling your home? Are you the homeowner, or perhaps the real estate agent?  Keeping the homeowner up to date with the status of their home where they can see offers and feedback left by prospective buyers.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+    <a class="deployed" href="https://wjrsellify.herokuapp.com/">Deployed Page</a>
+        <a class="github" href="https://github.com/KKaraman/wickedJackrabbits">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

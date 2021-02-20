@@ -11,7 +11,8 @@ class Book extends Component {
        Book Search: Sign up, search a book and leave a comment for other's to view.  Add or delete your own comments and see what commentary others have left.
     </CardText>
     <CardActions border>
-        <a href="www.google.com">Get Reading</a>
+        <a class="deployed" href="https://booksearchgooglemern.herokuapp.com/">Deployed Page</a>
+        <a class="github" href="https://github.com/HallRB/Booksearch">Github</a>
     </CardActions>
     <CardMenu>
         <IconButton name="share" />

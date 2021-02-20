@@ -10,7 +10,8 @@ class Meta extends Component {
         React Portfolio: You're already here!
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+    <a class="deployed" href="https://reactportfoliohallrb.herokuapp.com/">Deployed Page</a>
+        <a class="github" href="https://github.com/HallRB/React_Portfolio">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

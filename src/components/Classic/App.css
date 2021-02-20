@@ -1,0 +1,166 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: 'Do Hyeon', sans-serif;
+  font-size: 25px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.mdl-layout__header-row {
+  background-image:  rgb(25, 27, 39);
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+html {
+  background-image: url("./components/Assetts/synthgif.gif");
+  background-size: 100% auto;
+  
+}
+
+h1 {
+  text-align: center;
+
+}
+
+
+
+body, html {
+  height:100%;}
+
+body {
+  overflow: hidden;}
+
+.bodycard {
+  height:100%; 
+    overflow:hidden;
+    margin-bottom: -25%;
+}
+
+.cardsall {
+  margin-bottom: 25%;
+}
+
+.headercss {
+  width: max-content;
+  visibility: visible;
+
+}
+
+/* home page */
+
+#landingpagewrap {
+  margin-left: auto;
+  margin-right: auto;
+ 
+ }
+ 
+ #landingpageinnerwrap {
+   width: min-content;
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   
+ }
+
+#buttonwrap {
+  width: 100%;
+}
+
+.viewexp {
+color: black;
+width: max-content;
+margin-right: auto;
+margin-left: auto;
+margin-top: 5px;
+}
+
+ #mobileid {
+border: solid 4px rgb(64, 91, 116);
+background-color: rgb(255, 255, 255);
+font-family: 'Noto Sans TC', sans-serif;
+font-weight: 300;
+opacity: 1;
+border-radius: 15%;
+width: 30px;
+height: 45px;
+font-size: medium;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: auto;
+ }
+
+#mobilewrap {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 0%;
+  width: max-content;
+}
+
+ #synthid {
+  border: 1px solid rgba(255, 255, 255, 0.856);
+  box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
+  background-color: black;
+  color: aqua;
+  width: 100%;
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ #modernid {
+border: solid 2px black;
+margin-top: 5px;
+border-radius: 25px;
+background-repeat: round;
+opacity: .9;
+color: rgb(255, 255, 255);
+font-weight: 1100;
+background-color:rgb(0, 85, 241);
+font-family: 'Noto Sans TC', sans-serif;
+height: 100%;
+font-size: small;
+margin-left: auto;
+margin-right: auto; 
+}
+ 
+ #classicid {
+background-color: white;
+color: black;
+font-family: 'Times New Roman', Times, serif;
+opacity: 1;
+border-radius: 0; 
+}
+
+ #retroid {
+border: solid chartreuse 2px;
+background-color: black;
+color: chartreuse;
+opacity: 1;
+ }
+ 
+ #cyve {
+   color: #ffffff;
+   font-size: xx-large;
+   padding-top: 45%;
+ }
+

@@ -11,7 +11,8 @@ class Empdir extends Component {
         Employee Directory: An app that allows the user to look up employees by name reacting with each letter entered.  User may also sort the results by first or last name.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+    <a class="deployed" href="https://employeetracker20react.herokuapp.com/">Deployed Page</a>
+        <a class="github" href="https://github.com/HallRB/Employee_Directory">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

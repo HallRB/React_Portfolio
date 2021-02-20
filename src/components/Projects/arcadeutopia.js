@@ -9,7 +9,8 @@ class Arcadea extends Component {
         Arcade Utopia: An epic work in progress.  This game hopes to bring the user back to the age of retro styled RPGs with world exploration and turn based combat.  Design your character, level up, and defeat your enemies.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+    <a class="deployed" href="https://arcadeutopia.herokuapp.com/">Deployed Page</a>
+        <a class="github" href="https://github.com/HallRB/ArcadeUtopia">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

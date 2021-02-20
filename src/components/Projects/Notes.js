@@ -11,7 +11,7 @@ class Notespage extends Component {
        Versapp: An LGBT supportive app which let's you create notes that you can later come back to and delete at your leasure.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+        <a class="github" href="https://github.com/HallRB/Versapp">Github</a>
     </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />

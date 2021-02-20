@@ -10,7 +10,7 @@ class Survive extends Component {
         Survive 2020: 2020 was a year of hell for most people. Celebrate getting through it by getting through this choose your own adventure minigame where actions can have untold consequences.  Make it to the end not infected to win.
     </CardText>
     <CardActions border>
-        <Button colored>Check it out!</Button>
+        <a class="github" href="https://github.com/HallRB/Project-1">Github</a>
     </CardActions>
 </Card>  
         )
