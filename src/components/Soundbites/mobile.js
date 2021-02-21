@@ -24,7 +24,7 @@ class Mobile extends Component {
         })
     }
     render() {
-        Howler.volume(1.0)
+        Howler.volume(0.1)
         return <div className="viewexp">
         {this.Soundtwo()}
         </div>
