@@ -9,15 +9,21 @@ import { Link } from 'react-router-dom';
 class HomeClassic extends Component {
     render() {
     return(
-        <div id="megawrap">
+        <div id="megawrapclassic">
      <div id="landingpagewrap">
          <div id="lpiwclassic">
-             <h1 id="hearth"><Link class="links" to="/">Home</Link></h1>
-             <h3 id="resumeclassic" class="linksclassic"><Link class="links" to="/">Resume</Link></h3>
-             <h3 id="projectsclassic" class="linksclassic"><Link class="links" to="/">Projects</Link></h3>
-             <h3 id="contactclassic" class="linksclassic"><Link class="links" to="/">Contacts</Link></h3>
-             <h3 id="aboutmeclassic" class="linksclassic"><Link class="links" to="/">About Me</Link></h3>
-
+             <div id="lpiwclassicinner">
+             </div>
+</div>
+<div id="webbarout">
+    <div id="webbarin">
+             <p id="resumeclassic" class="linksclassic"><Link class="links" to="/">Home</Link></p>
+             <p id="resumeclassic" class="linksclassic"><Link class="links" to="/resumeclassicview">Resume</Link></p>
+             <p id="projectsclassic" class="linksclassic"><Link class="links" to="/projectsclassicview">Projects</Link></p>
+             <p id="contactclassic" class="linksclassic"><Link class="links" to="/contactclassicview">Contact</Link></p>
+             <p id="aboutmeclassic" class="linksclassic"><Link class="links" to="/aboutmeclassicview">About Me</Link></p>
+             </div>
+</div>
      <h2 id="cyveclassic">Choose your viewing experience</h2>
      <div id="buttonwrap">
      <div className="mobilewrap">
@@ -32,7 +38,7 @@ class HomeClassic extends Component {
      </div>
      </div>
      </div>
-     </div>
+
     )
 }
 }

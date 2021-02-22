@@ -74,12 +74,22 @@ body {
  }
  
  #lpiwclassic {
-   width: max-content;
+   width: 100%;
    display: flexbox;
    margin-left: auto;
    margin-right: auto;
    color: white;
-   
+   background-color: rgb(27, 27, 129);
+ }
+
+ #lpiwclassicinner {
+  width: max-content;
+   display: flexbox;
+   margin-left: auto;
+   margin-right: auto;
+   color: white;
+   background-color: rgb(27, 27, 129);
+   height: 25px;
  }
 
 #buttonwrap {
@@ -163,8 +173,7 @@ opacity: 1;
    font-size: x-large;
    padding-top: 45%;
    font-family: 'Times New Roman', Times, serif;
-   margin-top: -220px;
-   margin-bottom: -10px;
+   height: max-content;
  }
 
 #megawrap {
@@ -187,4 +196,20 @@ opacity: 1;
   display: inline-flex;
   color: black;
   margin-top: -20px;
+}
+
+#webbarin {
+  width: max-content;
+  background-color: rgb(150, 150, 150);
+  margin-left: auto;
+  margin-right: auto;
+  height: min-content;
+  font-size: 26px;
+}
+
+#webbarout {
+  width: 100%;
+  background-color: rgb(150, 150, 150);
+  height: min-content;
+  font-size: xx-large;
 }
