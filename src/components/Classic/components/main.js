@@ -1,16 +1,16 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Landingpage from './landingpage';
+import Landingpage from '../../landingpage';
 import Resume from './resume';
 import Projects from './projects';
 import Contact from './contact';
 import AboutMe from "./aboutme.js";
 
-import HomeClassic from "./Classic/components/homeclassic.js";
-import ResumeClassic from './Classic/components/resumeclassic.js';
-import ProjectsClassic from './Classic/components/projectsclassic.js';
-import ContactClassic from './Classic/components/contactclassic.js';
-import AboutMeClassic from "./Classic/components/aboutmeclassic.js";
+import HomeClassic from "./homeclassic.js";
+import ResumeClassic from './resumeclassic';
+import ProjectsClassic from './projectsclassic';
+import ContactClassic from './contactclassic';
+import AboutMeClassic from "./aboutmeclassic.js";
 
 // import HomeRetro from "./Retro/homeretro.js";
 // import ResumeRetro from './resumeretro.js';

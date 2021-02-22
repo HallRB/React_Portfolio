@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import "../App.css";
-import Classic from "./Soundbites/classic.js";
-import Mobile from "./Soundbites/mobile.js";
-import Modern from "./Soundbites/modern.js";
-import Retro from "./Soundbites/retro.js";
-import Synth from "./Soundbites/synth.js"
-class Landingpage extends Component {
+import Classic from "../../Soundbites/classic";
+import Mobile from "../../Soundbites/mobile.js";
+import Modern from "../../Soundbites/modern.js";
+import Retro from "../../Soundbites/retro.js";
+import Synth from "../../Soundbites/synth.js"
+class HomeClassic extends Component {
     render() {
     return(
      <div id="landingpagewrap">
@@ -29,4 +29,4 @@ class Landingpage extends Component {
 }
 }
 
-export default Landingpage
+export default HomeClassic
