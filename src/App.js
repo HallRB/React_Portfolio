@@ -9,17 +9,7 @@ class App extends Component {
     <div className="bodycard">
 <div className="demo-big-content">
     <Layout>
-      <div className="headercss">
-        <Header title="Richard B. Hall">
-            <Navigation id="navbarwrap">
-                <Link to="/">Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/aboutme">About Me</Link>
-            </Navigation>
-        </Header>
-        </div>
+
         <Content>
             <div className="page-content" />
             <Main/>

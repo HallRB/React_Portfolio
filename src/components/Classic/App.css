@@ -171,7 +171,6 @@ opacity: 1;
  #cyveclassic {
   color: black;
    font-size: x-large;
-   padding-top: 45%;
    font-family: 'Times New Roman', Times, serif;
    height: max-content;
  }
@@ -194,7 +193,7 @@ opacity: 1;
   margin-left: auto;
   margin-right: auto;
   display: inline-flex;
-  color: black;
+  color: none;
   margin-top: -20px;
 }
 
@@ -203,13 +202,48 @@ opacity: 1;
   background-color: rgb(150, 150, 150);
   margin-left: auto;
   margin-right: auto;
-  height: min-content;
-  font-size: 26px;
+  height: 50px;
+  font-size: 40px;
 }
 
 #webbarout {
   width: 100%;
   background-color: rgb(150, 150, 150);
-  height: min-content;
-  font-size: xx-large;
+  height: 70px;
+  font-size: 40px;
+}
+
+.linksclassic { 
+  border-left: solid rgb(114, 114, 114) 2px;
+  margin: 5px;
+}
+
+#homeclassic {
+background-image: url("../Assetts/homeicon.png");
+height: 55px;
+width: 50px;
+}
+
+#resumeclassic {
+  background-image: url("../Assetts/resumeicon.png");
+  height: 55px;
+width: 50px;
+}
+
+#projectsclassic {
+  background-image: url("../Assetts/portfolioicon.png");
+  height: 55px;
+width: 50px;
+}
+
+#contactclassic {
+  background-image: url("../Assetts/contacticon.png");
+  height: 55px;
+width: 50px;
+}
+
+#aboutmeclassic {
+  background-image: url("../Assetts/aboutmeicon.png");
+  height: 55px;
+width: 50px;
 }

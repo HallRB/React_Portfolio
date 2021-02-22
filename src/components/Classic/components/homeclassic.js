@@ -6,6 +6,11 @@ import Modern from "../../Soundbites/modern.js";
 import Retro from "../../Soundbites/retro.js";
 import Synth from "../../Soundbites/synth.js";
 import { Link } from 'react-router-dom';
+import Home from "../../Assetts/homeicon.png";
+import Resume from "../../Assetts/resumeicon.png";
+import Portfolio from "../../Assetts/portfolioicon.png";
+import Contact from "../../Assetts/contacticon.png";
+import AboutMe from "../../Assetts/aboutmeicon.png";
 class HomeClassic extends Component {
     render() {
     return(
@@ -17,11 +22,11 @@ class HomeClassic extends Component {
 </div>
 <div id="webbarout">
     <div id="webbarin">
-             <p id="resumeclassic" class="linksclassic"><Link class="links" to="/">Home</Link></p>
-             <p id="resumeclassic" class="linksclassic"><Link class="links" to="/resumeclassicview">Resume</Link></p>
-             <p id="projectsclassic" class="linksclassic"><Link class="links" to="/projectsclassicview">Projects</Link></p>
-             <p id="contactclassic" class="linksclassic"><Link class="links" to="/contactclassicview">Contact</Link></p>
-             <p id="aboutmeclassic" class="linksclassic"><Link class="links" to="/aboutmeclassicview">About Me</Link></p>
+             <p id="homeclassic" class="linksclassic"><Link class="links" id="homeclassic" to="/"></Link></p>
+             <p id="resumeclassic" class="linksclassic"><Link class="links" id="resumeclassic" to="/resumeclassicview"></Link></p>
+             <p id="projectsclassic" class="linksclassic"><Link class="links" id="projectsclassic" to="/projectsclassicview"></Link></p>
+             <p id="contactclassic" class="linksclassic"><Link class="links" id="contactclassic" to="/contactclassicview"></Link></p>
+             <p id="aboutmeclassic" class="linksclassic"><Link class="links" id="aboutmeclassic" to="/aboutmeclassicview"></Link></p>
              </div>
 </div>
      <h2 id="cyveclassic">Choose your viewing experience</h2>
