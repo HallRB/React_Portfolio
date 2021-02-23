@@ -25,7 +25,7 @@
 }
 
 .mdl-layout__header-row {
-  background-image:  rgb(25, 27, 39);
+  background-color:  rgb(25, 27, 39);
   position: fixed;
   top: 0;
   width: 100%;
@@ -127,8 +127,6 @@ margin-bottom: auto;
 }
 
  #synthid {
-  border: 1px solid rgba(255, 255, 255, 0.856);
-  box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
   background-color: black;
   color: aqua;
   width: 100%;

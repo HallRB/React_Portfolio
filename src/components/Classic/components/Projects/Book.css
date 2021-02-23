@@ -4,25 +4,27 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
-.cardwrap {
-    background: black;
+#cardwrap {
+    background: white;
     color: white;
-    border: 1px solid white;
     margin-left: 3px;
     margin-right: 3px;
+    color: rgb(27, 27, 129);
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;;
 }
 
-.cardborder {
-   border: 1px solid rgba(255, 255, 255, 0.856);
-   box-shadow: 0px 0px 4px 4px rgba(164, 0, 179, 0.856);
-   border-radius: 25px;
-}
 
 .cardtext {
-    height: 70px;
+    height: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+    color: rgb(27, 27, 129);
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .budtraimg {
@@ -31,7 +33,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .burgerhub {
@@ -40,7 +42,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .empdirimg {
@@ -49,7 +51,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .fittraimg {
@@ -58,7 +60,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .meta {
@@ -67,7 +69,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .notes {
@@ -76,7 +78,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .password {
@@ -85,7 +87,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .planner {
@@ -94,7 +96,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .survive {
@@ -103,7 +105,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .sellify {
@@ -112,7 +114,7 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .arcadea {
@@ -121,25 +123,30 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0%;
 }
 
 .deployed {
     text-align: left;
-    border: solid white 2px;
-    border-radius: 25px;
-    opacity: .5;
+    border: solid rgb(27, 27, 129) 2px;
+    border-radius: 0%;
+    opacity: 1;
     margin: 5px;
-    font-weight: 600;
     padding: 3px;
+    color: rgb(27, 27, 129);
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .github {
     text-align: right;
-    border: solid white 2px;
-    border-radius: 25px;
-    opacity: .5;
+    border: solid rgb(27, 27, 129) 2px;
+    border-radius: 0%;
+    opacity: 1;
     margin: 5px;
-    font-weight: 600;
     padding: 3px;
+    color: rgb(27, 27, 129);
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
+

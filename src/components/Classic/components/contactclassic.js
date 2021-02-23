@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import "./contact.css";
+import "../App.css";
+import { Link } from 'react-router-dom';
 
 
 class Contact extends Component {
@@ -8,47 +10,20 @@ class Contact extends Component {
         
         return(
             <div id="megawrapclassic">
-                <section class="tabs">
-            <menu role="tablist" aria-label="Sample Tabs">
-            <button role="tab" aria-selected="true" aria-controls="tab-A">Tab A</button>
-            <button role="tab" aria-controls="tab-B">Tab B</button>
-            <button role="tab" aria-controls="tab-C">Tab C</button>
-          </menu>
-
-          <article role="tabpanel" id="tab-A">
-    <h3>Tab Content</h3>
-    <p>
-      You create the tabs, you would use a <code>menu role="tablist"</code> element then for the tab titles you use a <code>button</code> with the <code>aria-controls</code> parameter set to match the relative <code>role="tabpanel"</code>'s element.
-    </p>
-    <p>
-      Read more at <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role" target="_blank">MDN Web docs - ARIA: tab role</a>
-    </p>
-  </article>
-
-
-  <article role="tabpanel" id="tab-B">
-    <h3>Tab Content</h3>
-    <p>
-MEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEowMEow
-    </p>
-    <p>
-      Read more at <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role" target="_blank">MDN Web docs - ARIA: tab role</a>
-    </p>
-  </article>
-
-
-  
-  <article role="tabpanel" id="tab-C">
-    <h3>Tab Content</h3>
-    <p>
-            Hello world wtf is up
-    </p>
-    <p>
-      Read more at <a href="https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/Tab_Role" target="_blank">MDN Web docs - ARIA: tab role</a>
-    </p>
-  </article>
-
-  </section>
+                <div id="lpiwclassic">
+         Richard B. Hall
+             <div id="lpiwclassicinner">
+             </div>
+</div>
+<div id="webbarout">
+    <div id="webbarin">
+             <p id="homeclassic" class="linksclassic"><Link class="links" id="homeclassic" to="/"></Link></p>
+             <p id="resumeclassic" class="linksclassic"><Link class="links" id="resumeclassic" to="/resumeclassicview"></Link></p>
+             <p id="projectsclassic" class="linksclassic"><Link class="links" id="projectsclassic" to="/projectsclassicview"></Link></p>
+             <p id="contactclassic" class="linksclassic"><Link class="links" id="contactclassic" to="/contactclassicview"></Link></p>
+             <p id="aboutmeclassic" class="linksclassic"><Link class="links" id="aboutmeclassic" to="/aboutmeclassicview"></Link></p>
+             </div>
+</div>
           </div>
 
 
