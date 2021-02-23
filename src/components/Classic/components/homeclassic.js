@@ -6,17 +6,14 @@ import Modern from "../../Soundbites/modern.js";
 import Retro from "../../Soundbites/retro.js";
 import Synth from "../../Soundbites/synth.js";
 import { Link } from 'react-router-dom';
-import Home from "../../Assetts/homeicon.png";
-import Resume from "../../Assetts/resumeicon.png";
-import Portfolio from "../../Assetts/portfolioicon.png";
-import Contact from "../../Assetts/contacticon.png";
-import AboutMe from "../../Assetts/aboutmeicon.png";
+
 class HomeClassic extends Component {
     render() {
     return(
         <div id="megawrapclassic">
      <div id="landingpagewrap">
          <div id="lpiwclassic">
+         Richard B. Hall
              <div id="lpiwclassicinner">
              </div>
 </div>

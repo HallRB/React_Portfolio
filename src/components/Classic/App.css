@@ -199,7 +199,7 @@ opacity: 1;
 
 #webbarin {
   width: max-content;
-  background-color: rgb(150, 150, 150);
+  background-color: rgb(117, 117, 117);
   margin-left: auto;
   margin-right: auto;
   height: 50px;
@@ -208,13 +208,13 @@ opacity: 1;
 
 #webbarout {
   width: 100%;
-  background-color: rgb(150, 150, 150);
+  background-color: rgb(117, 117, 117);
   height: 70px;
   font-size: 40px;
 }
 
 .linksclassic { 
-  border-left: solid rgb(114, 114, 114) 2px;
+  border-left: solid rgb(129, 129, 129) 2px;
   margin: 5px;
 }
 
@@ -246,4 +246,5 @@ width: 50px;
   background-image: url("../Assetts/aboutmeicon.png");
   height: 55px;
 width: 50px;
+
 }
