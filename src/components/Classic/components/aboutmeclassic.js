@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import "./aboutme.css";
-import Biocard from "./AboutMe/bio.js"
+import Biocardclassic from "./AboutMe/bio.js"
 import "../App.css";
 import { Link } from 'react-router-dom';
 class AboutMe extends Component {
      
       render() {
         return (
-          <div id="allwrap">
+          <div id="megawrapclassic">
           <div id="lpiwclassic">
           Richard B. Hall
               <div id="lpiwclassicinner">
@@ -22,10 +22,13 @@ class AboutMe extends Component {
               <p id="aboutmeclassic" class="linksclassic"><Link class="links" id="aboutmeclassic" to="/aboutmeclassicview"></Link></p>
               </div>
  </div>
-          <Biocard></Biocard>
+          <Biocardclassic></Biocardclassic>
           </div>
         )
       }
     }
 export default AboutMe
+
+
+
 

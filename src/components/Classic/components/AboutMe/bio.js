@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import "../aboutme.css";
 
-class Biocard extends Component {
+class Biocardclassic extends Component {
     render() {
         return(
             <div id="aboutmewrap">
             <p></p>
-            <div id="flip-card">
-            <div id="flip-card-inner">
-              <div id="flip-card-front">
-                <div id="headshot" alt="Avatar">
+            <div className="flip-card">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <div id="headshotclassic" alt="Avatar">
               </div>
               <div id="flip-card-back backside">
                 <h2>Richard B. Hall</h2> 
@@ -22,4 +22,4 @@ class Biocard extends Component {
         )
     }
 }
-export default Biocard
+export default Biocardclassic
