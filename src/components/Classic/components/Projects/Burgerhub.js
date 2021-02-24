@@ -4,18 +4,18 @@ import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 're
 class Burgerhub extends Component {
     render() {
         return(
-<Card id="cardwrap" shadow={0} style={{width: '512px', margin: 'auto'}}>
-    <CardTitle style={{height: '275px'}}><img alt="" class="burgerhub"></img></CardTitle>
-    <CardText class="cardwrap cardtext" >
+<div id="cardwrap" shadow={0} style={{width: '800px', margin: 'auto'}}>
+    <CardTitle style={{height: '500px'}}><img alt="" id="burgerhub"></img></CardTitle>
+    <div class="projecttext">
        Burger Hub: A fun activity to create a juicy burger of your choice and devour it.
-    </CardText>
-    <CardActions border>
+</div>
+    <div border>
         <a class="github" href="https://github.com/HallRB/Burger-Hub">Github</a>
-    </CardActions>
+    </div>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />
     </CardMenu>
-</Card>  
+</div>  
         )
     }
 }

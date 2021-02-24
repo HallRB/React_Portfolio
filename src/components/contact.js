@@ -8,7 +8,8 @@ class Contact extends Component {
     render() {
         
         return(
-            <div id="allwrap">                               <div className="headercss">
+            <div id="allwrap">                               
+            <div className="headercss">
             <Header title="Richard B. Hall">
                 <Navigation id="navbarwrap">
                     <Link to="/">Home</Link>

@@ -34,12 +34,18 @@ class Projects extends Component {
 </div>
             <div id="projectwrap">
                 Projects
-            <div id="cardsall">
+            <div id="cardsallclassic">
 <div className="inbetween">
 <Arcadea></Arcadea>
 </div>
 <div className="inbetween">
 <Sellify></Sellify>
+</div>
+<div className="inbetween">
+<Book></Book>
+</div>
+<div className="inbetween">
+<Meta></Meta>
 </div>
 <div className="inbetween">
 <Empdir></Empdir>
@@ -64,12 +70,6 @@ class Projects extends Component {
 </div>
 <div className="inbetween">
 <Password></Password>
-</div>
-<div className="inbetween">
-<Book></Book>
-</div>
-<div className="inbetween">
-<Meta></Meta>
 </div>
 </div>
 </div>

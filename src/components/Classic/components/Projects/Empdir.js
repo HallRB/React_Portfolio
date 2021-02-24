@@ -5,19 +5,19 @@ class Empdir extends Component {
 
     render() {
         return(
-<Card id="cardwrap" shadow={0} style={{width: '512px', margin: 'auto'}}>
-    <CardTitle style={{height: '275px'}}><img alt="" class="empdirimg"></img></CardTitle>
-    <CardText class="cardwrap cardtext" >
+<div id="cardwrap" shadow={0} style={{width: '800px', margin: 'auto'}}>
+    <CardTitle style={{height: '500px'}}><img alt="" id="empdirimg"></img></CardTitle>
+    <div class="projecttext">
         Employee Directory: An app that allows the user to look up employees by name reacting with each letter entered.  User may also sort the results by first or last name.
-    </CardText>
-    <CardActions border>
+</div>
+    <div border>
     <a class="deployed" href="https://employeetracker20react.herokuapp.com/">Deployed Page</a>
         <a class="github" href="https://github.com/HallRB/Employee_Directory">Github</a>
-    </CardActions>
+    </div>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />
     </CardMenu>
-</Card>  
+</div>  
         )
     }
 }

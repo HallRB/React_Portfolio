@@ -5,19 +5,19 @@ import "./Book.css"
 class Book extends Component {
     render() {
         return(
-<Card id="cardwrap" shadow={0} style={{width: '512px', margin: 'auto'}}>
-<CardTitle style={{height: '275px'}}><img alt="" class="book"></img></CardTitle>
-    <CardText class="cardwrap cardtext" >
+<div id="cardwrap" shadow={0} style={{width: '800px', margin: 'auto'}}>
+<CardTitle style={{height: '500px'}}><img alt="" id="book"></img></CardTitle>
+<div class="projecttext">
        Book Search: Sign up, search a book and leave a comment for other's to view.  Add or delete your own comments and see what commentary others have left.
-    </CardText>
+</div>
     <CardActions border>
-        <a class="deployed" href="https://booksearchgooglemern.herokuapp.com/">Deployed Page</a>
-        <a class="github" href="https://github.com/HallRB/Booksearch">Github</a>
+        <a id="deployed" href="https://booksearchgooglemern.herokuapp.com/">Deployed Page</a>
+        <a id="github" href="https://github.com/HallRB/Booksearch">Github</a>
     </CardActions>
     <CardMenu>
         <IconButton name="share" />
     </CardMenu>
-</Card>  
+</div>  
         )
     }
 }

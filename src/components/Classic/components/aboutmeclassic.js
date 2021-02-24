@@ -7,7 +7,7 @@ class AboutMe extends Component {
      
       render() {
         return (
-          <div id="megawrapclassic">
+          <div id="allwrap">
           <div id="lpiwclassic">
           Richard B. Hall
               <div id="lpiwclassicinner">

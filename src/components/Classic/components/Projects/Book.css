@@ -1,4 +1,4 @@
-.book {
+#book {
     background-image: url("../Assetts/bookreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,17 +7,16 @@
 }
 
 #cardwrap {
-    background: white;
-    color: white;
     margin-left: 3px;
     margin-right: 3px;
     color: rgb(27, 27, 129);
     background-color: white;
-    font-family: 'Times New Roman', Times, serif;;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 0%;
 }
 
 
-.cardtext {
+#cardtext {
     height: 60px;
     padding-left: 15px;
     padding-right: 15px;
@@ -25,9 +24,10 @@
     color: rgb(27, 27, 129);
     background-color: white;
     font-family: 'Times New Roman', Times, serif;
+    border-radius: 0%;
 }
 
-.budtraimg {
+#budtraimg {
     background-image: url("../Assetts/BudTra.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -36,7 +36,11 @@
     border-radius: 0%;
 }
 
-.burgerhub {
+#projecttext {
+    color:aqua
+}
+
+#burgerhub {
     background-image: url("../Assetts/Burgerhub.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -45,7 +49,7 @@
     border-radius: 0%;
 }
 
-.empdirimg {
+#empdirimg {
     background-image: url("../Assetts/EmpDir.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,7 +58,7 @@
     border-radius: 0%;
 }
 
-.fittraimg {
+#fittraimg {
     background-image: url("../Assetts/FitTra.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,7 +67,7 @@
     border-radius: 0%;
 }
 
-.meta {
+#meta {
     background-image: url("../Assetts/meta.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -72,7 +76,7 @@
     border-radius: 0%;
 }
 
-.notes {
+#notes {
     background-image: url("../Assetts/Notespage.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -81,7 +85,7 @@
     border-radius: 0%;
 }
 
-.password {
+#password {
     background-image: url("../Assetts/PasswordPreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -90,7 +94,7 @@
     border-radius: 0%;
 }
 
-.planner {
+#planner {
     background-image: url("../Assetts/PlannerPreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -99,7 +103,7 @@
     border-radius: 0%;
 }
 
-.survive {
+#survive {
     background-image: url("../Assetts/SurvivePreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -108,7 +112,7 @@
     border-radius: 0%;
 }
 
-.sellify {
+#sellify {
     background-image: url("../Assetts/sellify.png");
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,7 +121,7 @@
     border-radius: 0%;
 }
 
-.arcadea {
+#arcadea {
     background-image: url("../Assetts/arcade.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -126,7 +130,7 @@
     border-radius: 0%;
 }
 
-.deployed {
+#deployed {
     text-align: left;
     border: solid rgb(27, 27, 129) 2px;
     border-radius: 0%;
@@ -138,7 +142,7 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-.github {
+#github {
     text-align: right;
     border: solid rgb(27, 27, 129) 2px;
     border-radius: 0%;
@@ -150,3 +154,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+#cartdtextcustom {
+    background-color: blue;
+}

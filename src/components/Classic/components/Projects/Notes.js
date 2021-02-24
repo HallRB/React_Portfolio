@@ -5,18 +5,18 @@ import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 're
 class Notespage extends Component {
     render() {
         return(
-<Card id="cardwrap" shadow={0} style={{width: '512px', margin: 'auto'}}>
-    <CardTitle style={{height: '275px'}}><img alt="" class="notes"></img></CardTitle>
-    <CardText class="cardwrap cardtext" >
+<div id="cardwrap" shadow={0} style={{width: '800px', margin: 'auto'}}>
+    <CardTitle style={{height: '500px'}}><img alt="" id="notes"></img></CardTitle>
+    <div class="projecttext">
        Versapp: An LGBT supportive app which let's you create notes that you can later come back to and delete at your leasure.
-    </CardText>
-    <CardActions border>
+</div>
+    <div border>
         <a class="github" href="https://github.com/HallRB/Versapp">Github</a>
-    </CardActions>
+    </div>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />
     </CardMenu>
-</Card>  
+</div>  
         )
     }
 }

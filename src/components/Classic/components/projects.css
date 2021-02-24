@@ -1,4 +1,4 @@
-#cardsall {
+#cardsallclassic {
   width: 80%;
   height: 100%;
   margin: 10px;
@@ -13,17 +13,18 @@
   background-image: none;
   background-color: white;
   margin-top: 15px;
+  color: rgb(27, 27, 129);
+  font-size: 20px;
 }
 
 #megawrapclassic {
   width: 100%;
   height: 100%;
-  background-color: rgb(119, 119, 119);
   overflow:scroll;
-  color: black;
+  color: rgb(27, 27, 129);
 }
 
-#projectwrap {
+#projectwrapclassic {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
