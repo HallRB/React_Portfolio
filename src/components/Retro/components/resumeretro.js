@@ -3,7 +3,7 @@ import Resumecard from "./resumecard";
 // import Resumefile from "./Assetts/ResumeRichardBHall.pdf";
 import "./resume.css";
 
-class Resume extends Component {
+class ResumeRetro extends Component {
     render() {
     return(
         <div id="megawrapretro">
@@ -15,4 +15,4 @@ class Resume extends Component {
     )
 }
 }
-export default Resume
+export default ResumeRetro

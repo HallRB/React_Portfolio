@@ -1,25 +1,25 @@
 import React, { Component } from 'react';
 import "../App.css";
-import retro from "../../Soundbites/retro";
+import Classic from "../../Soundbites/classic";
 import Mobile from "../../Soundbites/mobile.js";
 import Modern from "../../Soundbites/modern.js";
 import Retro from "../../Soundbites/retro.js";
 import Synth from "../../Soundbites/synth.js";
 import { Link } from 'react-router-dom';
 
-class Homeretro extends Component {
+class HomeRetro extends Component {
     render() {
     return(
         <div id="megawrapretro">
-     <div id="landingpagewrap">
+     <div id="landingpagewrapretro">
          <div id="lpiwretro">
          Richard B. Hall
              <div id="lpiwretroinner">
              </div>
 </div>
-<div id="webbarout">
-    <div id="webbarin">
-             <p id="homeretro" class="linksretro"><Link class="links" id="homeretro" to="/"></Link></p>
+<div id="webbaroutretro">
+    <div id="webbarinretro">
+             <p id="homeclassic" class="linksclassic"><Link class="links" id="homeclassic" to="/"></Link></p>
              <p id="resumeretro" class="linksretro"><Link class="links" id="resumeretro" to="/resumeretroview"></Link></p>
              <p id="projectsretro" class="linksretro"><Link class="links" id="projectsretro" to="/projectsretroview"></Link></p>
              <p id="contactretro" class="linksretro"><Link class="links" id="contactretro" to="/contactretroview"></Link></p>
@@ -35,7 +35,7 @@ class Homeretro extends Component {
 <div id="modern">
 <Modern></Modern>
 </div>
-<retro></retro>
+<Classic></Classic>
 <Retro></Retro>
      </div>
      </div>
@@ -45,4 +45,4 @@ class Homeretro extends Component {
 }
 }
 
-export default Homeretro
+export default HomeRetro
