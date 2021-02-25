@@ -15,7 +15,7 @@
     position: relative;
     width: 440px;
     height: 650px;
-    text-align: center;
+    text-align: justify;
     transition: transform 0.6s;
     transform-style: preserve-3d;
   }
@@ -30,28 +30,37 @@
     height: 650px;
     -webkit-backface-visibility: hidden;
     backface-visibility: visible;
-    border-radius: 25px;
   }
   
   #flip-card-front {
-    color: white;  
+    color: white; 
     width: 440px;
     height: 650px;
   }
   
   #flip-card-back {
-    color: white;
+    color: black;
+    background-image: none;
+    background-color: white;
     transform: rotateY(180deg);
-    
+    border: solid 2px white;
+    font-family: 'Times New Roman', Times, serif;
   }
 
-  #headshot {
-    background-image: url("./Assetts/bioheadsynth.png");
+  .flip-card-inner {
+    border-radius: 0%;
+    border: none;
+    box-shadow: none;
+  }
+
+  #headshotclassic {
+    background-image: url("./Assetts/bioheadbasic.png");
     width: 440px;
     height: 650px;
     background-repeat: no-repeat;
     position: absolute;
     border-radius: 0%;
+
   }
 
   #aboutmewrap {
@@ -62,7 +71,7 @@
   }
 
 #backside {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   visibility: visible;
   text-align: justify;
@@ -70,15 +79,19 @@
   border-radius: 0%;
 }
 
-#para {
+
+#paraclassic {
   margin: 5px;
-  margin-top: -20px;
+  margin-top: -18px;
+  font-size: 15px;
+  text-align: justify;
 }
 
 #abtme {
   visibility: visible;
-  color: white;
+  color: black;
   font-size: 75px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {

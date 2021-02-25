@@ -22,6 +22,7 @@ class AboutMe extends Component {
               <p id="aboutmeclassic" class="linksclassic"><Link class="links" id="aboutmeclassic" to="/aboutmeclassicview"></Link></p>
               </div>
  </div>
+ 
           <Biocardclassic></Biocardclassic>
           </div>
         )
