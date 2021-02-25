@@ -35,7 +35,7 @@ class Landingpage extends Component {
 <Modern></Modern>
 </div>
 <Link to="/homeclassicview"> <Classic></Classic> </Link>
-<Retro></Retro>
+<Link to="/homeretroview"><Retro></Retro></Link>
      </div>
      </div>
      </div>
