@@ -1,4 +1,4 @@
-#cardsallclassic {
+#cardsallretro {
   width: 80%;
   height: 100%;
   margin: 10px;
@@ -17,14 +17,14 @@
   font-size: 20px;
 }
 
-#megawrapclassic {
+#megawrapretro {
   width: 100%;
   height: 100%;
   overflow:scroll;
   color: rgb(27, 27, 129);
 }
 
-#projectwrapclassic {
+#projectwrapretro {
   margin-left: auto;
   margin-right: auto;
   text-align: center;

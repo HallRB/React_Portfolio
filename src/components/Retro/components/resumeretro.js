@@ -6,8 +6,8 @@ import "./resume.css";
 class Resume extends Component {
     render() {
     return(
-        <div id="megawrapclassic">
-        <div className="resumecardclassic">
+        <div id="megawrapretro">
+        <div className="resumecardretro">
 <Resumecard></Resumecard>
 {/* <div id="download"><Resumefile></Resumefile></div> */}
 </div>

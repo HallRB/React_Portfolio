@@ -53,7 +53,7 @@
     box-shadow: none;
   }
 
-  #headshotclassic {
+  #headshotretro {
     background-image: url("./Assetts/bioheadbasic.png");
     width: 440px;
     height: 650px;
@@ -80,7 +80,7 @@
 }
 
 
-#paraclassic {
+#pararetro {
   margin: 5px;
   margin-top: -18px;
   font-size: 15px;
