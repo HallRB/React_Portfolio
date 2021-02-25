@@ -7,7 +7,7 @@ import Modern from "./Soundbites/modern.js";
 import Retro from "./Soundbites/retro.js";
 import Synth from "./Soundbites/synth.js"
 import {  Header, Navigation } from 'react-mdl';
-class Landingpage extends Component {
+class HomeSynth extends Component {
     render() {
     return(
         
@@ -28,15 +28,13 @@ class Landingpage extends Component {
      <h2 id="cyve">Choose your viewing experience</h2>
      <div id="buttonwrap">
      <div className="mobilewrap">
-     <Link to="/homemobileview"><Mobile></Mobile></Link>
+<Mobile></Mobile>
 </div>
-<Link to="/homesynthview"><Synth></Synth></Link>
-
+<Link to="/homesynthview"> <Synth></Synth> </Link>
 <div id="modern">
-<Link to="/homemodernview"><Modern></Modern></Link>
-
+<Modern></Modern>
 </div>
-<Link to="/homeclassicview"><Classic></Classic></Link>
+<Link to="/homeclassicview"> <Classic></Classic> </Link>
 <Link to="/homeretroview"><Retro></Retro></Link>
      </div>
      </div>
@@ -45,4 +43,4 @@ class Landingpage extends Component {
 }
 }
 
-export default Landingpage
+export default HomeSynth

@@ -29,14 +29,16 @@ class HomeRetro extends Component {
      <h2 id="cyveretro">Choose your viewing experience</h2>
      <div id="buttonwrap">
      <div className="mobilewrap">
-<Mobile></Mobile>
+     <Link to="/homemobileview"><Mobile></Mobile></Link>
 </div>
-<Synth></Synth>
+<Link to="/homesynthview"><Synth></Synth></Link>
+
 <div id="modern">
-<Modern></Modern>
+<Link to="/homemodernview"><Modern></Modern></Link>
+
 </div>
-<Classic></Classic>
-<Retro></Retro>
+<Link to="/homeclassicview"><Classic></Classic></Link>
+<Link to="/homeretroview"><Retro></Retro></Link>
      </div>
      </div>
      </div>

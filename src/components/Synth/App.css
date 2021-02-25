@@ -7,7 +7,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: 'Press Start 2P', cursive;
+  font-family: 'Do Hyeon', sans-serif;
   font-size: 25px;
 }
 
@@ -25,7 +25,7 @@
 }
 
 .mdl-layout__header-row {
-  background-color:  rgb(0, 0, 0);
+  background-image:  rgb(25, 27, 39);
   position: fixed;
   top: 0;
   width: 100%;
@@ -34,6 +34,7 @@
 html {
   background-image: url("./components/Assetts/synthgif.gif");
   background-size: 100% auto;
+  
 }
 
 h1 {
@@ -49,7 +50,7 @@ body, html {
 body {
   overflow: hidden;}
 
-.bodycardretro {
+.bodycard {
   height:100%; 
     overflow:hidden;
     margin-bottom: -25%;
@@ -67,33 +68,18 @@ body {
 
 /* home page */
 
-#landingpagewrapretro {
+#landingpagewrap {
   margin-left: auto;
   margin-right: auto;
  
  }
  
- #lpiwretro {
-   width: 100%;
-   display: flexbox;
+ #landingpageinnerwrap {
+   width: min-content;
    margin-left: auto;
    margin-right: auto;
    color: white;
-   background-color: rgb(27, 27, 129);
-   font-size: 30px;
-   padding-top: 15px;
-   font-family: 'Press Start 2P', cursive;
-   height: 30px;
- }
-
- #lpiwretroinnerretro {
-  width: max-content;
-   display: flexbox;
-   margin-left: auto;
-   margin-right: auto;
-   color: white;
-   background-color: rgb(27, 27, 129);
-   height: 25px;
+   
  }
 
 #buttonwrap {
@@ -111,7 +97,7 @@ margin-top: 5px;
  #mobileid {
 border: solid 4px rgb(64, 91, 116);
 background-color: rgb(255, 255, 255);
-font-family: 'Press Start 2P', cursive;
+font-family: 'Noto Sans TC', sans-serif;
 font-weight: 300;
 opacity: 1;
 border-radius: 15%;
@@ -131,6 +117,8 @@ margin-bottom: auto;
 }
 
  #synthid {
+  border: 1px solid rgba(255, 255, 255, 0.856);
+  box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
   background-color: black;
   color: aqua;
   width: 100%;
@@ -148,15 +136,15 @@ opacity: .9;
 color: rgb(255, 255, 255);
 font-weight: 1100;
 background-color:rgb(0, 85, 241);
-font-family: 'Press Start 2P', cursive;
+font-family: 'Noto Sans TC', sans-serif;
 height: 100%;
 font-size: small;
 margin-left: auto;
 margin-right: auto; 
 }
  
- #retro {
-background-color: black;
+ #classicid {
+background-color: white;
 color: black;
 font-family: 'Times New Roman', Times, serif;
 opacity: 1;
@@ -170,83 +158,9 @@ color: chartreuse;
 opacity: 1;
  }
  
- #cyveretro {
-  color: black;
-   font-size: x-large;
-   font-family: 'Press Start 2P', cursive;
-   height: max-content;
+ #cyve {
+   color: #ffffff;
+   font-size: xx-large;
+   padding-top: 45%;
+  font-family: 'Do Hyeon', sans-serif;
  }
-
-#megawrapretro {
-  width: 100%;
-  height: 100%;
-  background-color: black;
-  overflow: hidden;
-  color: black;
-}
-
-.links {
-  color: black;
-  font-family: 'Press Start 2P', cursive;
-}
-
-.linksretro {
-  width: max-content;
-  margin-left: auto;
-  margin-right: auto;
-  display: inline-flex;
-  color: none;
-  margin-top: -20px;
-}
-
-#webbarinretro {
-  width: max-content;
-  background-color: rgb(0, 0, 0);
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  font-size: 40px;
-}
-
-#webbaroutretro {
-  width: 100%;
-  background-color: rgb(0, 0, 0);
-  height: 70px;
-  font-size: 40px;
-}
-
-.linksretro { 
-  border-left: solid rgb(0, 0, 0) 2px;
-  margin: 5px;
-}
-
-#homeretro {
-background-image: url("../Assetts/homeicon.png");
-height: 55px;
-width: 50px;
-}
-
-#resumeretro {
-  background-image: url("../Assetts/resumeicon.png");
-  height: 55px;
-width: 50px;
-}
-
-#projectsretro {
-  background-image: url("../Assetts/portfolioicon.png");
-  height: 55px;
-width: 50px;
-}
-
-#contactretro {
-  background-image: url("../Assetts/contacticon.png");
-  height: 55px;
-width: 50px;
-}
-
-#aboutmeretro {
-  background-image: url("../Assetts/aboutmeicon.png");
-  height: 55px;
-width: 50px;
-
-}
