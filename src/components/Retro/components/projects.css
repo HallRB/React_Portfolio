@@ -1,0 +1,35 @@
+#cardsallclassic {
+  width: 80%;
+  height: 100%;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 10%;
+  padding-left: 10%;
+  resize: horizontal;
+  overflow: none;
+  margin-top: auto;
+  gap: 14px;
+  background-image: none;
+  background-color: white;
+  margin-top: 15px;
+  color: rgb(27, 27, 129);
+  font-size: 20px;
+}
+
+#megawrapclassic {
+  width: 100%;
+  height: 100%;
+  overflow:scroll;
+  color: rgb(27, 27, 129);
+}
+
+#projectwrapclassic {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+  color: rgb(27, 27, 129);
+  font-family: 'Times New Roman', Times, serif;
+}

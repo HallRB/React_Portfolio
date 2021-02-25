@@ -4,87 +4,94 @@
     height: 100%;
 }
 
-.flip-card {
+#flip-card {
     background-color: transparent;
     width: 440px;
     height: 650px;
     perspective: 1000px;
   }
   
-  .flip-card-inner {
+  #flip-card-inner {
     position: relative;
     width: 440px;
     height: 650px;
-    text-align: center;
+    text-align: justify;
     transition: transform 0.6s;
     transform-style: preserve-3d;
-    border: 1px solid rgba(255, 255, 255, 0.856);
-    box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
-    border-radius: 25px;
   }
   
-  .flip-card:hover .flip-card-inner {
+  #flip-card:hover .flip-card-inner {
     transform: rotateY(180deg);
   }
   
-  .flip-card-front, .flip-card-back {
+  #flip-card-front, .flip-card-back {
     position: absolute;
     width: 440px;
     height: 650px;
     -webkit-backface-visibility: hidden;
     backface-visibility: visible;
-    border-radius: 25px;
   }
   
-  .flip-card-front {
-    color: white;  
+  #flip-card-front {
+    color: white; 
     width: 440px;
     height: 650px;
   }
   
-  .flip-card-back {
-    background-color: #b9297d;
-    color: white;
+  #flip-card-back {
+    color: black;
+    background-image: none;
+    background-color: white;
     transform: rotateY(180deg);
-    
+    border: solid 2px white;
+    font-family: 'Times New Roman', Times, serif;
   }
 
-  .headshot {
-    background-image: url("./Assetts/headshot.png");
+  .flip-card-inner {
+    border-radius: 0%;
+    border: none;
+    box-shadow: none;
+  }
+
+  #headshotclassic {
+    background-image: url("./Assetts/bioheadbasic.png");
     width: 440px;
     height: 650px;
     background-repeat: no-repeat;
-    border: 1px solid rgba(255, 255, 255, 0.856);
-    box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
-    border-radius: 25px;
     position: absolute;
+    border-radius: 0%;
+
   }
 
-  .aboutmewrap {
+  #aboutmewrap {
     margin-left: auto;
     margin-right: auto;
     width: 440px;
     height: 650px;
   }
 
-.backside {
-  color: white;
+#backside {
+  color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   visibility: visible;
-  border: 1px solid rgba(255, 255, 255, 0.856);
-  box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
   text-align: justify;
+  border: solid black 3px;
+  border-radius: 0%;
 }
 
-#para {
+
+#paraclassic {
   margin: 5px;
-  margin-top: -20px;
+  margin-top: -18px;
+  font-size: 15px;
+  text-align: justify;
 }
 
 #abtme {
   visibility: visible;
-  color: white;
+  color: black;
   font-size: 75px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h2 {
