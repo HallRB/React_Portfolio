@@ -39,7 +39,7 @@
   }
   
   #flip-card-back {
-    color: black;
+    color: rgb(255, 255, 255);
     background-image: none;
     background-color: black;
     transform: rotateY(180deg);
@@ -89,9 +89,11 @@
 
 #abtme {
   visibility: visible;
-  color: black;
-  font-size: 75px;
-  font-family: 'Times New Roman', Times, serif;
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  width: auto;
 }
 
 h2 {
