@@ -221,32 +221,32 @@ opacity: 1;
 }
 
 #homeretro {
-background-image: url("../Assetts/homeicon.png");
-height: 55px;
-width: 50px;
+background-image: url("../Assetts/portal.gif");
+height: 100px;
+width: 100px;
 }
 
 #resumeretro {
-  background-image: url("../Assetts/resumeicon.png");
-  height: 55px;
-width: 50px;
+  background-image: url("../Assetts/resumeretro.png");
+  height: 100px;
+  width: 100px;
 }
 
 #projectsretro {
-  background-image: url("../Assetts/portfolioicon.png");
-  height: 55px;
-width: 50px;
+  background-image: url("../Assetts/portfolioretro.png");
+  height: 100px;
+  width: 100px;
 }
 
 #contactretro {
-  background-image: url("../Assetts/contacticon.png");
-  height: 55px;
-width: 50px;
+  background-image: url("../Assetts/contactretro.png");
+  height: 100px;
+  width: 100px;
 }
 
 #aboutmeretro {
-  background-image: url("../Assetts/aboutmeicon.png");
-  height: 55px;
-width: 50px;
+  background-image: url("../Assetts/aboutmeretro.png");
+  height: 100px;
+  width: 100px;
 
 }
