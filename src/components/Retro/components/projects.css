@@ -1,5 +1,5 @@
 #cardsallretro {
-  width: 80%;
+  width: min-content;
   height: 100%;
   margin: 10px;
   margin-left: auto;
@@ -31,5 +31,5 @@
   font-size: 40px;
   margin-top: 20px;
   color: rgb(27, 27, 129);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Press Start 2P', cursive;
 }
