@@ -41,9 +41,9 @@
   #flip-card-back {
     color: black;
     background-image: none;
-    background-color: white;
+    background-color: black;
     transform: rotateY(180deg);
-    border: solid 2px white;
+    border: solid 2px black;
     font-family: 'Times New Roman', Times, serif;
   }
 

@@ -19,7 +19,7 @@ class HomeRetro extends Component {
 </div>
 <div id="webbaroutretro">
     <div id="webbarinretro">
-             <p id="homeclassic" class="linksclassic"><Link class="links" id="homeclassic" to="/"></Link></p>
+             <p id="homeretro" class="linksretro"><Link class="links" id="homeretro" to="/"></Link></p>
              <p id="resumeretro" class="linksretro"><Link class="links" id="resumeretro" to="/resumeretroview"></Link></p>
              <p id="projectsretro" class="linksretro"><Link class="links" id="projectsretro" to="/projectsretroview"></Link></p>
              <p id="contactretro" class="linksretro"><Link class="links" id="contactretro" to="/contactretroview"></Link></p>
