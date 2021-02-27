@@ -18,11 +18,11 @@ import ProjectsRetro from './projectsretro.js';
 import ContactRetro from './contactretro';
 import AboutMeRetro from "./aboutmeretro.js";
 
-import HomeSynthwave from "./Synth/homesynthwave.js";
-import ResumeSynthwave from './resumesynthwave.js';
-import ProjectsSynthwave from './projectssynthwave.js';
-import ContactSynthwave from './contactsynthwave';
-import AboutMeSynthwave from "./aboutmesynthwave.js";
+import HomeSynth from "./homesynth.js";
+import ResumeSynth from './resumesynth.js';
+import ProjectsSynth from './projectssynth.js';
+import ContactSynth from './contactsynth';
+import AboutMeSynth from "./aboutmesynth.js";
 
 // import HomeModern from "./Modern/homemodern.js";
 // import ResumeModern from './resumemodern';
@@ -41,35 +41,35 @@ const Main = () => (
         <Route exact path="/" component={Landingpage} />
         <Route exact path="/homeclassicview" component={HomeClassic} />
         <Route exact path="/homeretroview" component={HomeRetro} />
-        <Route exact path="/homesynthwaveview" component={HomeSynthwave} />
+        <Route exact path="/homesynthview" component={HomeSynth} />
         {/* <Route exact path="/homemobileview" component={HomeMobile} /> */}
         {/* <Route exact path="/homemoderneview" component={HomeModern} /> */}
         
         <Route path="/resume" component={Resume} />
         <Route path="/resumeclassicview" component={ResumeClassic} />
         <Route path="/resumeretroview" component={ResumeRetro} />
-        <Route path="/resumesynthview" component={ResumeSynthwave} />
+        <Route path="/resumesynthview" component={ResumeSynth} />
         {/* <Route path="/resumemobileview" component={ResumeMobile} /> */}
         {/* <Route path="/resumemodernview" component={ResumeModern} /> */}
 
         <Route path="/projects" component={Projects} />
         <Route path="/projectsclassicview" component={ProjectsClassic} />
         <Route path="/projectsretroview" component={ProjectsRetro} />
-        <Route path="/projectssynthview" component={ProjectsSynthwave} />
+        <Route path="/projectssynthview" component={ProjectsSynth} />
         {/* <Route path="/projectsmobileview" component={ProjectsMobile} /> */}
         {/* <Route path="/projectsmodernview" component={ProjectsModern} /> */}
 
         <Route path="/contact" component={Contact} />
         <Route path="/contactclassicview" component={ContactClassic} />
         <Route path="/contactretroview" component={ContactRetro} />
-        <Route path="/contactsynthview" component={ContactSynthwave} />
+        <Route path="/contactsynthview" component={ContactSynth} />
         {/* <Route path="/contactmobileview" component={ContactMobile} /> */}
         {/* <Route path="/contactmodernview" component={ContactModern} /> */}
 
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/aboutmeclassicview" component={AboutMeClassic} />
         <Route path="/aboutmeretroview" component={AboutMeRetro} />
-        <Route path="/aboutmesynthview" component={AboutMeSynthwave} />
+        <Route path="/aboutmesynthview" component={AboutMeSynth} />
         {/* <Route path="/aboutmemobileview" component={AboutMeMobile} /> */}
         {/* <Route path="/aboutmemodernview" component={AboutMeModern} /> */}
     </Switch>
