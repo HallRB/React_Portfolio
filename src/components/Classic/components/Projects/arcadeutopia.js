@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, CardActions, CardMenu, IconButton } from 'react-mdl';
+import { CardTitle, CardActions, CardMenu, IconButton } from 'react-mdl';
 import "./Book.css"
 
 class Arcadea extends Component {
