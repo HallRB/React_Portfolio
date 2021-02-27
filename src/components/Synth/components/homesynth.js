@@ -11,22 +11,22 @@ class HomeSynth extends Component {
     render() {
     return(
         
-     <div id="landingpagewrap">
-               <div className="headercss">
+     <div id="landingpagewrapsynth">
+               <div className="headercsssynth">
         <Header title="Richard B. Hall">
-            <Navigation id="navbarwrap">
-                <Link to="/">Home</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-                <Link to="/aboutme">About Me</Link>
+            <Navigation id="navbarwrapsynth">
+                <Link to="/homesynthview">Home</Link>
+                <Link to="/resumesynthview">Resume</Link>
+                <Link to="/projectssynthview">Projects</Link>
+                <Link to="/contactsynthview">Contact</Link>
+                <Link to="/aboutmesynthview">About Me</Link>
             </Navigation>
         </Header>
         </div>
-         <div id="landingpageinnerwrap">
+         <div id="landingpageinnerwrapsynth">
 
-     <h2 id="cyve">Choose your viewing experience</h2>
-     <div id="buttonwrap">
+     <h2 id="cyvesynth">Choose your viewing experience</h2>
+     <div id="buttonwrapsynth">
      <div className="mobilewrap">
 <Mobile></Mobile>
 </div>

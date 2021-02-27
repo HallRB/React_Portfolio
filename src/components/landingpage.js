@@ -12,7 +12,7 @@ class Landingpage extends Component {
     return(
         
      <div id="landingpagewrap">
-               <div className="headercss">
+               <div id="headercss">
         <Header title="Richard B. Hall">
             <Navigation id="navbarwrap">
                 <Link to="/">Home</Link>
