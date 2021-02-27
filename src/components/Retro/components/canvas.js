@@ -3,10 +3,12 @@ import "../App.css";
 
 
 
-Class Canvas extends { Component } {
-    
+class Canvas extends Component {
+    render() {
+    return(
+
     <div id="canvas">
-var canvas = {width:300, height:300 };
+var canvas = width:300, height:300 ;
 var score = 0;
 
 var player = {
@@ -68,5 +70,7 @@ function update() {
 
 }
 </div>
+        )
+    }
 }
 export default Canvas

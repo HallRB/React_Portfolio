@@ -48,28 +48,28 @@ const Main = () => (
         <Route path="/resume" component={Resume} />
         <Route path="/resumeclassicview" component={ResumeClassic} />
         <Route path="/resumeretroview" component={ResumeRetro} />
-        <Route path="/resumesynthwaveview" component={ResumeSynthwave} />
+        <Route path="/resumesynthview" component={ResumeSynthwave} />
         {/* <Route path="/resumemobileview" component={ResumeMobile} /> */}
         {/* <Route path="/resumemodernview" component={ResumeModern} /> */}
 
         <Route path="/projects" component={Projects} />
         <Route path="/projectsclassicview" component={ProjectsClassic} />
         <Route path="/projectsretroview" component={ProjectsRetro} />
-        <Route path="/projectssynthwaveview" component={ProjectsSynthwave} />
+        <Route path="/projectssynthview" component={ProjectsSynthwave} />
         {/* <Route path="/projectsmobileview" component={ProjectsMobile} /> */}
         {/* <Route path="/projectsmodernview" component={ProjectsModern} /> */}
 
         <Route path="/contact" component={Contact} />
         <Route path="/contactclassicview" component={ContactClassic} />
         <Route path="/contactretroview" component={ContactRetro} />
-        <Route path="/contactsynthwaveview" component={ContactSynthwave} />
+        <Route path="/contactsynthview" component={ContactSynthwave} />
         {/* <Route path="/contactmobileview" component={ContactMobile} /> */}
         {/* <Route path="/contactmodernview" component={ContactModern} /> */}
 
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/aboutmeclassicview" component={AboutMeClassic} />
         <Route path="/aboutmeretroview" component={AboutMeRetro} />
-        <Route path="/aboutmesynthwaveview" component={AboutMeSynthwave} />
+        <Route path="/aboutmesynthview" component={AboutMeSynthwave} />
         {/* <Route path="/aboutmemobileview" component={AboutMeMobile} /> */}
         {/* <Route path="/aboutmemodernview" component={AboutMeModern} /> */}
     </Switch>

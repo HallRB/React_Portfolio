@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import "../App.css";
 import { Link } from 'react-router-dom';
-import Classic from "./Soundbites/classic.js";
-import Mobile from "./Soundbites/mobile.js";
-import Modern from "./Soundbites/modern.js";
-import Retro from "./Soundbites/retro.js";
-import Synth from "./Soundbites/synth.js"
+import Classic from "../../Soundbites/classic.js";
+import Mobile from "../../Soundbites/mobile.js";
+import Modern from "../../Soundbites/modern.js";
+import Retro from "../../Soundbites/retro.js";
+import Synth from "../../Soundbites/synth.js"
 import {  Header, Navigation } from 'react-mdl';
 class HomeSynth extends Component {
     render() {

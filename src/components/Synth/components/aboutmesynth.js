@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./aboutme.css";
+import "./aboutmesynth.css";
 import Biocard from "./AboutMe/bio.js"
 import {  Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
