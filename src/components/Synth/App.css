@@ -47,19 +47,43 @@ body {
 #landingpagewrapsynth {
   margin-left: auto;
   margin-right: auto;
- 
  }
  
- #landingpageinnerwrap {
+ #landingpageinnerwrapsynth {
    width: min-content;
+   background-color: black;
    margin-left: auto;
    margin-right: auto;
    color: white;
-   
+   width: 300px;
+   height: 80px;
  }
 
-#buttonwrap {
+#buttonwrapsynth {
   width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 0ch;
+}
+
+.colexp {
+
+}
+
+.exprow {
+  height: 40px;
+}
+
+#colexp1 {
+width: 120px;
+}
+
+#colexp2 {
+width: 60px;
+}
+
+#colexp3 {
+width: 116px;
 }
 
 .viewexp {
@@ -70,21 +94,26 @@ margin-left: auto;
 margin-top: 5px;
 }
 
- #mobileid {
-border: solid 4px rgb(64, 91, 116);
+ #mobileida {
+border: solid 8px rgb(64, 91, 116);
 background-color: rgb(255, 255, 255);
 font-family: 'Noto Sans TC', sans-serif;
 font-weight: 300;
 opacity: 1;
-border-radius: 15%;
-width: 30px;
-height: 45px;
+border-radius: 0%;
+width: 60px;
+height: 90px;
 font-size: medium;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: auto;
+font-size: 10px;
+padding: 0ch;
  }
 
+ p {
+   margin-top: -10px;
+ }
 #mobilewrap {
   margin-left: auto;
   margin-right: auto;
@@ -92,46 +121,56 @@ margin-bottom: auto;
   width: max-content;
 }
 
- #synthid {
-  border: 1px solid rgba(255, 255, 255, 0.856);
-  box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
+ #synthida {
+  box-shadow: 0px 0px 4px 4px rgba(164, 0, 179, 0.856);
   background-color: black;
+  border-radius: 0%;
   color: aqua;
-  width: 100%;
   margin: 0px;
   margin-left: auto;
   margin-right: auto;
+  width: 120px;
+  height: 45px;
+  font-family: 'Bungee', cursive;
+  font-size: 15px;
+  text-decoration: underline;
  }
 
- #modernid {
-border: solid 2px black;
-margin-top: 5px;
-border-radius: 25px;
+ #modernida {
 background-repeat: round;
-opacity: .9;
+opacity: 1;
 color: rgb(255, 255, 255);
 font-weight: 1100;
 background-color:rgb(0, 85, 241);
 font-family: 'Noto Sans TC', sans-serif;
-height: 100%;
+height: 45px;
+width: 120px;
+border-radius: 0%;
 font-size: small;
 margin-left: auto;
 margin-right: auto; 
 }
  
- #classicid {
+ #classicida {
 background-color: white;
 color: black;
 font-family: 'Times New Roman', Times, serif;
 opacity: 1;
 border-radius: 0; 
+font-size: 20px;
+width: 120px;
+height: 45px;
 }
 
- #retroid {
+ #retroida {
 border: solid chartreuse 2px;
 background-color: black;
-color: chartreuse;
+color: rgb(255, 255, 255);
 opacity: 1;
+border-radius: 0%;
+width: 120px;
+height: 45px;
+font-family: 'Press Start 2P', cursive;
  }
  
  #cyve {

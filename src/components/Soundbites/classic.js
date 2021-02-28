@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Howl, Howler} from "howler";
 import Classicimp from "../Assetts/classic.wav";
 import "../../App.css";
+import { Button } from 'react-mdl';
 
 const Music = [{sound: Classicimp}]
 
@@ -18,8 +19,8 @@ class Classic extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="classicid" onClick={() => this.Sound(soundObj.sound)}> Classic
-            </button>
+            <Button key={index} id="classicida" onClick={() => this.Sound(soundObj.sound)}> Classic
+            </Button>
         )
         })
     }

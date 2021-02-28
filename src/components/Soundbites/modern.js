@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Howl, Howler} from "howler";
 import modernimp from "../Assetts/modern.wav";
 import "../../App.css";
+import { Button } from 'react-mdl';
 
 const Music = [{sound: modernimp}]
 
@@ -18,8 +19,8 @@ class Modern extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="modernid" onClick={() => this.Sound(soundObj.sound)}>Modern 
-            </button>
+            <Button key={index} id="modernida" onClick={() => this.Sound(soundObj.sound)}>Modern 
+            </Button>
         )
         })
     }

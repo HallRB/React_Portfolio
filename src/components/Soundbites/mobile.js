@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Howl, Howler} from "howler";
 import mobileimp from "../Assetts/mobile.mp3";
 import "../../App.css";
+import { Button } from 'react-mdl';
 
 const Music = [{sound: mobileimp}]
 
@@ -18,8 +19,8 @@ class Mobile extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="mobileid" onClick={() => this.Sound(soundObj.sound)}> 
-            </button>
+            <Button key={index} id="mobileida" onClick={() => this.Sound(soundObj.sound)}> Smart Phone
+            </Button>
         )
         })
     }

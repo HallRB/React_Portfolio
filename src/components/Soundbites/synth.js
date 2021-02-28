@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Howl, Howler} from "howler";
 import Synthimp from "../Assetts/synth.wav";
 import "../../App.css";
+import { Button } from 'react-mdl';
 
 const Music = [{sound: Synthimp}]
 
@@ -18,8 +19,8 @@ class Synth extends Component {
     Soundtwo = () => {
         return Music.map((soundObj, index) => {
         return (
-            <button key={index} id="synthid" onClick={() => this.Sound(soundObj.sound)}> Synthwave
-            </button>
+            <Button key={index} id="synthida" onClick={() => this.Sound(soundObj.sound)}> Synthwave
+            </Button>
         )
         })
     }
