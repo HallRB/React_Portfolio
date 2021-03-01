@@ -1,29 +1,33 @@
 import React, { Component } from 'react';
 import "./theme.css";
-import { Link } from 'react-router-dom';
-import Classic from "../Soundbites/classic.js";
-import Mobile from "../Soundbites/mobile.js";
-import Modern from "../Soundbites/modern.js";
-import Retro from "../Soundbites/retro.js";
-import Synth from "../Soundbites/synth.js"
+import ThemeCardClassic from './themeclassic';
+import ThemeCardMobile from './thememobile';
+import ThemeCardSynth from './themesynth';
+import ThemeCardRetro from './themeretro';
+import ThemeCardModern from './thememodern';
 
 class ThemeCard extends Component {
      
       render() {
         return (
-          <div id="allwrap">                               
-            
-            
-            {/* cardwrap */}
-            <div id="themecardwrap">
-                On top outer
-                <div id="innerthemecardwrap">On top inner
-                <div><img alt="" id="themepic"></img></div>
-                    <div id="themebutton">THEMEBUTTON</div>
-                                            On bottom inner
-                </div>
-            On bottom outer
+          <div id="themecardallwrap">                               
+            <div class="themeblock">
+            <ThemeCardClassic></ThemeCardClassic>
             </div>
+            <div class="themeblock">
+            <ThemeCardSynth></ThemeCardSynth>
+            </div>
+            <div class="themeblock">
+            <ThemeCardMobile></ThemeCardMobile>
+            </div>
+            <div class="themeblock">
+            <ThemeCardRetro></ThemeCardRetro>
+            </div>
+            <div class="themeblock">
+            <ThemeCardModern></ThemeCardModern>
+            </div>
+
+
           </div>
         )
       }
