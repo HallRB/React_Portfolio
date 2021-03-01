@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./contact.css";
 import "../App.css";
 import { Link } from 'react-router-dom';
+import ThemeCard from "../../Themes/themecard";
 
 
 class Contact extends Component {
@@ -9,7 +10,10 @@ class Contact extends Component {
     render() {
         
         return(
+
+
             <div id="megawrapclassic">
+
                 <div id="lpiwclassic">
          Richard B. Hall
              <div id="lpiwclassicinner">
@@ -24,6 +28,8 @@ class Contact extends Component {
              <p id="aboutmeclassic" class="linksclassic"><Link class="links" id="aboutmeclassic" to="/aboutmeclassicview"></Link></p>
              </div>
 </div>
+
+<ThemeCard></ThemeCard>
           </div>
 
 

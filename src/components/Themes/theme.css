@@ -1,0 +1,28 @@
+#themecardwrap {
+    border: solid 2px aqua;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#innerthemecardwrap {
+    border: solid 2px orangered;
+width: min-content;
+margin-left: auto;
+margin-right: auto;
+}
+
+#themepic {
+    border: solid 2px none;
+    width: 290px;
+    height: 130px;
+    background-image: url("../Assetts/classichomepreview.JPG");
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#themebutton {
+    border: solid 2px chartreuse;
+}
