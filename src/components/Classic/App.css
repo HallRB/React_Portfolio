@@ -175,6 +175,8 @@ opacity: 1;
    font-size: x-large;
    font-family: 'Times New Roman', Times, serif;
    height: max-content;
+   margin-top: 1px;
+   margin-bottom: 1px;
  }
 
 #megawrap {

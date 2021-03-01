@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import "../App.css";
 import Classic from "../../Soundbites/classic";
-import Mobile from "../../Soundbites/mobile.js";
-import Modern from "../../Soundbites/modern.js";
-import Retro from "../../Soundbites/retro.js";
-import Synth from "../../Soundbites/synth.js";
+import ThemeCard from "../../Themes/themecard";
 import { Link } from 'react-router-dom';
 
 class HomeClassic extends Component {
@@ -26,23 +23,10 @@ class HomeClassic extends Component {
              <p id="aboutmeclassic" class="linksclassic"><Link class="links" id="aboutmeclassic" to="/aboutmeclassicview"></Link></p>
              </div>
 </div>
-     <h2 id="cyveclassic">Choose your viewing experience</h2>
-     <div id="buttonwrap">
-     <div className="mobilewrap">
-     <Link to="/homemobileview"><Mobile></Mobile></Link>
-</div>
-<Link to="/homesynthview"><Synth></Synth></Link>
-
-<div id="modern">
-<Link to="/homemodernview"><Modern></Modern></Link>
-
-</div>
-<Link to="/homeclassicview"><Classic></Classic></Link>
-<Link to="/homeretroview"><Retro></Retro></Link>
+<h2 id="cyveclassic">Choose your viewing experience</h2>
+     <ThemeCard></ThemeCard>
      </div>
-     </div>
-     </div>
-
+        </div>
     )
 }
 }
