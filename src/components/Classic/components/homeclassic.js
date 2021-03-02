@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import "../App.css";
-import Classic from "../../Soundbites/classic";
 import ThemeCard from "../../Themes/themecard";
 import { Link } from 'react-router-dom';
 
