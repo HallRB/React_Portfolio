@@ -7,7 +7,7 @@ class AboutMe extends Component {
      
       render() {
         return (
-          <div id="allwrap">                               
+          <div id="landingpagewrapsynth">                               
             <div className="headercss">
             <Header title="Richard B. Hall">
                 <Navigation id="navbarwrap">

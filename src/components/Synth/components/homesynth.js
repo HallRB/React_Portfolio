@@ -8,7 +8,7 @@ class HomeSynth extends Component {
     return(
         
      <div id="landingpagewrapsynth">
-               <div className="headercsssynth">
+               <div id="headercsssynth">
         <Header title="Richard B. Hall">
             <Navigation id="navbarwrapsynth">
                 <Link to="/homesynthview">Home</Link>
