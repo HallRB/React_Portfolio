@@ -22,7 +22,7 @@ class AboutMe extends Component {
             <div id="gridwrapmain">
             <div id="skillsmainwrap">
               <div id="skillsmain">
-                
+                <h2>Skills</h2>
               </div>
             </div>
           <Biocard></Biocard>
