@@ -20,9 +20,9 @@ class Contact extends Component {
                 </Navigation>
             </Header>
             </div>
-            <div className="contactcontainer">
+            <div className="contactcontainermain">
 
-                <h1 className="glow">Contact</h1>
+                <h1 className="glowmain">Contact</h1>
                 <form className="formwrap" id='contact-form'>
   <input type='text' name='user_name' placeholder='Name' />
   <br/>
@@ -30,7 +30,9 @@ class Contact extends Component {
   <br/>
   <textarea name='message' placeholder='Message'/>
   <br/>
-  <input type='submit' value='Send' onClick={() => document.getElementById("sent").innerHTML="Sent!"} />
+  <div id="contactsubmitmain">
+  <input  type='submit' value='Send' onClick={() => document.getElementById("sent").innerHTML="Sent!"} />
+  </div>
 </form>
 <div id="sent"></div>
             </div>
