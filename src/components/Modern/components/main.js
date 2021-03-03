@@ -24,7 +24,7 @@ import ProjectsSynthwave from './projectssynthwave.js';
 import ContactSynthwave from './contactsynthwave';
 import AboutMeSynthwave from "./aboutmesynthwave.js";
 
-import HomeModern from "./Modern/homemodern.js";
+import HomeModern from "./homemodern.js";
 import ResumeModern from './resumemodern';
 import ProjectsModern from './projectsmodern';
 import ContactModern from './contactmodern';

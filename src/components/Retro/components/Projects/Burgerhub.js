@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 'react-mdl';
+import { CardTitle, CardMenu, IconButton } from 'react-mdl';
 
 class Burgerhub extends Component {
     render() {

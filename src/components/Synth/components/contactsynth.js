@@ -8,8 +8,8 @@ class Contact extends Component {
     render() {
         
         return(
-            <div id="allwrap">                               
-            <div className="headercss">
+            <div id="allwrapsynth">                               
+            <div className="headercsssynth">
             <Header title="Richard B. Hall">
                 <Navigation id="navbarwrap">
                 <Link to="/homesynthview">Home</Link>

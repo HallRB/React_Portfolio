@@ -63,16 +63,12 @@ margin-right: auto;
     margin-right: auto;
 }
 
-
 #themebutton {
     border: solid 2px black;
+    width: 286px;
 }
 
 #themecardallwrap {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-}
-
-#allwrap {
-    width: ;
 }
