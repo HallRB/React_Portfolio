@@ -10,7 +10,7 @@
 html {
   background-size: 100% auto;
   background-color: white;
-  
+  background-image: hidden;
 }
 
 h1 {
