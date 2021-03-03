@@ -32,7 +32,7 @@ class Projects extends Component {
             </Header>
             </div>
                 Projects
-            <div class="cardsall">
+            <div className="cardsall">
 <div className="inbetween">
 <Arcadea></Arcadea>
 </div>

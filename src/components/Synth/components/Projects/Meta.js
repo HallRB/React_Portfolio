@@ -4,19 +4,19 @@ import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 're
 class Meta extends Component {
     render() {
         return(
-<div id="cardwrap"  shadow={0} style={{width: '800px', margin: 'auto'}}>
-    <CardTitle style={{height: '500px'}}><img alt="" id="meta"></img></CardTitle>
-    <div class="projecttext">
+<Card class="cardwrap cardborder"  shadow={0} style={{width: '512px', margin: 'auto'}}>
+    <CardTitle style={{height: '275px'}}><img alt="" class="meta"></img></CardTitle>
+    <CardText class="cardwrap cardtext" >
         React Portfolio: You're already here!
-</div>
-    <div border>
+    </CardText>
+    <CardActions border>
     <a class="deployed" href="https://reactportfoliohallrb.herokuapp.com/">Deployed Page</a>
         <a class="github" href="https://github.com/HallRB/React_Portfolio">Github</a>
-    </div>
+    </CardActions>
     <CardMenu style={{color: '#fff'}}>
         <IconButton name="share" />
     </CardMenu>
-</div>  
+</Card>  
         )
     }
 }

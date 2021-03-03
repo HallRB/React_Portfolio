@@ -7,13 +7,18 @@
 }
 
 #cardwrap {
+    background: black;
+    color: white;
+    border: 1px solid white;
     margin-left: 3px;
     margin-right: 3px;
-    color: rgb(27, 27, 129);
-    background-color: white;
-    font-family: 'Times New Roman', Times, serif;
-    border-radius: 0%;
 }
+
+#cardborder {
+    border: 1px solid rgba(255, 255, 255, 0.856);
+    box-shadow: 0px 0px 4px 4px rgba(164, 0, 179, 0.856);
+    border-radius: 25px;
+ }
 
 
 #cardtext {
