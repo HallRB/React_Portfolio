@@ -10,7 +10,7 @@ class Biocard extends Component {
             <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <div id="headshot" alt="Avatar">
+                <div id="headshotmain" alt="Avatar">
               </div>
               <div className="flip-card-back backside">
                 <h2>Richard B. Hall</h2> 
