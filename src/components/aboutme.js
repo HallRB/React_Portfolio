@@ -7,7 +7,7 @@ class AboutMe extends Component {
      
       render() {
         return (
-          <div id="allwrap">                               
+          <div id="allwrapmain">                               
             <div className="headercss">
             <Header title="Richard B. Hall">
                 <Navigation id="navbarwrap">
@@ -19,7 +19,22 @@ class AboutMe extends Component {
                 </Navigation>
             </Header>
             </div>
+            <div id="gridwrapmain">
+            <div id="skillsmainwrap">
+              <div id="skillsmain">
+                
+              </div>
+            </div>
           <Biocard></Biocard>
+          <div id="certificatewrapmain">
+              <div id="certificatemain">
+                
+              </div>
+            </div>
+            <div id="filler">
+
+            </div>
+            </div>
           </div>
         )
       }
