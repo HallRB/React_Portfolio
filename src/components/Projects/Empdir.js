@@ -5,8 +5,8 @@ class Empdir extends Component {
 
     render() {
         return(
-<Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
-    <CardTitle style={{height: '275px'}}><img alt="" class="empdirimg"></img></CardTitle>
+<Card class="cardwrap cardbordermain" shadow={0} style={{width: '512px', margin: 'auto'}}>
+    <CardTitle style={{height: '275px'}}><img alt="" class="empdirimgmain"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
         Employee Directory: An app that allows the user to look up employees by name reacting with each letter entered.  User may also sort the results by first or last name.
     </CardText>

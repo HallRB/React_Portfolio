@@ -5,8 +5,8 @@ import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 're
 class Notespage extends Component {
     render() {
         return(
-<Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
-    <CardTitle style={{height: '275px'}}><img alt="" class="notes"></img></CardTitle>
+<Card class="cardwrap cardbordermain" shadow={0} style={{width: '512px', margin: 'auto'}}>
+    <CardTitle style={{height: '275px'}}><img alt="" class="notesmain"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
        Versapp: An LGBT supportive app which let's you create notes that you can later come back to and delete at your leasure.
     </CardText>

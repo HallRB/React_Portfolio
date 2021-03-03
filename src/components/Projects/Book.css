@@ -1,4 +1,4 @@
-.book {
+.bookmain {
     background-image: url("../Assetts/bookreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@
     border-radius: 25px;
 }
 
-.cardwrap {
+.cardwrapmain {
     background: black;
     color: white;
     border: 1px solid white;
@@ -19,7 +19,12 @@
     height: 70px;
 }
 
-.budtraimg {
+#cardbordermain {
+    border: 1px solid rgba(255, 255, 255, 0.856);
+    box-shadow: 0px 0px 4px 4px rgba(164, 0, 179, 0.856);
+ }
+
+.budtraimgmain {
     background-image: url("../Assetts/BudTra.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +33,7 @@
     border-radius: 25px;
 }
 
-.burgerhub {
+.burgerhubmain {
     background-image: url("../Assetts/Burgerhub.JPG");
     background-size: cover;
     background-repeat: no-repeat;
@@ -37,85 +42,85 @@
     border-radius: 25px;
 }
 
-.empdirimg {
+.empdirimgmain {
     background-image: url("../Assetts/EmpDir.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.fittraimg {
+.fittraimgmain {
     background-image: url("../Assetts/FitTra.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.meta {
+.metamain {
     background-image: url("../Assetts/meta.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.notes {
+.notesmain {
     background-image: url("../Assetts/Notespage.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.password {
+.passwordmain {
     background-image: url("../Assetts/PasswordPreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.planner {
+.plannermain {
     background-image: url("../Assetts/PlannerPreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.survive {
+.survivemain {
     background-image: url("../Assetts/SurvivePreview.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.sellify {
+.sellifymain {
     background-image: url("../Assetts/sellify.png");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
-.arcadea {
+.arcadeamain {
     background-image: url("../Assetts/arcade.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
+    border-radius: 0px;
 }
 
 .deployed {

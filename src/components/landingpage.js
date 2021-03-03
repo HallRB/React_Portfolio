@@ -10,7 +10,7 @@ class Landingpage extends Component {
      <div id="landingpagewrap">
                <div id="headercss">
         <Header title="Richard B. Hall">
-            <Navigation id="navbarwrap">
+            <Navigation id="navbarwrapmain">
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>

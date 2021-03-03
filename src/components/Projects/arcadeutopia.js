@@ -3,8 +3,8 @@ import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 're
 class Arcadea extends Component {
     render() {
         return(
-<Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
-<CardTitle style={{height: '275px'}}><img alt="" class="arcadea"></img></CardTitle>
+<Card class="cardwrap cardbordermain" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<CardTitle style={{height: '275px'}}><img alt="" class="arcadeamain"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
         Arcade Utopia: An epic work in progress.  This game hopes to bring the user back to the age of retro styled RPGs with world exploration and turn based combat.  Design your character, level up, and defeat your enemies.
     </CardText>
