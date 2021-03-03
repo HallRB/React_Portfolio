@@ -15,12 +15,6 @@
     margin-right: 3px;
 }
 
-.cardborder {
-   border: 1px solid rgba(255, 255, 255, 0.856);
-   box-shadow: 0px 0px 4px 4px rgba(164, 0, 179, 0.856);
-   border-radius: 25px;
-}
-
 .cardtext {
     height: 70px;
 }

@@ -9,7 +9,7 @@ class Resume extends Component {
     render() {
     return(
         
-        <div className="resumecard">
+        <div id="resumecardmain">
                            <div className="headercss">
         <Header title="Richard B. Hall">
             <Navigation id="navbarwrap">

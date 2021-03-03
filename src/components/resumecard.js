@@ -6,7 +6,7 @@ class Resumecard extends Component {
     render() {
         return(
 <div className="resumecontainer">
-<img className="resuming" alt="resume" src={Resumeimg} />
+<img id="resumingmain" alt="resume" src={Resumeimg} />
 </div>
         )
     }
