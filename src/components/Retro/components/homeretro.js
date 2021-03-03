@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import "../App.css";
-import Classic from "../../Soundbites/classic";
-import Mobile from "../../Soundbites/mobile.js";
-import Modern from "../../Soundbites/modern.js";
-import Retro from "../../Soundbites/retro.js";
-import Synth from "../../Soundbites/synth.js";
 import { Link } from 'react-router-dom';
+import ThemeCard from "../../Themes/themecard";
 
 class HomeRetro extends Component {
     render() {
@@ -27,19 +23,7 @@ class HomeRetro extends Component {
              </div>
 </div>
      <h2 id="cyveretro">Choose your viewing experience</h2>
-     <div id="buttonwrap">
-     <div className="mobilewrap">
-     <Link to="/homemobileview"><Mobile></Mobile></Link>
-</div>
-<Link to="/homesynthview"><Synth></Synth></Link>
-
-<div id="modern">
-<Link to="/homemodernview"><Modern></Modern></Link>
-
-</div>
-<Link to="/homeclassicview"><Classic></Classic></Link>
-<Link to="/homeretroview"><Retro></Retro></Link>
-     </div>
+<ThemeCard></ThemeCard>
      </div>
      </div>
 
