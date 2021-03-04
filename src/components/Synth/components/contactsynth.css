@@ -1,4 +1,4 @@
-.contactcontainer {
+#contactcontainersynth {
     border:5px black solid;
     width: max-content;
     margin-left: auto;
@@ -8,6 +8,11 @@
     box-shadow: 0px 0px 4px 4px rgba(164, 0, 179, 0.856);
     border-radius: 25px;
     color: rgba(179, 0, 196, 0.856);
+    background-color: black;
+}
+
+.contactsynthforms {
+  color: black;
 }
 
 #landingpagewrapsynth {
@@ -28,9 +33,9 @@ input {
     margin-right: 8px;
     margin-bottom: 3px;
     font-size: x-large;
-   opacity: 0.7;
+   opacity: 1;
     font-family: 'Do Hyeon', sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
   }
   textarea {
     height: 10em;
@@ -41,9 +46,10 @@ input {
     resize: none;
     height: 100px;
     font-size: xx-large;
-    opacity: 0.7;
+    opacity: 1.2;
+    border-radius: 25px;
     font-family: 'Do Hyeon', sans-serif;
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
   #textwrap {
@@ -56,11 +62,14 @@ input {
 
 body {
     font-family: 'Do Hyeon', sans-serif;
+    color: black;
   }
   
   .glow {
     font-size: 80px;
-    color: #fff;
+    color: rgb(0, 0, 0);
+    opacity: 1;
+    background-color: black;
     text-align: center;
     animation: glow 1s ease-in-out infinite alternate;
   }

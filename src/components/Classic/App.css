@@ -179,7 +179,7 @@ opacity: 1;
    margin-bottom: 1px;
  }
 
-#megawrap {
+#megawrapclassic {
   width: 100%;
   height: 100%;
   background-color: white;
@@ -203,7 +203,7 @@ opacity: 1;
 
 #webbarin {
   width: max-content;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(255, 255, 255);
   margin-left: auto;
   margin-right: auto;
   height: 50px;
@@ -212,13 +212,13 @@ opacity: 1;
 
 #webbarout {
   width: 100%;
-  background-color: rgb(117, 117, 117);
+  background-color: rgb(255, 255, 255);
   height: 70px;
   font-size: 40px;
 }
 
 .linksclassic { 
-  border-left: solid rgb(129, 129, 129) 2px;
+  border-left: solid rgb(255, 255, 255) 2px;
   margin: 5px;
 }
 

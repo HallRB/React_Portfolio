@@ -8,7 +8,7 @@ class Contact extends Component {
     render() {
         
         return(
-            <div id="allwrapsynth">                               
+            <div id="landingpagewrapsynth">                               
             <div className="headercsssynth">
             <Header title="Richard B. Hall">
                 <Navigation id="navbarwrap">
@@ -20,17 +20,17 @@ class Contact extends Component {
                 </Navigation>
             </Header>
             </div>
-            <div className="contactcontainer">
+            <div id="contactcontainersynth">
 
                 <h1 className="glow">Contact</h1>
                 <form className="formwrap" id='contact-form'>
-  <input type='text' name='user_name' placeholder='Name' />
+  <input type='text' className="contactsynthforms" name='user_name' placeholder='Name' />
   <br/>
-  <input type='email' name='user_email' placeholder='Email' />
+  <input type='email' className="contactsynthforms" name='user_email' placeholder='Email' />
   <br/>
-  <textarea name='message' placeholder='Message'/>
+  <textarea name='message' className="contactsynthforms" placeholder='Message'/>
   <br/>
-  <input type='submit' value='Send' onClick={() => document.getElementById("sent").innerHTML="Sent!"} />
+  <input type='submit' className="contactsynthforms"  value='Send' onClick={() => document.getElementById("sent").innerHTML="Sent!"} />
 </form>
 <div id="sent"></div>
             </div>
