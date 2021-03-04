@@ -32,8 +32,8 @@ class Projects extends Component {
              <p id="aboutmeclassic" class="linksclassic"><Link class="links" id="aboutmeclassic" to="/aboutmeclassicview"></Link></p>
              </div>
 </div>
-            <div id="projectwrap">
-                Projects
+            <div id="projectwrapclassic">
+                <div id="titleprojectsclassic">Projects</div>
             <div id="cardsallclassic">
 <div className="inbetween">
 <Arcadea></Arcadea>

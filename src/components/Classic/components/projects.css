@@ -11,10 +11,16 @@
   margin-top: auto;
   gap: 14px;
   background-image: none;
-  background-color: white;
+  background-color: #fff1d3;
   margin-top: 15px;
   color: rgb(27, 27, 129);
   font-size: 20px;
+display: grid;
+grid-template-columns: 1fr 1fr;
+}
+
+.inbetween {
+margin-bottom: 10px;
 }
 
 #megawrapclassic {
@@ -22,6 +28,7 @@
   height: 100%;
   overflow:scroll;
   color: rgb(27, 27, 129);
+  background-color: #fff1d3;
 }
 
 #projectwrapclassic {
@@ -29,7 +36,21 @@
   margin-right: auto;
   text-align: center;
   font-size: 40px;
-  margin-top: 20px;
   color: rgb(27, 27, 129);
   font-family: 'Times New Roman', Times, serif;
+  background-color: #ffffff;
+}
+
+p {
+  margin-top: 10px;
+}
+
+#titleprojectsclassic {
+  font-size: 40px;
+  padding-top: 20px;
+  width: 400px;
+  background-color: white;
+  margin-bottom: -15px;
+  height: 40px;
+  border: 20px solid #fff1d3;;
 }

@@ -6,14 +6,21 @@
     height: 100%;
 }
 
-#cardwrap {
+#cardwrapa {
     margin-left: 3px;
     margin-right: 3px;
+    font-size: 25px;
     color: rgb(27, 27, 129);
-    background-color: white;
+    background-color: #dadada;
     font-family: 'Times New Roman', Times, serif;
     border-radius: 0%;
+    text-align: justify;
+    word-spacing: 2px;
+    line-height: 1;
+    border: 2px dotted rgb(27, 27, 129);
+    padding: 5px;
 }
+
 
 
 #cardtext {
@@ -36,8 +43,14 @@
     border-radius: 0%;
 }
 
-#projecttext {
-    color:aqua
+.projecttext {
+height: 90px;
+}
+
+#borderclassic {
+    background-color: rgb(27, 27, 129);
+    height: 40px;
+    margin-top: -5px;
 }
 
 #burgerhub {
@@ -112,14 +125,6 @@
     border-radius: 0%;
 }
 
-#sellify {
-    background-image: url("../Assetts/sellify.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    border-radius: 0%;
-}
 
 #arcadea {
     background-image: url("../Assetts/arcade.JPG");
