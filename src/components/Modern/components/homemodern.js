@@ -2,12 +2,8 @@ import React, { Component } from 'react';
 import "../App.css";
 import { Link } from 'react-router-dom';
 import {  Header, Navigation } from 'react-mdl';
-import ThemeCardClassic from "../../Themes/themeclassic";
-import ThemeCardSynth from "../../Themes/themesynth";
-import ThemeCardMobile from "../../Themes/thememobile";
-import ThemeCardRetro from "../../Themes/themeretro";
-import ThemeCardModern from "../../Themes/thememodern";
-import ThemeCard from "../../Themes/themecard";
+import Resume from "./resumemodern";
+import ThemeCard from "./Themes/themecard";
 class HomeModern extends Component {
     render() {
     return(
@@ -27,6 +23,11 @@ class HomeModern extends Component {
          <div id="lpiwmoderninner">
 
 <ThemeCard></ThemeCard>
+
+<div id="resumemodernimp">
+<Resume></Resume>
+</div>
+
 
 </div>
      </div>

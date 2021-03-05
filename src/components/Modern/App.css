@@ -91,7 +91,7 @@
      margin-left: auto;
      margin-right: auto;
      color: white;
-     background-color: rgb(0, 0, 0);
+     background-color: rgb(177, 25, 25);
      height: 205px;
      border-top: 8px solid rgb(27, 27, 129);
      border-bottom: 8px solid rgb(27, 27, 129);
@@ -272,3 +272,8 @@
     height: 100%;
     overflow:scroll;
   }
+
+#resumecardmodern {
+  background-color: rgb(23, 80, 129);
+}
+

@@ -1,4 +1,4 @@
-.resuming {
+#resumingmodern {
     background-image: url("./Assetts/resume.png");
     background-size: auto;
     margin-left: auto;
@@ -6,17 +6,17 @@
     max-width: 100%;
     max-height: 100%;
     border: 1px solid rgba(255, 255, 255, 0.856);
-    box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
     border-radius: 25px;
+    margin-top: 20px;
 }
 
-.resumecontainer {
+#resumecontainermodern {
     margin-left: auto;
     margin-right: auto;
     width: max-content;
 }
 
-.resumecard {
+#resumecardmodern {
     width: 100%;
     height: 100%;
     margin-left: auto;
