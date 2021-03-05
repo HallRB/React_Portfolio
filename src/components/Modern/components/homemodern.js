@@ -7,6 +7,7 @@ import ThemeCardSynth from "../../Themes/themesynth";
 import ThemeCardMobile from "../../Themes/thememobile";
 import ThemeCardRetro from "../../Themes/themeretro";
 import ThemeCardModern from "../../Themes/thememodern";
+import ThemeCard from "../../Themes/themecard";
 class HomeModern extends Component {
     render() {
     return(
@@ -25,13 +26,7 @@ class HomeModern extends Component {
         </div>
          <div id="lpiwmoderninner">
 
-     <h2 id="cyve">Choose your viewing experience</h2>
-     <ThemeCardClassic></ThemeCardClassic>
-     <ThemeCardSynth></ThemeCardSynth>
-     <ThemeCardMobile></ThemeCardMobile>
-     <ThemeCardRetro></ThemeCardRetro>
-     <ThemeCardModern></ThemeCardModern>
-     
+<ThemeCard></ThemeCard>
 
 </div>
      </div>
