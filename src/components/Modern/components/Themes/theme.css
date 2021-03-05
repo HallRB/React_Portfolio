@@ -1,21 +1,17 @@
 #themecardwrap {
-    border: solid 2px black;
-    background-color: black;
+    border: solid 2px aliceblue;
+    background-color: aliceblue;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #innerthemecardwrap {
-    border: solid 2px black;
+    border: solid 2px aliceblue;
 width: min-content;
 margin-left: auto;
 margin-right: auto;
 position: static;
-}
-
-#allwrapmoderntheme {
-    
 }
 
 #themepicclassic {
@@ -69,16 +65,40 @@ position: static;
 }
 
 #themebutton {
-    border: solid 2px black;
+    border: solid 2px aliceblue;
     width: 286px;
 }
 
 #allwrapmoderntheme {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto auto auto;
     width: 100%;
     overflow: auto;
     direction:rtl;
     margin-top: -1px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    
+}
+
+#allwrapmodernthemeouter {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    overflow: auto;
+    direction:rtl;
+    margin-top: -1px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-bottom: 2px;
 
 }
+
+#themeblockmodern {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aliceblue;
+}
+
+
