@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "../aboutme.css";
+import "../aboutmemodern.css";
 
 class Biocard extends Component {
     render() {

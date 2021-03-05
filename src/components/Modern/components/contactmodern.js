@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./contact.css";
+import "./contactmodern.css";
 import {  Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import "../App.css";

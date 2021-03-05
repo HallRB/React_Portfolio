@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "../App.css";
 import { Link } from 'react-router-dom';
 import {  Header, Navigation } from 'react-mdl';
-import ThemeCard from "./Themes/themecard";
+import ThemeCard from "../../Themes/themecard";
 class HomeModern extends Component {
     render() {
     return(

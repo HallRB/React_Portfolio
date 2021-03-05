@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import "./projects.css";
+import "./projectsmodern.css";
 import Empdir from "./Projects/Empdir";
 import Budtra from "./Projects/Budtra";
 import Fittra from "./Projects/Fittra";
