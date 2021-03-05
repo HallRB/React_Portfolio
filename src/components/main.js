@@ -43,7 +43,7 @@ const Main = () => (
         <Route exact path="/homeretroview" component={HomeRetro} />
         <Route exact path="/homesynthview" component={HomeSynth} />
         {/* <Route exact path="/homemobileview" component={HomeMobile} /> */}
-        <Route exact path="/homemoderneview" component={HomeModern} />
+        <Route exact path="/homemodernview" component={HomeModern} />
         
         <Route path="/resume" component={Resume} />
         <Route path="/resumeclassicview" component={ResumeClassic} />
