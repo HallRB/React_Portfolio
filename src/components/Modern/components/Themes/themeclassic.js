@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 class ThemeCardClassic extends Component {
     render() {
         return (
-          <div id="allwrap">                               
+          <div id="allwrapmoderntheme">                               
             
             
             {/* cardwrap */}

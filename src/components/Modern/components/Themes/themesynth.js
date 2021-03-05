@@ -6,7 +6,7 @@ class ThemeCardSynth extends Component {
      
       render() {
         return (
-          <div id="allwrap">                               
+          <div id="allwrapmoderntheme">                               
 
             <div id="themecardwrap">
 

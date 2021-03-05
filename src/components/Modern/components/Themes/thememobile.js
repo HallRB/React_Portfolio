@@ -7,7 +7,7 @@ class ThemeCardMobile extends Component {
      
       render() {
         return (
-          <div id="allwrap">                               
+          <div id="allwrapmoderntheme">                               
             
             <div id="themecardwrap">
                 <div id="innerthemecardwrap">
