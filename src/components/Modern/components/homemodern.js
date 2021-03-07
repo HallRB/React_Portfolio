@@ -5,6 +5,7 @@ import {  Header, Navigation } from 'react-mdl';
 import Resume from "./resumemodern";
 import ThemeCard from "./Themes/themecard";
 import Biocard from "./AboutMe/bio.js"
+import Projects from "./projectsmodern"
 
 class HomeModern extends Component {
     render() {
@@ -42,6 +43,9 @@ class HomeModern extends Component {
 <Resume></Resume>
 </div>
 
+<div id="projectsmodernimp">
+    <Projects></Projects>
+</div>
 
 </div>
      </div>
