@@ -11,7 +11,7 @@ class HomeModern extends Component {
      <div id="megawrapmodern">
                <div id="headercss">
         <Header title="Richard B. Hall">
-            <Navigation id="navbarwrapmain">
+            <Navigation id="navbarwrapmainmodern">
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>

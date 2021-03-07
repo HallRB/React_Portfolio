@@ -5,7 +5,6 @@
     margin-right: auto;
     max-width: 100%;
     max-height: 100%;
-    border: 10px solid black;
     border-radius: 25px;
     margin-top: 20px;
 }
@@ -35,7 +34,7 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: rgb(248, 40, 255); 
+    background: rgb(255, 255, 255); 
     border-radius: 10px;
   }
 
