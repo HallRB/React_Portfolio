@@ -6,11 +6,10 @@ class Biocard extends Component {
         return(
             <div className="aboutmewrap">
             <p></p>
-            <h1 id="abtme">Biography</h1>
             <div className="flip-card">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <div className="headshot" alt="Avatar">
+                <div id="headshotmodern" alt="Avatar">
               </div>
               <div className="flip-card-back backside">
                 <h2>Richard B. Hall</h2> 

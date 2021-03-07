@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import {  Header, Navigation } from 'react-mdl';
 import Resume from "./resumemodern";
 import ThemeCard from "./Themes/themecard";
+import Biocard from "./AboutMe/bio.js"
+
 class HomeModern extends Component {
     render() {
     return(
@@ -24,6 +26,16 @@ class HomeModern extends Component {
 
 <ThemeCard></ThemeCard>
 
+<div id="aboutmemodernimp">
+    <Biocard></Biocard>
+</div>
+<p></p>
+<div id="skillsmainwrapmodern">
+              <div id="skillsmainmodern">
+                <h2>Skills</h2>
+              </div>
+            </div>
+            <p></p>
 <div id="resumemodernimp">
 <Resume></Resume>
 </div>

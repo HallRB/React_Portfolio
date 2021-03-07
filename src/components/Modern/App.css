@@ -41,7 +41,9 @@
   
   }
   
-  
+  #aboutmemodernimp {
+    background-color: rgb(23, 80, 129);
+  }
   
   body, html {
     height:100%;}
@@ -276,9 +278,29 @@
     width: 100%;
     height: 100%;
     overflow:scroll;
+  
   }
 
 #resumecardmodern {
   background-color: rgb(23, 80, 129);
 }
+
+#skillsmainwrapmodern {
+  width: 440px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  
+  #skillsmainmodern {
+    width: 455px;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    background-image: url("./components/Assetts/placeholder.png");
+  color: white;
+  height: 440px
+  }
+  
 
