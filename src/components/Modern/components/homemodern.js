@@ -15,10 +15,12 @@ class HomeModern extends Component {
         <Header title="Richard B. Hall">
             <Navigation id="navbarwrapmainmodern">
                 <Link to="/">Home</Link>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume">About Me</Link>
+                <Link to="/projects">Skills and Knowledge</Link>
+                <Link to="/contact">Resume</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="/aboutme">About Me</Link>
+
             </Navigation>
         </Header>
         </div>
