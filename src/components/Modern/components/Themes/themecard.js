@@ -11,7 +11,8 @@ class ThemeCard extends Component {
       render() {
         return (
           <div id="allwrapmodernthemeouter">                               
-            <div id="themeblockmodern">
+            <div id="themeblock">
+              
             <ThemeCardClassic></ThemeCardClassic>
             </div>
             <div id="themeblockmodern">

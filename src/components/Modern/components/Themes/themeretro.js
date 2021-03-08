@@ -12,7 +12,6 @@ class ThemeCardRetro extends Component {
 
             <div id="themecardwrap">
                 <div id="innerthemecardwrap">
-                <div><img alt="" id="themepicretro"></img></div>
                     <div id="themebutton"><Link to="/homeretroview"><Retro></Retro></Link></div>
                 </div>
             </div>

@@ -11,7 +11,6 @@ class ThemeCardMobile extends Component {
             
             <div id="themecardwrap">
                 <div id="innerthemecardwrap">
-                <div><img alt="" id="themepicmobile"></img></div>
                     <div id="themebutton">     <Link to="/homemobileview"><Mobile></Mobile></Link></div>
                 </div>
             </div>

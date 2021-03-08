@@ -26,9 +26,9 @@ class HomeModern extends Component {
         </Header>
         </div>
          <div id="lpiwmoderninner">
-
+         <div className="center-col">
 <ThemeCard></ThemeCard>
-
+        </div>
 <div id="aboutmemodernimp">
     <Biocard></Biocard>
 </div>
@@ -46,6 +46,7 @@ class HomeModern extends Component {
 <div id="projectsmodernimp">
     <Projects></Projects>
 </div>
+
 
 </div>
      </div>
