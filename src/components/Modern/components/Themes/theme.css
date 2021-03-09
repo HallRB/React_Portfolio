@@ -1,35 +1,33 @@
 #themecardwrap {
-    border: solid 2px aliceblue;
-    background-color: aliceblue;
+    border: solid 2px black;
+    background-color: black;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #innerthemecardwrap {
-    border: solid 2px aliceblue;
+    border: solid 2px black;
 width: min-content;
 margin-left: auto;
 margin-right: auto;
-position: static;
 }
 
 #themepicclassic {
     border: solid 2px none;
     width: 290px;
     height: 130px;
+    background-image: url("../Assetts/classichomepreview.JPG");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
 }
 
-
-
-
 #themepicsynth {
     border: solid 2px none;
     width: 290px;
     height: 130px;
+    background-image: url("../Assetts/synthhomepreview.JPG");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -39,6 +37,7 @@ position: static;
     border: solid 2px none;
     width: 290px;
     height: 130px;
+    background-image: url("../Assetts/placeholder.png");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -48,6 +47,7 @@ position: static;
     border: solid 2px none;
     width: 290px;
     height: 130px;
+    background-image: url("../Assetts/retrohomepreview.JPG");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
@@ -57,61 +57,18 @@ position: static;
     border: solid 2px none;
     width: 290px;
     height: 130px;
+    background-image: url("../Assetts/placeholder.png");
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
 }
 
 #themebutton {
-    border: solid 2px aliceblue;
+    border: solid 2px black;
     width: 286px;
 }
 
-#allwrapmoderntheme {
+#themecardallwrap {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
-    width: 100%;
-    overflow: auto;
-    direction:rtl;
-    margin-top: -1px;
-    background-color: #f0f8ff;
-    margin-top: 30px;
-    margin-bottom: 2px;
-    
 }
-
-
-
-#allwrapmodernthemeouter {
-    display: inline-block;
-    flex: 1;
-    width: 350px;
-    direction:rtl;
-    overflow: auto;
-    margin-top: -1px;
-    background-color: #f0f8ff;
-    margin-top: 30px;
-    margin-bottom: 2px;
-    position: fixed;
-    border-right: #c5ccd3b6 1px solid;
-
-}
-
-.leftscrollbar {
-    height: 100px;
-    overflow: scroll;
-    direction: rtl;
-  }
-  
-  .leftscrollbar>div {
-    direction: ltr;
-  }
-
-
-#themeblockmodern {
-    margin-left: auto;
-    margin-right: auto;
-    background-color: aliceblue;
-}
-
-
