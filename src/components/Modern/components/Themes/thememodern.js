@@ -12,7 +12,6 @@ class ThemeCardModern extends Component {
         
             <div id="themecardwrap">
                 <div id="innerthemecardwrap">
-                <div><img alt="" id="themepicmodern"></img></div>
                     <div id="themebutton"><Link to="/homemodernview"><Modern></Modern></Link></div>
                 </div>
             </div>

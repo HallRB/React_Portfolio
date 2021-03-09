@@ -11,7 +11,6 @@ class ThemeCardSynth extends Component {
             <div id="themecardwrap">
 
                 <div id="innerthemecardwrap">
-                <div><img alt="" id="themepicsynth"></img></div>
                     <div id="themebutton"><Link to="/homesynthview"><Synth></Synth></Link></div>
                 </div>
             </div>

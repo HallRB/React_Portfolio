@@ -10,20 +10,20 @@ class ThemeCard extends Component {
      
       render() {
         return (
-          <div id="themecardallwrap">                               
-            <div class="themeblock">
+          <div id="allwrapmodernthemeouter">                               
+            <div id="themeblockmodern">
             <ThemeCardClassic></ThemeCardClassic>
             </div>
-            <div class="themeblock">
+            <div id="themeblockmodern">
             <ThemeCardSynth></ThemeCardSynth>
             </div>
-            <div class="themeblock">
+            <div id="themeblockmodern">
             <ThemeCardMobile></ThemeCardMobile>
             </div>
-            <div class="themeblock">
+            <div id="themeblockmodern">
             <ThemeCardRetro></ThemeCardRetro>
             </div>
-            <div class="themeblock">
+            <div id="themeblockmodern">
             <ThemeCardModern></ThemeCardModern>
             </div>
 
