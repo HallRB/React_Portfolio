@@ -1,14 +1,14 @@
-.cardsall {
+#cardsallmodern {
   width: 85%;
   height: 100%;
   margin: 10px;
   display: grid;
-  column-count: auto;
+  grid-template-columns: 50% 50%;
+  column-count: 2;
   margin-left: auto;
   margin-right: auto;
   padding-right: 10%;
   padding-left: 10%;
-  display: flex;
   flex-wrap: wrap;
   resize: horizontal;
   overflow: none;
@@ -16,3 +16,15 @@
   gap: 14px;
   
 }
+
+
+#inbetweenmodernl {
+  width: 515px;
+  margin-left: auto;
+}
+
+#inbetweenmodernr {
+  width: 515px;
+  margin-right: auto;
+}
+

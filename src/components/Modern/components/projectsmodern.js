@@ -32,41 +32,41 @@ class Projects extends Component {
             </Header>
             </div>
                 Projects
-            <div className="cardsall">
-<div className="inbetween">
+            <div id="cardsallmodern">
+<div id="inbetweenmodernl">
 <Arcadea></Arcadea>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernr">
 <Sellify></Sellify>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernl">
 <Empdir></Empdir>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernr">
 <Budtra></Budtra>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernl">
 <Fittra></Fittra>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernr">
 <Burgerhub></Burgerhub>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernl">
 <Survive></Survive>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernr">
 <Planner></Planner>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernl">
 <Notespage></Notespage>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernr">
 <Password></Password>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernl">
 <Book></Book>
 </div>
-<div className="inbetween">
+<div id="inbetweenmodernr">
 <Meta></Meta>
 </div>
 </div>

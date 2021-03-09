@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 'react-mdl';
-
+import { CardTitle } from 'react-mdl';
+import "./Book.css"
 class Burgerhub extends Component {
     render() {
         return(
-<Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="burgerhub"></img></CardTitle>
-    <CardText class="cardwrap cardtext" >
+    <div class="projecttext" >
        Burger Hub: A fun activity to create a juicy burger of your choice and devour it.
-    </CardText>
-    <CardActions border>
+    </div>
+    <div border>
         <a class="github" href="https://github.com/HallRB/Burger-Hub">Github</a>
-    </CardActions>
-    <CardMenu style={{color: '#fff'}}>
-        <IconButton name="share" />
-    </CardMenu>
-</Card>  
+    </div>
+
+</div>  
         )
     }
 }

@@ -1,22 +1,19 @@
 import React, { Component } from 'react';
-import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 'react-mdl';
-
+import { CardTitle } from 'react-mdl';
+import "./Book.css"
 
 class Notespage extends Component {
     render() {
         return(
-<Card class="cardwrap cardborder" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="notes"></img></CardTitle>
-    <CardText class="cardwrap cardtext" >
+    <div className="projecttext">
        Versapp: An LGBT supportive app which let's you create notes that you can later come back to and delete at your leasure.
-    </CardText>
-    <CardActions border>
+    </div>
+    <div border>
         <a class="github" href="https://github.com/HallRB/Versapp">Github</a>
-    </CardActions>
-    <CardMenu style={{color: '#fff'}}>
-        <IconButton name="share" />
-    </CardMenu>
-</Card>  
+    </div>
+</div>  
         )
     }
 }
