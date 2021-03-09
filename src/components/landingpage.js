@@ -3,6 +3,7 @@ import "../App.css";
 import { Link } from 'react-router-dom';
 import {  Header, Navigation } from 'react-mdl';
 import ThemeCard from "./Themes/themecard";
+import Test from "./Test/test";
 class Landingpage extends Component {
     render() {
     return(
@@ -24,6 +25,7 @@ class Landingpage extends Component {
      <h2 id="cyve">Choose your viewing experience</h2>
      <ThemeCard></ThemeCard>
      
+<Test></Test>
 
 </div>
      </div>
