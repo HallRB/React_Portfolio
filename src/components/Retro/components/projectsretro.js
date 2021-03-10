@@ -15,6 +15,15 @@ import Arcadea from "./Projects/arcadeutopia";
 import "../App.css";
 import { Link } from 'react-router-dom';
 class Projects extends Component {
+    constructor(props) {
+        super(props);
+        this.sayHello = this.sayHello.bind(this);
+    }
+
+    sayHello() {
+        alert('Hello World!');
+    }
+    
     render() {
         return(
             <div id="megawrapretro">
@@ -32,9 +41,9 @@ class Projects extends Component {
              <p id="aboutmeretro" class="linksretro"><Link class="links" id="aboutmeretro" to="/aboutmeretroview"></Link></p>
              </div>
 </div>
-            <div id="projectwrap">
+            <div id="projectwrapretro">
                 Projects
-            <div id="cardsallretro">
+            <div id="cardsallretro" onClick={this.sayHello}>
 <div className="inbetween">
 <Arcadea></Arcadea>
 </div>
