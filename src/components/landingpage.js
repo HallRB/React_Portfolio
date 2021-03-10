@@ -25,7 +25,7 @@ class Landingpage extends Component {
      <h2 id="cyve">Choose your viewing experience</h2>
      <ThemeCard></ThemeCard>
      
-<Test></Test>
+{/* <Test></Test> */}
 
 </div>
      </div>
