@@ -14,13 +14,14 @@ import Sellify from "./Projects/sellify";
 import Arcadea from "./Projects/arcadeutopia";
 import "../App.css";
 import { Link } from 'react-router-dom';
-class Projects extends Component {
+
+
+    class Projects extends Component {
     constructor(props) {
         super(props);
         this.sayHello = this.sayHello.bind(this);
     }
-
-
+    
 
 
     sayHello() {
@@ -29,10 +30,12 @@ class Projects extends Component {
     }
     sayHello2() {
         document.getElementById("cardsallretro").style.filter = "invert(0%)";
+        setTimeout(this.Sound, 10);
     }
 
     
     render() {
+      
         return(
             <div id="megawrapretro">
  <div id="lpiwretro">
@@ -50,7 +53,7 @@ class Projects extends Component {
              </div>
 </div>
             <div id="projectwrapretro">
-                Projects
+
             <div id="cardsallretro" onClick={this.sayHello}>
 <div className="inbetween">
 <Arcadea></Arcadea>
