@@ -20,9 +20,17 @@ class Projects extends Component {
         this.sayHello = this.sayHello.bind(this);
     }
 
+
+
+
     sayHello() {
-        alert('Hello World!');
+        document.getElementById("cardsallretro").style.filter = "invert(100%)";
+        setTimeout(this.sayHello2, 100);
     }
+    sayHello2() {
+        document.getElementById("cardsallretro").style.filter = "invert(0%)";
+    }
+
     
     render() {
         return(
