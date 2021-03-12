@@ -30,10 +30,16 @@ import { Link } from 'react-router-dom';
     }
     sayHello2() {
         document.getElementById("cardsallretro").style.filter = "invert(0%)";
-        setTimeout(this.Sound, 10);
+        setTimeout(this.scoreclick, 10);
     }
 
-    
+    scoreclick () {
+        var clicks = 0;
+        clicks += 1;
+        document.getElementById("score").innerHTML = clicks;
+        alert("success");
+    }
+
     render() {
       
         return(
@@ -53,7 +59,7 @@ import { Link } from 'react-router-dom';
              </div>
 </div>
             <div id="projectwrapretro">
-
+<p >Hello World<div id="score"></div></p>
             <div id="cardsallretro" onClick={this.sayHello}>
 <div className="inbetween">
 <Arcadea></Arcadea>
