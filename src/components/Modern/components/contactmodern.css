@@ -8,6 +8,23 @@
     color: black;
 }
 
+#contactmodernimp {
+  color: black;
+  text-align: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  justify-content: center;
+}
+
+#contactwrapretro {
+  margin-left: auto;
+  margin-right: auto;
+  width: min-content;
+}
+
+
 input {
     width: 550px;
     border-radius: 25px;

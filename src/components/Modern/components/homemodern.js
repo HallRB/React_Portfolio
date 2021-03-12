@@ -6,6 +6,7 @@ import Resume from "./resumemodern";
 import ThemeCard from "./Themes/themecard";
 import Biocard from "./AboutMe/bio.js"
 import Projects from "./projectsmodern"
+import Contact from "./contactmodern";
 
 class HomeModern extends Component {
     render() {
@@ -41,6 +42,10 @@ class HomeModern extends Component {
             <p></p>
 <div id="resumemodernimp">
 <Resume></Resume>
+</div>
+
+<div id="contactmodernimp">
+    <Contact></Contact>
 </div>
 
 <div id="projectsmodernimp">
