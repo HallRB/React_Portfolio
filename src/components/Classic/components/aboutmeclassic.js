@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import "./aboutme.css";
 import Biocardclassic from "./AboutMe/bio.js"
 import "../App.css";
+import Skills from "../../Assetts/skilljavascriptimg.jpg"
 import { Link } from 'react-router-dom';
 class AboutMe extends Component {
      
@@ -24,6 +25,8 @@ class AboutMe extends Component {
  </div>
  
           <Biocardclassic></Biocardclassic>
+
+          <Skills></Skills>
           </div>
         )
       }
