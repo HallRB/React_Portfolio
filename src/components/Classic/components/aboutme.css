@@ -1,10 +1,3 @@
-.certificate {
-    background-image: url("./Assetts/certificate.JPG");
-    width: 100%;
-    height: 100%;
-}
-
-
 
 #flip-card {
     background-color: transparent;
@@ -111,123 +104,136 @@ h2 {
     margin-left: auto;
     margin-right: auto;
   color: white;
-  height: 103%;
+  background-color: none;
   }
 
 #skilljs {
   background-image: url("../../Assetts/skilljavascriptimg.jpg");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillcss {
   background-image: url("../../Assetts/skillcssimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillexpress {
   background-image: url("../../Assetts/skillexpressimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillbootstrap {
   background-image: url("../../Assetts/skillbootstrapimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillgitbash {
   background-image: url("../../Assetts/skillgitbashimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillgithub {
   background-image: url("../../Assetts/skillgithubimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillheroku {
   background-image: url("../../Assetts/skillherokuimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillpostman {
   background-image: url("../../Assetts/skillpostmanimg.jpg");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillreact {
   background-image: url("../../Assetts/skillreactimg.jpg");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillnode {
   background-image: url("../../Assetts/skillnodeimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillmongodb {
   background-image: url("../../Assetts/skillmongodbimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillvscode {
   background-image: url("../../Assetts/skillvisualstudiocodeimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
 #skillmysql {
   background-image: url("../../Assetts/skillmysqlimg.png");
-  width: 120px;
-  height: 150px;
+  width: 100%;
+  height: 100%;
   background-size: cover;
-  border: solid 2px white;
+  border: solid 5px black;
+  background-color: white;
   margin-left: -5px;
 }
 
@@ -240,16 +246,13 @@ h2 {
 } */
 
   #skillcon {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
     margin: 10px;
     margin-left: auto;
     margin-right: auto;
     overflow: none;
     margin-top: auto;
-    background-image: none;
-    background-color: #f8aa00;
-    margin-top: 15px;
     color: rgb(27, 27, 129);
     font-size: 20px;
   display: grid;
@@ -261,4 +264,5 @@ width: 100%;
 height: 100%;
 display: grid;
 grid-template-columns: auto auto auto;
+gap: 10px;
   }

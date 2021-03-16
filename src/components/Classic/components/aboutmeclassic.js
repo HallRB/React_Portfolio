@@ -30,19 +30,19 @@ class AboutMe extends Component {
 
 
               <div id="skillblock">
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <div style={{height: '150px'}}><img alt="" id="skilljs"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillcss"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillexpress"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillbootstrap"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillgitbash"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillgithub"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillheroku"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillpostman"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillreact"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillnode"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillmysql"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillmongodb"></img></div>
+              <div style={{height: '150px'}}><img alt="" id="skillvscode"></img></div>
               </div>
 
 
