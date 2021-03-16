@@ -26,8 +26,8 @@ class AboutMe extends Component {
               </div>
             </div>
           <Biocard></Biocard>
-          <div id="certificatewrapmain">
-              <div id="certificatemain">
+          <div id="certificatewrapmainmodern">
+              <div id="certificatemainmodern">
                 
               </div>
             </div>
