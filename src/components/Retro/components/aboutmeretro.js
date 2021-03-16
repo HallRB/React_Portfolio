@@ -27,8 +27,6 @@ class AboutMe extends Component {
  <div id="gridwrapmain">
             <div id="skillsmainwrapclassic">
               <div id="skillsmainclassic">
-
-
               <div id="skillblock">
               <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
               <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
