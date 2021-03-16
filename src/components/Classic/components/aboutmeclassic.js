@@ -25,8 +25,8 @@ class AboutMe extends Component {
  </div>
  
  <div id="gridwrapmain">
-            <div id="skillsmainwrap">
-              <div id="skillsmain">
+            <div id="skillsmainwrapclassic">
+              <div id="skillsmainclassic">
                 <h2>Skills</h2>
               </div>
             </div>

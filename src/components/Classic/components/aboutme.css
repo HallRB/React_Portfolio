@@ -4,6 +4,8 @@
     height: 100%;
 }
 
+
+
 #flip-card {
     background-color: transparent;
     width: 440px;
@@ -97,3 +99,20 @@
 h2 {
   text-align: center;
 }
+
+#skillswrapmainclassic {
+  width: 440px;
+  height: 650px;
+  border: solid 3px black;
+  }
+  
+  #skillsmainclassic {
+    width: 455px;
+    height: 650px;
+    border: solid 3px black;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("./Assetts/placeholder.png");
+  color: white;
+  height: 103%;
+  }
