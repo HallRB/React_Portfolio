@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { CardTitle, CardActions, CardMenu, IconButton } from 'react-mdl';
+import { CardTitle } from 'react-mdl';
 import "./Book.css"
 
 class Book extends Component {

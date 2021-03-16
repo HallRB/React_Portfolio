@@ -112,7 +112,36 @@ h2 {
     border: solid 3px black;
     margin-left: auto;
     margin-right: auto;
-    background-image: url("./Assetts/placeholder.png");
   color: white;
   height: 103%;
+  }
+
+#skilljs {
+  background-image: url("../../Assetts/skilljavascriptimg.jpg");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+}
+
+  #skillcon {
+    width: 80%;
+    height: 80%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: none;
+    margin-top: auto;
+    background-image: none;
+    background-color: #f8aa00;
+    margin-top: 15px;
+    color: rgb(27, 27, 129);
+    font-size: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  }
+
+  #skillblock {
+border: 2px solid black;
+width: 80%;
+height: 80%;
   }

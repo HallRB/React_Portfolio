@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import "./aboutme.css";
 import Biocardclassic from "./AboutMe/bio.js"
 import "../App.css";
-import Skills from "../../Assetts/skilljavascriptimg.jpg"
 import { Link } from 'react-router-dom';
+import { CardTitle } from 'react-mdl';
 class AboutMe extends Component {
      
       render() {
@@ -27,6 +27,24 @@ class AboutMe extends Component {
  <div id="gridwrapmain">
             <div id="skillsmainwrapclassic">
               <div id="skillsmainclassic">
+
+
+              <div id="skillblock">
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+                <div id="skillcon"></div>
+              </div>
+
+
                 <h2>Skills</h2>
               </div>
             </div>
