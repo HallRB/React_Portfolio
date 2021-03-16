@@ -3,6 +3,7 @@ import "./aboutmesynth.css";
 import Biocard from "./AboutMe/bio.js"
 import {  Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
+import { CardTitle } from 'react-mdl';
 class AboutMe extends Component {
      
       render() {
@@ -19,7 +20,38 @@ class AboutMe extends Component {
                 </Navigation>
             </Header>
             </div>
+            <div id="gridwrapmain">
+            <div id="skillsmainwrapclassic">
+              <div id="skillsmainclassic">
+
+
+              <div id="skillblock">
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              </div>
+
+
+                <h2>Skills</h2>
+              </div>
+            </div>
           <Biocard></Biocard>
+          <div id="certificatewrapmain">
+              <div id="certificatemain">
+                
+              </div>
+            </div>
+          </div>
           </div>
         )
       }
