@@ -6,7 +6,6 @@ class Biocardclassic extends Component {
         return(
             <div id="aboutmewrap">
             <p></p>
-            <h1 id="abtme">Biography</h1>
             <div id="flip-card">
             <div className="flip-card-inner">
               <div id="flip-card-front">
