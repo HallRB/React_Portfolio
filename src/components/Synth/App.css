@@ -43,6 +43,19 @@
   border-radius: 25px;
 }
 
+#cyvesynth {
+  border: 1px solid rgba(255, 255, 255, 0.856);
+  box-shadow: 0px 0px 6px 6px rgba(164, 0, 179, 0.856);
+  background-color: black;
+  color: aqua;
+  height: 54px;
+  margin: 10px;
+  font-family: 'Bungee Shade', cursive;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 35px;
+}
+
 .empdirimg {
   background-image: url("../Assetts/EmpDir.JPG");
   background-size: cover;

@@ -21,7 +21,7 @@ class HomeSynth extends Component {
         </div>
 
 
-        <h2 id="cyve">Choose your viewing experience</h2>
+        <h2 id="cyvesynth">Choose your viewing experience</h2>
      <ThemeCard></ThemeCard>
      </div>
     )
