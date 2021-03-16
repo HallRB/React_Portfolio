@@ -31,17 +31,18 @@ class AboutMe extends Component {
 
               <div id="skillblock">
               <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
-                <div id="skillcon"></div>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
+              <CardTitle style={{height: '100px'}}><img alt="" id="skilljs"></img></CardTitle>
               </div>
 
 
