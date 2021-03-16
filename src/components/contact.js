@@ -20,23 +20,16 @@ class Contact extends Component {
                 </Navigation>
             </Header>
             </div>
-            <div className="contactcontainermain">
-
-                <h1 className="glowmain">Contact</h1>
-                <form className="formwrap" id='contact-form'>
-  <input type='text' name='user_name' placeholder='Name' />
-  <br/>
-  <input type='email' name='user_email' placeholder='Email' />
-  <br/>
-  <textarea name='message' placeholder='Message'/>
-  <br/>
-  <div id="contactsubmitmain">
-  <input  type='submit' value='Send' onClick={() => document.getElementById("sent").innerHTML="Sent!"} />
-  </div>
-</form>
+            <div className="contactwrap" id="contactwrapretro">
+    <h1>Contact Me</h1>
+    <h2>Phone: 210-800-3046</h2>
+    <h2>Email: Richardbrianhall@gmail.com</h2>
+    <h2>Github: https://Github.com/HallRB</h2>
+    <h2>LinkedIn: https://LinkedIn.com/in/hallrb</h2>
+</div>
 <div id="sent"></div>
             </div>
-            </div>
+
         )
         
 
