@@ -288,14 +288,19 @@
 }
 
 #skillsmainwrapmodern {
-  width: 440px;
+  width: 700px;
   height: 450px;
   margin-left: auto;
   margin-right: auto;
+  border: solid pink 5px;
   }
 
   #skillblockmodern {
-    
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
   }
   
   #skillsmainmodern {
@@ -304,7 +309,7 @@
     margin-top: auto;
     margin-bottom: auto;
     margin-right: auto;
-    background-image: url("./components/Assetts/placeholder.png");
+    border: solid turquoise 5px;
   color: white;
   height: 440px
   }

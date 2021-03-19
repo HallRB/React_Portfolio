@@ -34,9 +34,9 @@ class HomeModern extends Component {
     <Biocard></Biocard>
 </div>
 <p></p>
-<div id="gridwrapmain">
-            <div id="skillsmainwrapclassic">
-              <div id="skillsmainclassic">
+
+            <div id="skillsmainwrapmodern">
+
               <div id="skillblockmodern">
               <div style={{height: '150px'}}><img alt="" id="skilljs"></img></div>
               <div style={{height: '150px'}}><img alt="" id="skillcss"></img></div>
@@ -53,7 +53,7 @@ class HomeModern extends Component {
               <div style={{height: '150px'}}><img alt="" id="skillvscode"></img></div>
               </div>
             </div>
-            </div>
+
             </div>
             <p></p>
 <div id="resumemodernimp">
@@ -70,7 +70,7 @@ class HomeModern extends Component {
 
 
 </div>
-     </div>
+
     )
 }
 }
