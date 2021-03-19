@@ -36,8 +36,8 @@ class HomeModern extends Component {
 <p></p>
 <div id="gluediv">
             <div id="skillsmainwrapclassic">
-              <div id="skillsmainclassic">
-              <div id="skillblock">
+              <div id="skillsmainmodern">
+              <div id="skillblockmodern">
               <div style={{height: '150px'}}><img alt="" id="skilljs"></img></div>
               <div style={{height: '150px'}}><img alt="" id="skillcss"></img></div>
               <div style={{height: '150px'}}><img alt="" id="skillexpress"></img></div>
