@@ -41,6 +41,14 @@
     
   }
 
+  .backsidemodern {
+    color: white;
+    background-color: rgb(0, 0, 0);
+    visibility: visible;
+    border: 1px solid rgba(255, 255, 255, 0.856);
+    text-align: justify;  
+  }
+
   #headshotmodern {
     background-image: url("./Assetts/bioheadmodern.png");
     width: 440px;
@@ -63,9 +71,7 @@
   background-color: rgb(0, 0, 0);
   visibility: visible;
   border: 1px solid rgba(255, 255, 255, 0.856);
-  text-align: justify;
-  
-  
+  text-align: justify;  
 }
 
 #para {
