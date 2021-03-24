@@ -26,7 +26,7 @@ class Landingpage extends Component {
      <ThemeCard></ThemeCard>
      
 {/* <Test></Test> */}
-<h3 id="cyveb">Note: This website is currently under maintenance but feel free to look around!</h3>
+<h3 id="cyveb">Note: This website is currently undergoing maintenance but feel free to look around!</h3>
 </div>
      </div>
     )
