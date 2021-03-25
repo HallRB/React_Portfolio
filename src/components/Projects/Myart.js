@@ -7,7 +7,7 @@ class Myart extends Component {
 <Card class="cardwrap cardbordermain"  shadow={0} style={{width: '512px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="myartmain"></img></CardTitle>
     <CardText class="cardwrap cardtext" >
-        React Portfolio: You're already here!
+        Myart: Check out the world of fine and strange art
     </CardText>
     <CardActions border>
     <a class="deployed" href="https://reactportfoliohallrb.herokuapp.com/">Deployed Page</a>

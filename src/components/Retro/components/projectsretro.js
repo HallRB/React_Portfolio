@@ -12,6 +12,7 @@ import Book from "./Projects/Book";
 import Meta from "./Projects/Meta";
 import Sellify from "./Projects/sellify";
 import Arcadea from "./Projects/arcadeutopia";
+import Myart from "../../Projects/Myart";
 import "../App.css";
 import { Link } from 'react-router-dom';
 
@@ -61,6 +62,9 @@ import { Link } from 'react-router-dom';
             <div id="projectwrapretro">
 <p >Hello World<div id="score"></div></p>
             <div id="cardsallretro" onClick={this.sayHello}>
+<div className="inbetween">
+<Myart></Myart>
+</div>
 <div className="inbetween">
 <Arcadea></Arcadea>
 </div>
