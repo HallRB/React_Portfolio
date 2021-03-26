@@ -88,6 +88,15 @@
     border-radius: 25px;
 }
 
+#myartmain {
+    background-image: url("../Assetts/Myart.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;   
+}
+
 .notes {
     background-image: url("../Assetts/Notespage.JPG");
     background-size: cover;

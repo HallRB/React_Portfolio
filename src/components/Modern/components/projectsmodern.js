@@ -12,7 +12,7 @@ import Book from "./Projects/Book";
 import Meta from "./Projects/Meta";
 import Sellify from "./Projects/sellify";
 import Arcadea from "./Projects/arcadeutopia";
-import Myart from "../../Projects/Myart";
+import Myart from "./Projects/Myart";
 import {  Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import "../App.css";
