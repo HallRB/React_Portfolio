@@ -1,13 +1,13 @@
 #themecardwrap {
-    border: solid 2px aliceblue;
-    background-color: aliceblue;
+    border: solid 2px #92d7eb;;
+    background-color: #92d7eb;;
     width: 300px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #innerthemecardwrap {
-    border: solid 2px aliceblue;
+    border: solid 2px #92d7eb;;
 width: min-content;
 margin-left: auto;
 margin-right: auto;
@@ -22,9 +22,6 @@ position: static;
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
 
 #themepicsynth {
     border: solid 2px none;
@@ -63,7 +60,7 @@ position: static;
 }
 
 #themebutton {
-    border: solid 2px aliceblue;
+    border: solid 2px #92d7eb;;
     width: 286px;
 }
 
@@ -74,7 +71,7 @@ position: static;
     overflow: auto;
     direction:rtl;
     margin-top: -1px;
-    background-color: #f0f8ff;
+    background-color: #92d7eb;;
     margin-top: 30px;
     margin-bottom: 2px;
     
@@ -89,7 +86,7 @@ position: static;
     direction:rtl;
     overflow: auto;
     margin-top: -1px;
-    background-color: #f0f8ff;
+    background-color: #92d7eb;
     margin-top: 30px;
     margin-bottom: 2px;
     position: fixed;
@@ -111,5 +108,5 @@ position: static;
 #themeblockmodern {
     margin-left: auto;
     margin-right: auto;
-    background-color: aliceblue;
+    background-color: #92d7eb;;
 }
