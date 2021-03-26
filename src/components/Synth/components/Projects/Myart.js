@@ -4,9 +4,9 @@ import { Card, CardTitle, CardText, CardActions, CardMenu, IconButton } from 're
 class Myart extends Component {
     render() {
         return(
-<Card id="cardwrapa"  shadow={0} style={{width: '800px', margin: 'auto'}}>
-    <CardTitle style={{height: '500px'}}><img alt="" id="myartmain"></img></CardTitle>
-    <CardText class=" cardtext" >
+<Card class="cardwrap cardborder"  shadow={0} style={{width: '512px', margin: 'auto'}}>
+    <CardTitle style={{height: '275px'}}><img alt="" className="myartmain"></img></CardTitle>
+    <CardText class="cardwrap cardtext" >
         Myart: Check out the world of fine and strange art
     </CardText>
     <CardActions border>
