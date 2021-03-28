@@ -31,10 +31,10 @@ import ContactModern from './Modern/components/contactmodern';
 import AboutMeModern from "./Modern/components/aboutmemodern.js";
 
 import HomeMobile from "./Mobile/components/homemobile.js";
-import ResumeMobile from './components/resumemobile.js';
-import ProjectsMobile from './components/projectsmobile.js';
-import ContactMobile from './components/contactmobile.js';
-import AboutMeMobile from "./components/aboutmemobile.js";
+import ResumeMobile from './Mobile/components/resumemobile.js';
+import ProjectsMobile from './Mobile/components/projectsmobile.js';
+import ContactMobile from './Mobile/components/contactmobile.js';
+import AboutMeMobile from "./Mobile/components/aboutmemobile.js";
 
 const Main = () => (
     <Switch>
