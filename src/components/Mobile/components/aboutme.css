@@ -1,0 +1,268 @@
+
+#flip-card {
+    background-color: transparent;
+    width: 440px;
+    height: 650px;
+    perspective: 1000px;
+  }
+  
+  #flip-card-inner {
+    position: relative;
+    width: 440px;
+    height: 650px;
+    text-align: justify;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  #flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  #flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 440px;
+    height: 650px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: visible;
+  }
+  
+  #flip-card-front {
+    color: white; 
+    width: 440px;
+    height: 650px;
+  }
+  
+  #flip-card-back {
+    color: black;
+    background-image: none;
+    background-color: white;
+    transform: rotateY(180deg);
+    border: solid 2px white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .flip-card-inner {
+    border-radius: 0%;
+    border: none;
+    box-shadow: none;
+  }
+
+  #headshotclassic {
+    background-image: url("./Assetts/bioheadbasic.png");
+    width: 440px;
+    height: 650px;
+    background-repeat: no-repeat;
+    position: absolute;
+    border-radius: 0%;
+
+  }
+
+  #aboutmewrap {
+    margin-left: auto;
+    margin-right: auto;
+    width: 440px;
+    height: 650px;
+  }
+
+#backside {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  visibility: visible;
+  text-align: justify;
+  border: solid black 3px;
+  border-radius: 0%;
+}
+
+
+#paraclassic {
+  margin: 5px;
+  margin-top: -18px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+#abtme {
+  visibility: visible;
+  color: black;
+  font-size: 75px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h2 {
+  text-align: center;
+}
+
+#skillswrapmainclassic {
+  width: 440px;
+  height: 650px;
+  }
+  
+  #skillsmainclassic {
+    width: 455px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+  color: white;
+  background-color: none;
+  }
+
+#skilljs {
+  background-image: url("../../Assetts/skilljavascriptimg.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillcss {
+  background-image: url("../../Assetts/skillcssimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillexpress {
+  background-image: url("../../Assetts/skillexpressimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillbootstrap {
+  background-image: url("../../Assetts/skillbootstrapimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillgitbash {
+  background-image: url("../../Assetts/skillgitbashimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillgithub {
+  background-image: url("../../Assetts/skillgithubimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillheroku {
+  background-image: url("../../Assetts/skillherokuimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillpostman {
+  background-image: url("../../Assetts/skillpostmanimg.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillreact {
+  background-image: url("../../Assetts/skillreactimg.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillnode {
+  background-image: url("../../Assetts/skillnodeimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillmongodb {
+  background-image: url("../../Assetts/skillmongodbimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillvscode {
+  background-image: url("../../Assetts/skillvisualstudiocodeimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+#skillmysql {
+  background-image: url("../../Assetts/skillmysqlimg.png");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  border: solid 5px black;
+  background-color: white;
+  margin-left: -5px;
+}
+
+
+/* #skill {
+  background-image: url("../../Assetts/skill");
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+} */
+
+  #skillcon {
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: none;
+    margin-top: auto;
+    color: rgb(27, 27, 129);
+    font-size: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  }
+
+  #skillblock {
+width: 100%;
+height: 100%;
+display: grid;
+grid-template-columns: auto auto auto;
+gap: 10px;
+  }

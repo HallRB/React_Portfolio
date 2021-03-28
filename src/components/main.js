@@ -30,11 +30,11 @@ import ProjectsModern from './Modern/components/projectsmodern';
 import ContactModern from './Modern/components/contactmodern';
 import AboutMeModern from "./Modern/components/aboutmemodern.js";
 
-// import HomeMobile from "./Mobile/homemobile.js";
-// import ResumeMobile from './resumemobile.js';
-// import ProjectsMobile from './projectsmobile.js';
-// import ContactMobile from './contactmobile.js';
-// import AboutMeMobile from "./aboutmemobile.js";
+import HomeMobile from "./Mobile/components/homemobile.js";
+import ResumeMobile from './components/resumemobile.js';
+import ProjectsMobile from './components/projectsmobile.js';
+import ContactMobile from './components/contactmobile.js';
+import AboutMeMobile from "./components/aboutmemobile.js";
 
 const Main = () => (
     <Switch>
@@ -42,35 +42,35 @@ const Main = () => (
         <Route exact path="/homeclassicview" component={HomeClassic} />
         <Route exact path="/homeretroview" component={HomeRetro} />
         <Route exact path="/homesynthview" component={HomeSynth} />
-        {/* <Route exact path="/homemobileview" component={HomeMobile} /> */}
+        <Route exact path="/homemobileview" component={HomeMobile} />
         <Route exact path="/homemodernview" component={HomeModern} />
         
         <Route path="/resume" component={Resume} />
         <Route path="/resumeclassicview" component={ResumeClassic} />
         <Route path="/resumeretroview" component={ResumeRetro} />
         <Route path="/resumesynthview" component={ResumeSynth} />
-        {/* <Route path="/resumemobileview" component={ResumeMobile} /> */}
+        <Route path="/resumemobileview" component={ResumeMobile} />
         <Route path="/resumemodernview" component={ResumeModern} />
 
         <Route path="/projects" component={Projects} />
         <Route path="/projectsclassicview" component={ProjectsClassic} />
         <Route path="/projectsretroview" component={ProjectsRetro} />
         <Route path="/projectssynthview" component={ProjectsSynth} />
-        {/* <Route path="/projectsmobileview" component={ProjectsMobile} /> */}
+        <Route path="/projectsmobileview" component={ProjectsMobile} />
         <Route path="/projectsmodernview" component={ProjectsModern} />
 
         <Route path="/contact" component={Contact} />
         <Route path="/contactclassicview" component={ContactClassic} />
         <Route path="/contactretroview" component={ContactRetro} />
         <Route path="/contactsynthview" component={ContactSynth} />
-        {/* <Route path="/contactmobileview" component={ContactMobile} /> */}
+        <Route path="/contactmobileview" component={ContactMobile} />
         <Route path="/contactmodernview" component={ContactModern} />
 
         <Route path="/aboutme" component={AboutMe} />
         <Route path="/aboutmeclassicview" component={AboutMeClassic} />
         <Route path="/aboutmeretroview" component={AboutMeRetro} />
         <Route path="/aboutmesynthview" component={AboutMeSynth} />
-        {/* <Route path="/aboutmemobileview" component={AboutMeMobile} /> */}
+        <Route path="/aboutmemobileview" component={AboutMeMobile} />
         <Route path="/aboutmemodernview" component={AboutMeModern} />
     </Switch>
 )
