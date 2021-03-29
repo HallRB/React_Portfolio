@@ -5,9 +5,9 @@ import "./Book.css"
 class Book extends Component {
     render() {
         return(
-<div id="cardwrapa" shadow={0} style={{width: '800px', margin: 'auto'}}>
-<CardTitle style={{height: '500px'}}><img alt="" id="book"></img></CardTitle>
-<div class="projecttext">
+<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<CardTitle style={{height: '275px'}}><img alt="" id="book"></img></CardTitle>
+<div className="projecttext">
        Book Search: Sign up, search a book and leave a comment for other's to view.  Add or delete your own comments and see what commentary others have left.
 </div>
     <div border>

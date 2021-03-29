@@ -3,7 +3,7 @@ import "./aboutme.css";
 import Biocardclassic from "./AboutMe/bio.js"
 import "../App.css";
 import { Link } from 'react-router-dom';
-import { CardTitle } from 'react-mdl';
+
 class AboutMe extends Component {
      
       render() {

@@ -1,0 +1,110 @@
+#themecardwrap {
+    border: solid 2px #92d7eb;;
+    background-color: #92d7eb;;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#innerthemecardwrap {
+    border: solid 2px #92d7eb;;
+width: min-content;
+margin-left: auto;
+margin-right: auto;
+position: static;
+}
+
+#themepicclassic {
+    border: solid 2px none;
+    width: 290px;
+    height: 130px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#themepicsynth {
+    border: solid 2px none;
+    width: 290px;
+    height: 130px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#themepicmobile {
+    border: solid 2px none;
+    width: 290px;
+    height: 130px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#themepicretro {
+    border: solid 2px none;
+    width: 290px;
+    height: 130px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#themepicmodern {
+    border: solid 2px none;
+    width: 290px;
+    height: 130px;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#themebutton {
+    border: solid 2px #92d7eb;;
+    width: 286px;
+}
+
+#allwrapmoderntheme {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    overflow: auto;
+    direction:rtl;
+    margin-top: -1px;
+    background-color: #92d7eb;;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    
+}
+
+#allwrapmodernthemeouter {
+    display: inline-block;
+    flex: 1;
+    width: 350px;
+    direction:rtl;
+    overflow: auto;
+    margin-top: -1px;
+    background-color: #92d7eb;
+    margin-top: 30px;
+    margin-bottom: 2px;
+    position: fixed;
+    border-right: #c5ccd3b6 1px solid;
+
+}
+
+.leftscrollbar {
+    height: 100px;
+    overflow: scroll;
+    direction: rtl;
+  }
+  
+  .leftscrollbar>div {
+    direction: ltr;
+  }
+
+
+#themeblockmodern {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #92d7eb;;
+}
