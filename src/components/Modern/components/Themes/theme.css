@@ -83,13 +83,11 @@ position: static;
     width: 350px;
     direction:rtl;
     overflow: auto;
-    margin-top: -1px;
+    margin-top: -20px;
     background-color: #92d7eb;
-    margin-top: 30px;
-    margin-bottom: 2px;
     position: fixed;
     border-right: #c5ccd3b6 1px solid;
-
+height: 100%;
 }
 
 .leftscrollbar {
@@ -106,5 +104,5 @@ position: static;
 #themeblockmodern {
     margin-left: auto;
     margin-right: auto;
-    background-color: #92d7eb;;
+   background-color:rgb(27, 27, 129);
 }

@@ -43,6 +43,7 @@
   
   #aboutmemodernimp {
     background-color: #f0f8ff;
+    margin-top: -20px;
   }
   
   body, html {
@@ -185,9 +186,7 @@
   position: fixed;
 }
 
-#allwrapmodernthemeouter {
-  overflow: scroll;
-}
+
 
    #cyve {
     color: rgb(255, 255, 255);
@@ -201,15 +200,7 @@
      margin-left: auto;
      margin-right: auto;
    }
-  
-  #megawrapmodern {
-    width: 100%;
-    height: 100%;
-    background-color: rgb(255, 0, 0);
-    overflow: hidden;
-    color: black;
-  }
-  
+
   .links {
     color: black;
     font-family: 'Times New Roman', Times, serif;
@@ -288,7 +279,7 @@
   }
 
   #megawrapmodern {
-    background-color: #41c2e6;
+    background-color: #173186;
     width: 100%;
     height: 100%;
     overflow:scroll;
