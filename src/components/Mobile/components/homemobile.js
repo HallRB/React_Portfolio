@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import "../App.css";
 import { Link } from 'react-router-dom';
-import {  Header, Navigation } from 'react-mdl';
+import {  Header, Navigation, DropdownItem } from 'react-mdl';
 // import Resume from "./resumemobile";
 // import ThemeCard from "./Themes/themecard";
 // import Biocard from "./AboutMe/bio.js"
@@ -13,6 +13,7 @@ class HomeClassic extends Component {
     return(
         <div id="megawrapmobile">
         <div id="headermobile">
+        <DropdownItem as={Link} to="/">Home</DropdownItem>
  <Header title="Richard B. Hall">
      <Navigation id="navbarwrapmobile">
          <Link to="/">Home</Link>

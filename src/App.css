@@ -40,6 +40,11 @@ body {
 
 }
 
+#allwrap {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* home page */
 
 #landingpagewrap {
@@ -48,11 +53,15 @@ body {
  
  }
  
- #landingpageinnerwrap {
-   width: min-content;
+ #landingpageinnerwrapdefault {
+   width: max-content;
    margin-left: auto;
+   background-color: rgb(255, 255, 255);
    margin-right: auto;
    color: white;
+   display: grid;
+   grid-template-columns: auto;
+   position: relative;
    
  }
 
@@ -144,10 +153,14 @@ width: 286px;
 height: 54px;
  }
  
- #cyve {
+ #cyvedefault {
    color: #ffffff;
    font-size: xx-large;
   font-family: 'Do Hyeon', sans-serif;
+  background-color: green;
+  height: auto;
+  text-align: center;
+  width: 100%;
  }
 
  #cyveb {

@@ -10,7 +10,7 @@ class ThemeCard extends Component {
      
       render() {
         return (
-          <div id="themecardallwrap">                               
+          <div id="themecardallwrapdefault">                               
             <div class="themeblock">
             <ThemeCardClassic></ThemeCardClassic>
             </div>

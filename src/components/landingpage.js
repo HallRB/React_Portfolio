@@ -20,9 +20,9 @@ class Landingpage extends Component {
             </Navigation>
         </Header>
         </div>
-         <div id="landingpageinnerwrap">
+         <div id="landingpageinnerwrapdefault">
 
-     <h2 id="cyve">Choose your viewing experience</h2>
+     <h2 id="cyvedefault">Choose your viewing experience</h2>
      <ThemeCard></ThemeCard>
      
 {/* <Test></Test> */}

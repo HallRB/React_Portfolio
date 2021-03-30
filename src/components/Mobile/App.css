@@ -41,8 +41,14 @@ h1 {
 
 }
 
+/* wrap for entire mobile page */
+#megawrapmobile {
+  border: yellow solid 3px;
+  width: 100%;
+}
 
 
+/* 
 body, html {
   height:100%;}
 
@@ -63,10 +69,10 @@ body {
   width: max-content;
   visibility: visible;
 
-}
+} */
 
 /* home page */
-
+/* 
 #landingpagewrap {
   margin-left: auto;
   margin-right: auto;
@@ -251,4 +257,4 @@ width: 50px;
   height: 55px;
 width: 50px;
 
-}
+} */

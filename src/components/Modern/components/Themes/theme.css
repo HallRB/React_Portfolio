@@ -84,9 +84,9 @@ position: static;
     direction:rtl;
     overflow: auto;
     margin-top: -20px;
-    background-color: #92d7eb;
+    background-color: rgb(27, 27, 129);
     position: fixed;
-    border-right: #c5ccd3b6 1px solid;
+    border-right: rgb(27, 27, 129) 1px solid;
 height: 100%;
 }
 
