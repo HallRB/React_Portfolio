@@ -60,7 +60,6 @@ import { Link } from 'react-router-dom';
              </div>
 </div>
             <div id="projectwrapretro">
-<p >Hello World<div id="score"></div></p>
             <div id="cardsallretro" onClick={this.sayHello}>
 <div className="inbetween">
 <Myart></Myart>
