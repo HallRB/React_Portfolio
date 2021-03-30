@@ -11,7 +11,7 @@ class HomeSynth extends Component {
                <div id="headercsssynth">
         <Header title="Richard B. Hall">
             <Navigation id="navbarwrapsynth">
-                <Link to="/homesynthview">Home</Link>
+                <Link to="/">Home</Link>
                 <Link to="/resumesynthview">Resume</Link>
                 <Link to="/projectssynthview">Projects</Link>
                 <Link to="/contactsynthview">Contact</Link>

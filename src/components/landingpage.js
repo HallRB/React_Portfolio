@@ -3,15 +3,15 @@ import "../App.css";
 import { Link } from 'react-router-dom';
 import {  Header, Navigation } from 'react-mdl';
 import ThemeCard from "./Themes/themecard";
-import Test from "./Test/test";
+
 class Landingpage extends Component {
     render() {
     return(
         
      <div id="landingpagewrap">
-               <div id="headercss">
+               <div className="headercss">
         <Header title="Richard B. Hall">
-            <Navigation id="navbarwrapmain">
+            <Navigation id="navbarwrap">
                 <Link to="/">Home</Link>
                 <Link to="/resume">Resume</Link>
                 <Link to="/projects">Projects</Link>
