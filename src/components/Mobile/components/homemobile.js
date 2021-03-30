@@ -2,19 +2,19 @@ import React, { Component } from 'react';
 import "../App.css";
 import { Link } from 'react-router-dom';
 import {  Header, Navigation } from 'react-mdl';
-import Resume from "./resumemobile";
-import ThemeCard from "./Themes/themecard";
-import Biocard from "./AboutMe/bio.js"
-import Projects from "./projectsmobile"
-import Contact from "./contactmobile";
+// import Resume from "./resumemobile";
+// import ThemeCard from "./Themes/themecard";
+// import Biocard from "./AboutMe/bio.js"
+// import Projects from "./projectsmobile"
+// import Contact from "./contactmobile";
 
 class HomeClassic extends Component {
     render() {
     return(
-        <div id="megawrapmodern">
-        <div id="headercss">
+        <div id="megawrapmobile">
+        <div id="headermobile">
  <Header title="Richard B. Hall">
-     <Navigation id="navbarwrapmainmodern">
+     <Navigation id="navbarwrapmobile">
          <Link to="/">Home</Link>
          <Link to="/resume">About Me</Link>
          <Link to="/projects">Skills and Knowledge</Link>
@@ -24,7 +24,7 @@ class HomeClassic extends Component {
 
      </Navigation>
  </Header>
- </div>
+ {/* </div>
   <div id="lpiwmoderninner">
   <div className="center-col">
 <ThemeCard></ThemeCard>
@@ -66,7 +66,7 @@ class HomeClassic extends Component {
 
 <div id="projectsmodernimp">
 <Projects></Projects>
-</div>
+</div> */}
 
 
 </div>
