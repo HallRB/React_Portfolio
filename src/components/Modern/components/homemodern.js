@@ -38,6 +38,7 @@ class HomeModern extends Component {
             <div id="skillsmainwrapclassic">
               <div id="skillsmainmodern">
               <div id="skillblockmodern">
+              <div style={{height: '185px'}}><img alt="" id="skillhtml"></img></div>
               <div style={{height: '185px'}}><img alt="" id="skilljs"></img></div>
               <div style={{height: '185px'}}><img alt="" id="skillcss"></img></div>
               <div style={{height: '185px'}}><img alt="" id="skillexpress"></img></div>
@@ -51,6 +52,7 @@ class HomeModern extends Component {
               <div style={{height: '185px'}}><img alt="" id="skillmysql"></img></div>
               <div style={{height: '185px'}}><img alt="" id="skillmongodb"></img></div>
               <div style={{height: '185px'}}><img alt="" id="skillvscode"></img></div>
+              <div style={{height: '185px'}}><img alt="" id="skillwp"></img></div>
               </div>
 
             </div>
