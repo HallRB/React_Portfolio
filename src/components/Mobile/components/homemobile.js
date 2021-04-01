@@ -1,21 +1,20 @@
 import React, { Component } from 'react';
 import "../App.css";
 import { Link } from 'react-router-dom';
-import {  Header, Navigation, DropdownItem } from 'react-mdl';
+import {  Header } from 'react-mdl';
 // import Resume from "./resumemobile";
 // import ThemeCard from "./Themes/themecard";
 // import Biocard from "./AboutMe/bio.js"
 // import Projects from "./projectsmobile"
 // import Contact from "./contactmobile";
 
-class HomeClassic extends Component {
+class HomeMobile extends Component {
     render() {
     return(
         <div id="megawrapmobile">
         <div id="headermobile">
-        <DropdownItem as={Link} to="/">Home</DropdownItem>
  <Header title="Richard B. Hall">
-     <Navigation id="navbarwrapmobile">
+     <div id="navbarwrapmobile">
          <Link to="/">Home</Link>
          <Link to="/resume">About Me</Link>
          <Link to="/projects">Skills and Knowledge</Link>
@@ -23,8 +22,9 @@ class HomeClassic extends Component {
          <Link to="/projects">Projects</Link>
          <Link to="/contact">Contact</Link>
 
-     </Navigation>
+     </div>
  </Header>
+
  {/* </div>
   <div id="lpiwmoderninner">
   <div className="center-col">
@@ -76,4 +76,4 @@ class HomeClassic extends Component {
 }
 }
 
-export default HomeClassic
+export default HomeMobile

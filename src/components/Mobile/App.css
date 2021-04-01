@@ -44,7 +44,10 @@ h1 {
 /* wrap for entire mobile page */
 #megawrapmobile {
   border: yellow solid 3px;
-  width: 100%;
+  width: 1000px;
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
