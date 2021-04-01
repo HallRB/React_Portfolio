@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "../App.css";
 import { Link } from 'react-router-dom';
-import {  Header } from 'react-mdl';
 // import Resume from "./resumemobile";
 // import ThemeCard from "./Themes/themecard";
 // import Biocard from "./AboutMe/bio.js"
@@ -15,13 +14,7 @@ class HomeMobile extends Component {
         <div id="headermobile">
  <div id="navbarmobile">
      <div id="navbarwrapmobile">
-         <Link to="/">Home</Link>
-         <Link to="/resume">About Me</Link>
-         <Link to="/projects">Skills and Knowledge</Link>
-         <Link to="/contact">Resume</Link>
-         <Link to="/projects">Projects</Link>
-         <Link to="/contact">Contact</Link>
-
+         <a id="homemobilelink" href="/">Home</a>
      </div>
  </div>
 
