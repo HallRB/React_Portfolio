@@ -48,14 +48,12 @@
     box-shadow: none;
   }
 
-  #headshotclassic {
-    background-image: url("./Assetts/bioheadbasic.png");
-    width: 440px;
-    height: 650px;
+  #headshotmobile {
+    background-image: url("./Assetts/headshota.jpg");
     background-repeat: no-repeat;
+    border: 1px solid rgba(255, 255, 255, 0.856);
+    border-radius: 0px;
     position: absolute;
-    border-radius: 0%;
-
   }
 
   #aboutmewrap {
@@ -65,7 +63,7 @@
     height: 650px;
   }
 
-#backside {
+.backsidemobile {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
   visibility: visible;

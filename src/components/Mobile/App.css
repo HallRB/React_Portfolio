@@ -24,13 +24,6 @@
   }
 }
 
-.mdl-layout__header-row {
-  background-color:  rgb(25, 27, 39);
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
 html {
 background-color: white;
   
@@ -43,8 +36,7 @@ h1 {
 
 /* wrap for entire mobile page */
 #megawrapmobile {
-  width: 1000px;
-  height: 800px;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   overflow: scroll;
@@ -87,3 +79,9 @@ color: white;
 text-decoration: none;
 }
 
+/* about me section */
+
+#biocardmobile{
+  margin-left: auto;
+  margin-right: auto;
+}

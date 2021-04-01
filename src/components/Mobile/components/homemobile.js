@@ -3,7 +3,7 @@ import "../App.css";
 import { Link } from 'react-router-dom';
 // import Resume from "./resumemobile";
 // import ThemeCard from "./Themes/themecard";
-// import Biocard from "./AboutMe/bio.js"
+import Biocard from "./AboutMe/bio.js"
 // import Projects from "./projectsmobile"
 // import Contact from "./contactmobile";
 
@@ -16,9 +16,12 @@ class HomeMobile extends Component {
      <div id="navbarwrapmobile">
          <a id="homemobilelink" href="/">Home</a>
      </div>
+     <div id="biocardmobile">
+     <Biocard></Biocard>
+     </div>
  </div>
 
- {/* </div>
+ {/* 
   <div id="lpiwmoderninner">
   <div className="center-col">
 <ThemeCard></ThemeCard>
