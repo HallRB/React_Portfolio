@@ -1,6 +1,8 @@
 
 #flip-card {
   background-color: transparent;
+  max-width: 90%;
+  max-height: 90%;
   width: 440px;
   height: 650px;
   perspective: 1000px;
@@ -8,6 +10,8 @@
 
 #flip-card-inner {
   position: relative;
+  max-width: 90%;
+  max-height: 90%;
   width: 440px;
   height: 650px;
   text-align: justify;
@@ -21,6 +25,8 @@
 
 #flip-card-front, .flip-card-back {
   position: absolute;
+  max-width: 90%;
+  max-height: 90%;
   width: 440px;
   height: 650px;
   -webkit-backface-visibility: hidden;
@@ -50,19 +56,23 @@
 
 #headshotmobile {
   background-image: url("./Assetts/biohead.png");
+
   width: 440px;
   height: 650px;
   background-repeat: no-repeat;
   position: absolute;
   border-radius: 0%;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
   .aboutmewrap {
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
-    height: 100%;
+    max-width: 90%;
+    max-height: 90%;
+    width: 440px;
+    height: 650px;
   }
 
 .backsidemobile {
