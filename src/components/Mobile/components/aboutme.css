@@ -1,66 +1,68 @@
 
 #flip-card {
-    background-color: transparent;
-    width: 440px;
-    height: 650px;
-    perspective: 1000px;
-  }
-  
-  #flip-card-inner {
-    position: relative;
-    width: 440px;
-    height: 650px;
-    text-align: justify;
-    transition: transform 0.6s;
-    transform-style: preserve-3d;
-  }
-  
-  #flip-card:hover .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  #flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 440px;
-    height: 650px;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: visible;
-  }
-  
-  #flip-card-front {
-    color: white; 
-    width: 440px;
-    height: 650px;
-  }
-  
-  #flip-card-back {
-    color: black;
-    background-image: none;
-    background-color: white;
-    transform: rotateY(180deg);
-    border: solid 2px white;
-    font-family: 'Times New Roman', Times, serif;
-  }
+  background-color: transparent;
+  width: 440px;
+  height: 650px;
+  perspective: 1000px;
+}
 
-  .flip-card-inner {
-    border-radius: 0%;
-    border: none;
-    box-shadow: none;
-  }
+#flip-card-inner {
+  position: relative;
+  width: 440px;
+  height: 650px;
+  text-align: justify;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
 
-  #headshotmobile {
-    background-image: url("./Assetts/headshota.jpg");
-    background-repeat: no-repeat;
-    border: 1px solid rgba(255, 255, 255, 0.856);
-    border-radius: 0px;
-    position: absolute;
-  }
+#flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
 
-  #aboutmewrap {
+#flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 440px;
+  height: 650px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: visible;
+}
+
+#flip-card-front {
+  color: white; 
+  width: 440px;
+  height: 650px;
+}
+
+#flip-card-back {
+  color: black;
+  background-image: none;
+  background-color: white;
+  transform: rotateY(180deg);
+  border: solid 2px white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.flip-card-inner {
+  border-radius: 0%;
+  border: none;
+  box-shadow: none;
+}
+
+#headshotmobile {
+  background-image: url("./Assetts/biohead.png");
+  width: 440px;
+  height: 650px;
+  background-repeat: no-repeat;
+  position: absolute;
+  border-radius: 0%;
+
+}
+
+  .aboutmewrap {
     margin-left: auto;
     margin-right: auto;
-    width: 440px;
-    height: 650px;
+    width: 90%;
+    height: 100%;
   }
 
 .backsidemobile {
@@ -92,8 +94,8 @@ h2 {
 }
 
 #skillswrapmainclassic {
-  width: 440px;
-  height: 650px;
+  width: 90%;
+  height: auto;
   }
   
   #skillsmainclassic {
