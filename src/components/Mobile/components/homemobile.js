@@ -13,7 +13,7 @@ class HomeMobile extends Component {
     return(
         <div id="megawrapmobile">
         <div id="headermobile">
- <Header title="Richard B. Hall">
+ <div id="navbarmobile">
      <div id="navbarwrapmobile">
          <Link to="/">Home</Link>
          <Link to="/resume">About Me</Link>
@@ -23,7 +23,7 @@ class HomeMobile extends Component {
          <Link to="/contact">Contact</Link>
 
      </div>
- </Header>
+ </div>
 
  {/* </div>
   <div id="lpiwmoderninner">
