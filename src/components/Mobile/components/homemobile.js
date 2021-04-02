@@ -5,6 +5,7 @@ import "../App.css";
 import Biocard from "./AboutMe/bio.js"
 // import Projects from "./projectsmobile"
 // import Contact from "./contactmobile";
+import Resumeimg from './Assetts/resume.png';
 
 class HomeMobile extends Component {
     render() {
@@ -53,18 +54,21 @@ class HomeMobile extends Component {
      </div>
 
      <p></p>
-{/* <div id="resumemodernimp">
-<Resume></Resume>
-</div>
 
+<div id="resumemoboileimp">
+<div className="resumecontainerclassic">
+<img className="resumingmobile" alt="resume" src={Resumeimg} />
+</div>
+</div>
+{/* 
 <div id="contactmodernimp">
 <Contact></Contact>
 </div>
 
 <div id="projectsmodernimp">
 <Projects></Projects>
-</div> */}
-
+</div>
+ */}
 
 </div>
 </div>

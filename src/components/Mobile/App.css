@@ -144,3 +144,15 @@ text-decoration: none;
   #gluediv {
     background-color: rgb(187, 219, 255);
   }
+
+  #resumemoboileimp {
+    width: 100%;
+    height: 100%;
+    max-width: 375px;
+  }
+
+  .resumingmobile {
+    width: 100%;
+    height: 100%;
+    max-width: 375px;
+  }
