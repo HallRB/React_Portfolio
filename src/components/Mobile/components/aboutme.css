@@ -15,6 +15,7 @@
     margin-right: auto;
     max-width: 375px;
     background-color: teal;
+    color: white;
     height: auto;
   }
 
@@ -25,8 +26,9 @@
   color: white;
   font-size: 20px;
   text-align: justify;
-  overflow: auto;
+  overflow: scroll;
   width: 97%;
+  height: 97%;
 }
 
 #abtme {
