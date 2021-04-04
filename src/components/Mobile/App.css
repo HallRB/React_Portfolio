@@ -42,6 +42,8 @@ h1 {
   margin-right: auto;
   overflow: scroll;
   height: 100%;
+  overflow: scroll;
+-webkit-overflow-scrolling: touch;
 }
 
 #megawrapmobile::-webkit-scrollbar {
