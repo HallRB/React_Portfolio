@@ -120,13 +120,13 @@ text-decoration: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   #skillsmainmobile {
     width: 755px;
     margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
     margin-right: auto;
     color: white;
   height: auto;
@@ -138,21 +138,39 @@ text-decoration: none;
     line-height: 1;
     max-width: 375px;
     width: 100%;
-    background-color: rgb(187, 219, 255);
+    background-color: rgb(11, 63, 122);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #gluediv {
-    background-color: rgb(187, 219, 255);
+    background-color: rgb(13, 53, 99);
+    margin-left: auto;
+    margin-right: auto;
   }
 
   #resumemoboileimp {
     width: 100%;
     height: 100%;
     max-width: 375px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .resumingmobile {
     width: 100%;
     height: 100%;
+    max-width: 375px;
+  }
+
+  #cardsallmobile {
+    max-width: 375px;
+    width: 100%;
+  }
+
+  #resumecontainermobile {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     max-width: 375px;
   }
