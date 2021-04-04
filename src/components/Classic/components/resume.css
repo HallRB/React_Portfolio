@@ -24,7 +24,24 @@
     margin-top: auto;
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+  }
 
+  ::-webkit-scrollbar-track {
+    border-radius: 0%
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: none; 
+    border: none;
+    border-radius: 0%;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: none; 
+    border-radius: 0%;
+  }
 
   #download {
       width: 100px;
