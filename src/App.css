@@ -150,12 +150,14 @@ height: 54px;
  
  #cyvedefault {
    color: #ffffff;
-   font-size: xx-large;
+   font-size: 50px;
   font-family: 'Do Hyeon', sans-serif;
   background-color: green;
-  height: auto;
+  height: 100%;
   text-align: center;
   width: 100%;
+  top: 0cm;
+  margin-top: -1px;
  }
 
  #cyveb {
