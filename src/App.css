@@ -15,14 +15,14 @@ html {
 
 h1 {
   text-align: center;
-
 }
 
 body, html {
   height:100%;}
 
 body {
-  overflow: hidden;}
+  overflow: hidden;
+}
 
 .bodycard {
   height:100%; 
@@ -45,9 +45,14 @@ body {
 #landingpagewrap {
   margin-left: auto;
   margin-right: auto;
- 
+  overflow: hidden;
  }
  
+ 
+#landingpagewrap::-webkit-scrollbar {
+  display: none;
+}
+
  #landingpageinnerwrapdefault {
    width: max-content;
    margin-left: auto;

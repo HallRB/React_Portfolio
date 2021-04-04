@@ -26,6 +26,10 @@
   color: chartreuse;
 }
 
+#landingpagewrapsynth::-webkit-scrollbar {
+  display: none;
+}
+
 input {
     width: 550px;
     border-radius: 25px;
