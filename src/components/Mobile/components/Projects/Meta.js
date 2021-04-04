@@ -4,7 +4,7 @@ import "./Book.css"
 class Meta extends Component {
     render() {
         return(
-<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb" shadow={0} style={{width: '375px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="meta"></img></CardTitle>
     <div class="projecttext" >
         React Portfolio: You're already here!

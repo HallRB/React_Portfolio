@@ -5,7 +5,7 @@ import "./Book.css"
 class Notespage extends Component {
     render() {
         return(
-<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb" shadow={0} style={{width: '375px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="notes"></img></CardTitle>
     <div className="projecttext">
        Versapp: An LGBT supportive app which let's you create notes that you can later come back to and delete at your leasure.

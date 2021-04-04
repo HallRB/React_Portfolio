@@ -4,7 +4,7 @@ import "./Book.css"
 class Burgerhub extends Component {
     render() {
         return(
-<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb" shadow={0} style={{width: '375px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="burgerhub"></img></CardTitle>
     <div class="projecttext" >
        Burger Hub: A fun activity to create a juicy burger of your choice and devour it.

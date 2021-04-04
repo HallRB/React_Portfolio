@@ -5,7 +5,7 @@ import "./Book.css"
 class Fittra extends Component {
     render() {
         return(
-<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb" shadow={0} style={{width: '375px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="fittraimg"></img></CardTitle>
     <div class="projecttext" >
         Fitness Tracker: An app that trackers the user's exercises over time separated into two categories: Cardo and Resistance.  Enter your workout then view your work outs in a over time in the tracker

@@ -5,7 +5,7 @@ import "./Book.css"
 class Sellify extends Component {
     render() {
         return(
-<div id="cardwrapb" shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb" shadow={0} style={{width: '375px', margin: 'auto'}}>
 <CardTitle style={{height: '275px'}}><img alt="" class="sellify"></img></CardTitle>
     <div class="projecttext" >
         Sellify: Selling your home? Are you the homeowner, or perhaps the real estate agent?  Keeping the homeowner up to date with the status of their home where they can see offers and feedback left by prospective buyers.

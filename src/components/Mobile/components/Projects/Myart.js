@@ -5,7 +5,7 @@ import "./Book.css";
 class Myart extends Component {
     render() {
         return(
-<div id="cardwrapb"  shadow={0} style={{width: '512px', margin: 'auto'}}>
+<div id="cardwrapb"  shadow={0} style={{width: '375px', margin: 'auto'}}>
     <CardTitle style={{height: '275px'}}><img alt="" class="myartmain"></img></CardTitle>
     <div class="projecttext" >
         Myart: Check out the world of fine and strange art
