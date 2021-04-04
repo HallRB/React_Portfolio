@@ -72,57 +72,24 @@ class HomeMobile extends Component {
 </div>
 <h1 id="skillstitle">What have I done?</h1>
 <div id="cardsallmobile">
-            <div className="inbetweenmodernl">
+
 <Myart></Myart>
-</div>
-<div id="inbetweenmodernl">
+
 <Arcadea></Arcadea>
-</div>
-<div id="inbetweenmodernr">
+
+
 <Sellify></Sellify>
-</div>
-<div id="inbetweenmodernl">
 <Empdir></Empdir>
-</div>
-<div id="inbetweenmodernr">
 <Budtra></Budtra>
-</div>
-<div id="inbetweenmodernl">
 <Fittra></Fittra>
-</div>
-<div id="inbetweenmodernr">
 <Burgerhub></Burgerhub>
-</div>
-<div id="inbetweenmodernl">
 <Survive></Survive>
-</div>
-<div id="inbetweenmodernr">
 <Planner></Planner>
-</div>
-<div id="inbetweenmodernl">
 <Notespage></Notespage>
-</div>
-<div id="inbetweenmodernr">
 <Password></Password>
-</div>
-<div id="inbetweenmodernl">
 <Book></Book>
-</div>
-<div id="inbetweenmodernr">
 <Meta></Meta>
 </div>
-</div>
-
-{/* 
-<div id="contactmodernimp">
-<Contact></Contact>
-</div>
-
-<div id="projectsmodernimp">
-<Projects></Projects>
-</div>
- */}
-
 </div>
 </div>
     )
