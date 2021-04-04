@@ -18,6 +18,7 @@ import Myart from "./Projects/Myart";
 class HomeMobile extends Component {
     render() {
     return(
+        <div id="mobileallwrap">
         <div id="megawrapmobile">
         <div id="headermobile">
  <div id="navbarwrapmobile">
@@ -89,6 +90,7 @@ class HomeMobile extends Component {
 <Password></Password>
 <Book></Book>
 <Meta></Meta>
+</div>
 </div>
 </div>
 </div>
