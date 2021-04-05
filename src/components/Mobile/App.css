@@ -42,13 +42,13 @@ h1 {
   margin-right: auto;
   overflow: scroll;
   height: 100%;
-  overflow: scroll;
--webkit-overflow-scrolling: touch;
-padding-bottom:100px;
+padding-bottom: -100px;
+padding-top: 25px;
 }
 
 #megawrapmobile::-webkit-scrollbar {
   display: none;
+  width: 0px;
 }
 
 body, html {

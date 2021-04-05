@@ -75,10 +75,7 @@ class HomeMobile extends Component {
 <div id="cardsallmobile">
 
 <Myart></Myart>
-
 <Arcadea></Arcadea>
-
-
 <Sellify></Sellify>
 <Empdir></Empdir>
 <Budtra></Budtra>

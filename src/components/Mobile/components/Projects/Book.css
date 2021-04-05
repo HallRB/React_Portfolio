@@ -4,20 +4,16 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .cardwrapmodern {
     background: black;
-    color: white;
-    border: 1px solid white;
+    color: black;
     margin-left: 3px;
     margin-right: 3px;
 }
 
 .cardborder {
-   border: 1px solid rgba(255, 255, 255, 0.856);
-   border-radius: 25px;
 }
 
 .cardtext {
@@ -26,8 +22,6 @@
 
 #cardwrapb {
     background: black;
-    color: white;
-    border: 1px solid white;
     margin-left: 3px;
     margin-right: 3px;
 }
@@ -39,7 +33,6 @@
     text-align: justify;
     color: rgb(27, 27, 129);
     background-color: white;
-    border-radius: 0%;
 }
 
 
@@ -49,7 +42,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .burgerhub {
@@ -58,7 +50,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .empdirimg {
@@ -67,7 +58,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .fittraimg {
@@ -76,7 +66,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .meta {
@@ -85,7 +74,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 #myartmain {
@@ -93,8 +81,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
-    border-radius: 25px;   
+    height: 100%; 
 }
 
 .notes {
@@ -103,7 +90,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .password {
@@ -112,7 +98,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .planner {
@@ -121,7 +106,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .survive {
@@ -130,7 +114,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .sellify {
@@ -139,7 +122,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .arcadea {
@@ -148,7 +130,6 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    border-radius: 25px;
 }
 
 .deployed {
