@@ -81,6 +81,8 @@ body {
     padding-top: 100px;
     background-color: rgb(13, 53, 99);
     position: relative;
+    height: 667px 100%;
+    max-height: 812px;
   }
 
   #mobileallwrap {
