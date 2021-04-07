@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import "./aboutme.css";
 import Biocardretro from "./AboutMe/bio.js"
 import "../App.css";
-import { CardTitle } from 'react-mdl';
 import { Link } from 'react-router-dom';
 class AboutMe extends Component {
      

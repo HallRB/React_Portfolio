@@ -3,7 +3,6 @@ import "./aboutmesynth.css";
 import Biocard from "./AboutMe/bio.js"
 import {  Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
-import { CardTitle } from 'react-mdl';
 class AboutMe extends Component {
      
       render() {

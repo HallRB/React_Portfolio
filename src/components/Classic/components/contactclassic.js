@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import "./contact.css";
 import "../App.css";
 import { Link } from 'react-router-dom';
-import ThemeCard from "../../Themes/themecard";
-
 
 class Contact extends Component {
 
