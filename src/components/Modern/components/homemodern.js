@@ -13,10 +13,12 @@ class HomeModern extends Component {
     return(
         
      <div id="megawrapmodern">
+         <div id="topmodern"></div>
                <div id="headercss">
         <Header title="Richard B. Hall">
             <Navigation id="navbarwrapmainmodern">
                 <Link to="/">Home</Link>
+                <Link to="Top">Top</Link>
                 <Link to="/resume">About Me</Link>
                 <Link to="/projects">Skills and Knowledge</Link>
                 <Link to="/contact">Resume</Link>
