@@ -1,4 +1,4 @@
-#themecardwrap {
+#themecardwrapmodern {
     border: solid 2px #92d7eb;;
     background-color: #92d7eb;;
     width: 300px;
@@ -6,7 +6,7 @@
     margin-right: auto;
 }
 
-#innerthemecardwrap {
+#innerthemecardwrapmodern {
     border: solid 2px #92d7eb;;
 width: min-content;
 margin-left: auto;
@@ -59,7 +59,7 @@ position: static;
     margin-right: auto;
 }
 
-#themebutton {
+#themebuttonmodern {
     border: solid 2px #92d7eb;;
     width: 286px;
 }
@@ -84,9 +84,9 @@ position: static;
     direction:rtl;
     overflow: auto;
     margin-top: -20px;
-    background-color: rgb(27, 27, 129);
+    background-color: black;
     position: fixed;
-    border-right: rgb(27, 27, 129) 1px solid;
+    border-right: black 1px solid;
 height: 100%;
 }
 
@@ -104,5 +104,5 @@ height: 100%;
 #themeblockmodern {
     margin-left: auto;
     margin-right: auto;
-   background-color:rgb(27, 27, 129);
+    background-color: black;
 }
