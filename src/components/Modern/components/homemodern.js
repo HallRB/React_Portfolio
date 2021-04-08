@@ -34,7 +34,7 @@ class HomeModern extends Component {
     <Biocard></Biocard>
 </div>
 <p></p>
-<div id="gluediv">
+<div id="gluedivmodern">
             <div id="skillsmainwrapclassic">
               <div id="skillsmainmodern">
               <div id="skillblockmodern">
