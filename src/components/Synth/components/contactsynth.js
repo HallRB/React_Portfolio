@@ -5,6 +5,20 @@ import { Link } from 'react-router-dom';
 import "../App.css";
 class Contact extends Component {
 
+      handleFormSubmit( event ) {
+        event.preventDefault();
+        console.log(this.state);
+      }
+
+      constructor(props) {
+        super(props);
+        this.state = {
+          fname: '',
+          lname: '',
+          email: '',
+          message: '',
+        }
+      }
     render() {
         
         return(
@@ -25,19 +39,32 @@ class Contact extends Component {
     <p>Contact Me</p>
     <div>
     <form action="/action_page.php">
-    <label>First Name</label>
-    <input type="text" id="fname" className="contactformtext" name="firstname" placeholder="Your name.." />
-    <label>Last Name</label>
-    <input type="text" id="lname" name="lastname" className="contactformtext"placeholder="Your last name.." />
 
+    <label>First Name</label>
+    <input type="text" id="fname" className="contactformtext" name="firstname" placeholder="Your name.."
+    value={this.state.fname}
+    onChange={e => this.setState({ fname: e.target.value })}
+    />
+
+    <label>Last Name</label>
+    <input type="text" id="lname" name="lastname" className="contactformtext"placeholder="Your last name.." 
+        value={this.state.lname}
+        onChange={e => this.setState({ lname: e.target.value })}
+    />
 
     <label>Email</label>
-    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email" />
-
+    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email" 
+        value={this.state.email}
+        onChange={e => this.setState({ email: e.target.value })}
+      />
 
     <label>Subject</label>
-    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something.."></textarea>
-    <input  className="contactformtext" type="submit" value="Submit" />
+    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something.."
+    onChange={e => this.setState({ message: e.target.value })}
+    value={this.state.message}
+    >
+    </textarea>
+    <input  className="contactformtext"  type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit" />
     </form>
     </div>
     </div>
