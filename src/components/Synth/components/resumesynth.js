@@ -21,7 +21,7 @@ class Resume extends Component {
             </Navigation>
         </Header>
         </div>
-        <div id="downloadresume"><button id="downloadbutton">Download</button></div>
+        <div id="downloadresume"><a id="downloadbutton" href="https://drive.google.com/file/d/14z5FzY-EZojPYVW0vp_ZLgP-7YNxeuXH/view?usp=sharing">Download</a></div>
 <Resumecard></Resumecard>
 {/* <div id="download"><Resumefile></Resumefile></div> */}
 </div>
