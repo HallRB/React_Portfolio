@@ -21,25 +21,27 @@ class Contact extends Component {
             </Header>
             
             <div className="contactform">
+                <div className="contactforminner">
     <p>Contact Me</p>
     <div>
     <form action="/action_page.php">
     <label>First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+    <input type="text" id="fname" className="contactformtext" name="firstname" placeholder="Your name.." />
     <label>Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+    <input type="text" id="lname" name="lastname" className="contactformtext"placeholder="Your last name.." />
 
 
     <label>Email</label>
-    <input type="email" id="email" name="email" placeholder="Your email" />
+    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email" />
 
 
     <label>Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
-    <input type="submit" value="Submit" />
+    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something.."></textarea>
+    <input  className="contactformtext" type="submit" value="Submit" />
     </form>
     </div>
     </div>
+            </div>
             </div>
             </div>
         )
