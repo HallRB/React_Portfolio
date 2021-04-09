@@ -3,13 +3,18 @@ import "./contactsynth.css";
 import {  Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import "../App.css";
+import axios from 'axios';
+
 class Contact extends Component {
 
+    //  Submit Handler
       handleFormSubmit( event ) {
         event.preventDefault();
         console.log(this.state);
       }
 
+
+    //   Form Handler
       constructor(props) {
         super(props);
         this.state = {
@@ -21,9 +26,11 @@ class Contact extends Component {
           error: null
         }
       }
+      
     render() {
         
         return(
+            
             <div id="landingpagewrapsynth">                               
             <div className="headercsssynth">
             <Header title="Richard B. Hall">
