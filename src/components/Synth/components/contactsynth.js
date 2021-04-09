@@ -17,6 +17,8 @@ class Contact extends Component {
           lname: '',
           email: '',
           message: '',
+          mailSent: false,
+          error: null
         }
       }
     render() {
