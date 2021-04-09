@@ -19,14 +19,28 @@ class Contact extends Component {
                 <Link to="/aboutmesynthview">About Me</Link>
                 </Navigation>
             </Header>
+            
+            <div className="contactform">
+    <p>Contact Me</p>
+    <div>
+    <form action="/action_page.php">
+    <label>First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." />
+    <label>Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." />
+
+
+    <label>Email</label>
+    <input type="email" id="email" name="email" placeholder="Your email" />
+
+
+    <label>Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+    <input type="submit" value="Submit" />
+    </form>
+    </div>
+    </div>
             </div>
-            <div className="contactwrap" id="contactwrapretro">
-    <h1>Contact Me</h1>
-    <h2>Phone: 210-800-3046</h2>
-    <h2>Email: Richardbrianhall@gmail.com</h2>
-    <h2>Github: https://Github.com/HallRB</h2>
-    <h2>LinkedIn: https://LinkedIn.com/in/hallrb</h2>
-</div>
             </div>
         )
         

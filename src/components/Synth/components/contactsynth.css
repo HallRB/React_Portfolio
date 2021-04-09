@@ -23,46 +23,13 @@
   background-image: url("./Assetts/synthgif.gif");
   background-repeat: none;
   background-size: cover;
-  color: chartreuse;
+  color: turquoise;
 }
 
 #landingpagewrapsynth::-webkit-scrollbar {
   display: none;
 }
 
-input {
-    width: 550px;
-    border-radius: 25px;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 3px;
-    font-size: x-large;
-   opacity: 1;
-    font-family: 'Do Hyeon', sans-serif;
-    color: rgb(0, 0, 0);
-  }
-  textarea {
-    height: 10em;
-    width: 550px;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-bottom: 3px;
-    resize: none;
-    height: 100px;
-    font-size: xx-large;
-    opacity: 1.2;
-    border-radius: 25px;
-    font-family: 'Do Hyeon', sans-serif;
-    color: rgb(0, 0, 0);
-  }
-
-  #textwrap {
-      resize: none;
-  }
-
-.formwrap {
-    border-radius: 25px;
-}
 
 body {
     font-family: 'Do Hyeon', sans-serif;
@@ -104,3 +71,19 @@ body {
     font-size: x-large;
   }
 
+.contactform {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  background-color: black;
+  opacity: 0.85;
+}
+
+input {
+  max-width: 450px;
+}
+
+textarea {
+  max-width: 450px;
+}
