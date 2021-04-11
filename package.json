@@ -7,10 +7,13 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
+    "cors": "^2.8.5",
     "emotion": "^11.0.0",
+    "express": "^4.17.1",
     "file-saver": "^2.0.5",
     "howler": "^2.2.1",
     "node-sass": "^5.0.0",
+    "nodemailer": "^6.5.0",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.3",
     "react-card-flip": "^1.0.11",
@@ -53,5 +56,18 @@
     "react-dfb": "^1.0.4",
     "prop-types": "^15.7.2",
     "react-scripts": "^3.2.0"
-  }
+  },
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HallRB/React_Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HallRB/React_Portfolio/issues"
+  },
+  "homepage": "https://github.com/HallRB/React_Portfolio#readme"
 }

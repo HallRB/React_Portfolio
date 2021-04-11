@@ -33,6 +33,10 @@ class Contact extends Component {
     })
   }
 
+  // resetForm(){
+  //   this.setState({name: ‘’, email: ‘’, message: ‘’})
+  // }
+
       render() {
         
         return(
@@ -56,7 +60,7 @@ class Contact extends Component {
     <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
 
     <label>Name</label>
-    <input type="text" id="fname" className="contactformtext" name="firstname" placeholder="Your name.."  value={this.state.name} onChange={this.onNameChange.bind(this)}
+    <input type="text" id="fname" className="contactformtext" name="name" placeholder="Your name.."  value={this.state.name} onChange={this.onNameChange.bind(this)}
     />
 
     <label>Email</label>
@@ -64,11 +68,10 @@ class Contact extends Component {
     />
 
     <label>Subject</label>
-    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something.."  value={this.state.message} onChange={this.onMessageChange.bind(this)}>
+    <textarea className="contactformtext" id="subject" name="message" placeholder="Write something.."  value={this.state.message} onChange={this.onMessageChange.bind(this)}>
     </textarea>
-    <input  className="contactformtext"  type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit" />
+    <input   className="contactformtext"  type="submit" value="Submit" />
     </form>
- 
 
     </div>
     </div>
