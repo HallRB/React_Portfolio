@@ -8,28 +8,15 @@ import axios from 'axios';
 class Contact extends Component {
 
 
-    
-    //  Submit Handler
-      handleFormSubmit( event ) {
-        event.preventDefault();
-        console.log(this.state);
-      }
-
-
-    //   Form Handler
-      constructor(props) {
-        super(props);
-        this.state = {
-          fname: '',
-          lname: '',
-          email: '',
-          message: '',
-          mailSent: false,
-          error: null
-        }
-      }
-      
-    render() {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      message: ''
+    }
+  }
+      render() {
         
         return(
             
@@ -49,25 +36,23 @@ class Contact extends Component {
                 <div className="contactforminner">
     <p>Contact Me</p>
     <div>
-    <form action="/action_page.php">
+    <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
 
-    <label>First Name</label>
-    <input type="text" id="fname" className="contactformtext" name="firstname" placeholder="Your name.."
-    />
-
-    <label>Last Name</label>
-    <input type="text" id="lname" name="lastname" className="contactformtext"placeholder="Your last name.." 
+    <label>Name</label>
+    <input type="text" id="fname" className="contactformtext" name="firstname" placeholder="Your name.."  value={this.state.name} onChange={this.onNameChange.bind(this)}
     />
 
     <label>Email</label>
-    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email"
+    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email" value={this.state.email} onChange={this.onEmailChange.bind(this)}
     />
 
     <label>Subject</label>
-    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something..">
+    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something.."  value={this.state.message} onChange={this.onMessageChange.bind(this)}>
     </textarea>
     <input  className="contactformtext"  type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit" />
     </form>
+
+
     </div>
     </div>
             </div>
@@ -77,6 +62,19 @@ class Contact extends Component {
         
 
     }
-    
+    onNameChange(event) {
+      this.setState({name: event.target.value})
+    }
+  
+    onEmailChange(event) {
+      this.setState({email: event.target.value})
+    }
+  
+    onMessageChange(event) {
+      this.setState({message: event.target.value})
+    }
+  
+    handleSubmit(event) {
+    }
 }
 export default Contact
