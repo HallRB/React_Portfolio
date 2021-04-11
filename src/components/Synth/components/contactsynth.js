@@ -53,27 +53,18 @@ class Contact extends Component {
 
     <label>First Name</label>
     <input type="text" id="fname" className="contactformtext" name="firstname" placeholder="Your name.."
-    value={this.state.fname}
-    onChange={e => this.setState({ fname: e.target.value })}
     />
 
     <label>Last Name</label>
     <input type="text" id="lname" name="lastname" className="contactformtext"placeholder="Your last name.." 
-        value={this.state.lname}
-        onChange={e => this.setState({ lname: e.target.value })}
     />
 
     <label>Email</label>
-    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email" 
-        value={this.state.email}
-        onChange={e => this.setState({ email: e.target.value })}
-      />
+    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email"
+    />
 
     <label>Subject</label>
-    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something.."
-    onChange={e => this.setState({ message: e.target.value })}
-    value={this.state.message}
-    >
+    <textarea className="contactformtext" id="subject" name="subject" placeholder="Write something..">
     </textarea>
     <input  className="contactformtext"  type="submit" onClick={e => this.handleFormSubmit(e)} value="Submit" />
     </form>
