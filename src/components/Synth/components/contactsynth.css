@@ -95,6 +95,47 @@ body {
 
 #contactbox {
  width: 100%;
- border: solid 3px orange;
- height: 200%;
+ font-size: 20px;
+}
+
+#comingsooncontact {
+  background-image: url("../../Assetts/placeholder.png");
+  width: 550px;
+  height: 300px;
+  background-repeat: cover;
+  position: absolute;
+  opacity: .7;
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 40px;
+}
+
+#copybutton {
+  color: turquoise;
+  background-color: black;
+  border: 1px solid rgba(255, 255, 255, 0.856);
+  box-shadow: 0px 0px 4px 4px rgba(164, 0, 179, 0.856);
+  border-radius: 25px;
+  float: right;
+  margin-top: 2px;
+  font-size: 25px;
+  width: 100%;
+}
+
+#contactp {
+  line-height: 30px;
+  padding: 0;
+  margin: auto;
+}
+
+#linkedincontactportal {
+  color: turquoise;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+}
+
+#copybuttons {
+  display: inline;
 }

@@ -28,6 +28,7 @@ class Contact extends Component {
             </Header>
             
             <div className="contactform">
+              <div id="comingsooncontact"></div>
                 <div className="contactforminner">
     <p>Contact Me</p>
     <div>
@@ -44,16 +45,24 @@ class Contact extends Component {
     <input   className="contactformtext"  type="submit" value="Submit" />
     </form>
     </div>
+
 <div id="contactbox">
-  <p>Email: richardbrianhall@gmail.com </p>
-  <CopyToClipboard text="richardbrianhall@gmail.com">
-  <button>Copy to clipboard</button>
-</CopyToClipboard>
-  <p>Linkedin: https://www.linkedin.com/in/hallrb/</p>
+
+  <div id="contactp">Email: richardbrianhall@gmail.com</div>
+  <div id="contactp">Linkedin: https://www.linkedin.com/in/hallrb/</div>
+  <div id="copybuttons">
   
+    <CopyToClipboard text="https://www.linkedin.com/in/hallrb/">
+    <button id="copybutton">Copy Linkedin Address</button>
+    </CopyToClipboard>
+    <CopyToClipboard text="richardbrianhall@gmail.com">
+    <button id="copybutton">Copy Email Address</button>
+    </CopyToClipboard>
+  
+  </div>
 </div>
     </div>
-            </div>
+    </div>
             </div>
             </div>
         )
