@@ -92,3 +92,9 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+#contactbox {
+ width: 100%;
+ border: solid 3px orange;
+ height: 200%;
+}

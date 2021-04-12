@@ -3,8 +3,13 @@ import "./contactsynth.css";
 import {  Header, Navigation } from 'react-mdl';
 import { Link } from 'react-router-dom';
 import "../App.css";
-
+import {CopyToClipboard} from 'react-copy-to-clipboard';
 class Contact extends Component {
+ 
+  state = {
+    value: '',
+    copied: false,
+  };
 
       render() {
         
@@ -31,37 +36,28 @@ class Contact extends Component {
     <label>Name</label>
     <input type="text" id="fname" className="contactformtext" name="name" placeholder="Your name.." 
     />
-
     <label>Email</label>
     <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email"
     />
-
     <label>Subject</label>
     <textarea className="contactformtext" id="subject" name="message" placeholder="Write something.."> </textarea>
     <input   className="contactformtext"  type="submit" value="Submit" />
     </form>
-
     </div>
+<div id="contactbox">
+  <p>Email: richardbrianhall@gmail.com </p>
+  <CopyToClipboard text="richardbrianhall@gmail.com">
+  <button>Copy to clipboard</button>
+</CopyToClipboard>
+  <p>Linkedin: https://www.linkedin.com/in/hallrb/</p>
+  
+</div>
     </div>
             </div>
             </div>
             </div>
         )
-        
-
-    }
-    onNameChange(event) {
-      this.setState({name: event.target.value})
-    }
-  
-    onEmailChange(event) {
-      this.setState({email: event.target.value})
-    }
-  
-    onMessageChange(event) {
-      this.setState({message: event.target.value})
-    }
-  
+      }}
  
-}
+
 export default Contact
