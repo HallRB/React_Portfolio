@@ -26,19 +26,18 @@ class Contact extends Component {
                 <div className="contactforminner">
     <p>Contact Me</p>
     <div>
-    <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
+    <form id="contact-form">
 
     <label>Name</label>
-    <input type="text" id="fname" className="contactformtext" name="name" placeholder="Your name.."  value={this.state.name} onChange={this.onNameChange.bind(this)}
+    <input type="text" id="fname" className="contactformtext" name="name" placeholder="Your name.." 
     />
 
     <label>Email</label>
-    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email" value={this.state.email} onChange={this.onEmailChange.bind(this)}
+    <input type="email" id="email" className="contactformtext" name="email" placeholder="Your email"
     />
 
     <label>Subject</label>
-    <textarea className="contactformtext" id="subject" name="message" placeholder="Write something.."  value={this.state.message} onChange={this.onMessageChange.bind(this)}>
-    </textarea>
+    <textarea className="contactformtext" id="subject" name="message" placeholder="Write something.."> </textarea>
     <input   className="contactformtext"  type="submit" value="Submit" />
     </form>
 
