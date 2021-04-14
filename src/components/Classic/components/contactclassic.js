@@ -53,10 +53,10 @@ class Contact extends Component {
   <div id="copybuttons">
   
     <CopyToClipboard text="https://www.linkedin.com/in/hallrb/">
-    <button id="copybuttonmodern">Copy Linkedin Address</button>
+    <button id="copybuttonclassic">Copy Linkedin Address</button>
     </CopyToClipboard>
     <CopyToClipboard text="richardbrianhall@gmail.com">
-    <button id="copybuttonmodern">Copy Email Address</button>
+    <button id="copybuttonclassic">Copy Email Address</button>
     </CopyToClipboard>
   
   </div>
