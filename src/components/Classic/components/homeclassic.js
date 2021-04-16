@@ -13,8 +13,8 @@ class HomeClassic extends Component {
              <div id="lpiwclassicinner">
              </div>
 </div>
-<div id="webbarout">
-    <div id="webbarin">
+<div id="webbaroutclassic">
+    <div id="webbarinclassic">
              <p id="homeclassic" className="linksclassic"><Link className="links" id="homeclassic" to="/"></Link></p>
              <p id="resumeclassic" className="linksclassic"><Link className="links" id="resumeclassic" to="/resumeclassicview"></Link></p>
              <p id="projectsclassic" className="linksclassic"><Link className="links" id="projectsclassic" to="/projectsclassicview"></Link></p>

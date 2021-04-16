@@ -201,24 +201,24 @@ opacity: 1;
   margin-top: -20px;
 }
 
-#webbarin {
+#webbarinclassic {
   width: max-content;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(117, 117, 117);
   margin-left: auto;
   margin-right: auto;
   height: 50px;
   font-size: 40px;
 }
 
-#webbarout {
+#webbaroutclassic {
   width: 100%;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(117, 117, 117);
   height: 70px;
   font-size: 40px;
 }
 
 .linksclassic { 
-  border-left: solid rgb(255, 255, 255) 2px;
+  border-left: solid rgb(129, 129, 129) 2px;
   margin: 5px;
 }
 
