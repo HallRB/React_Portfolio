@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Carousel from "@brainhubeu/react-carousel";
-import "@brainhubeu/react-carousel/lib/style.css";
+// import "@brainhubeu/react-carousel/lib/style.css";
 import Image1 from "./Assetts/BudTra.JPG";
 import Image2 from "./Assetts/Burgerhub.JPG";
 import Image3 from "./Assetts/HoriseonPreview.JPG";
