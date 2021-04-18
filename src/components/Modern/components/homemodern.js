@@ -4,9 +4,10 @@ import { Link } from 'react-router-dom';
 import {  Header, Navigation } from 'react-mdl';
 import Resume from "./resumemodern";
 import ThemeCard from "./Themes/themecard";
-import Biocard from "./AboutMe/bio.js"
-import Projects from "./projectsmodern"
+import Biocard from "./AboutMe/bio.js";
+import Projects from "./projectsmodern";
 import {CopyToClipboard} from 'react-copy-to-clipboard';
+import Carouselmod from "./carousel.js";
 
 class HomeModern extends Component {
     render() {
@@ -102,6 +103,10 @@ class HomeModern extends Component {
 </div>
     </div>
     </div>
+</div>
+
+<div id="carouselmodernimp">
+    <Carouselmod></Carouselmod>
 </div>
 
 <div id="projectsmodernimp">
