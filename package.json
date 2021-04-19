@@ -54,6 +54,6 @@
   "devDependencies": {
     "react-dfb": "^1.0.4",
     "prop-types": "^15.7.2",
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^4.0.1"
   }
 }
