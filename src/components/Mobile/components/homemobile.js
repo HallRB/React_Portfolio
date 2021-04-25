@@ -29,6 +29,7 @@ class HomeMobile extends Component {
      <div id="paramobilewrap">
      <div id="headshotmobile" alt="Avatar"></div>
      <h1 id="skillstitle">Who am I?</h1>
+     <div>
      <p id="paramobile">Richard grew up in Texas during the dawn of the internet age. As a child he spent much time playing 32-bit games on the family's Windows 95 PC. In 6th grade he made his first website and worked to build a PC as part of a collaborative project with his schoolmates. He made personal use of Wordpress and Myspace as they arrived at that time. He particularly enjoyed designing personal layouts by playing with colors, fonts, and music. 
      </p><p id="paramobile">
      In High School Richard became a competitive online gamer. In college his focus turned towards the arts including acting, singing, playwriting, and painting. He graduated from the University of Maryland in 4 years, earning two degrees with a 3.4 gpa and 152 credit hours. He received a BA in Theatre and a BA in Classical Languages. After graduation, he moved back to Texas to Austin where he worked in administration for the state, pursuing artistic endeavors in his spare time. After 2 years he found a new opportunity of employment with a concrete manufacturer where, outside of the IT department, he was the only person in their local branch familiar with computers. This challenged him to master the use of various software where his technical skills served multiple departments. 
@@ -87,6 +88,7 @@ class HomeMobile extends Component {
 <Password></Password>
 <Book></Book>
 <Meta></Meta>
+</div>
 </div>
 </div>
 </div>

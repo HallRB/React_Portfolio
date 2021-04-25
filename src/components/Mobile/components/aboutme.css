@@ -29,6 +29,7 @@
   overflow: auto;
   width: 97%;
   height: 97%;
+  position: relative;
 }
 
 #abtme {
