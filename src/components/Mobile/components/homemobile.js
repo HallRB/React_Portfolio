@@ -86,7 +86,7 @@ class HomeMobile extends Component {
 <Planner></Planner>
 <Notespage></Notespage>
 <Password></Password>
-<Book></Book>
+<Book></Book>asdasdasd
 <Meta></Meta>
 </div>
 </div>
@@ -97,4 +97,4 @@ class HomeMobile extends Component {
 }
 }
 
-export default HomeMobile
+export default HomeMobilew
