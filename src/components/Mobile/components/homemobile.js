@@ -97,4 +97,4 @@ class HomeMobile extends Component {
 }
 }
 
-export default HomeMobilew
+export default HomeMobile
