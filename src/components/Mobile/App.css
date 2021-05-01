@@ -51,13 +51,6 @@ padding-bottom:100px;
   width: 0px;
 }
 
-body, html {
-  height:100%;}
-  
-
-body {
-  overflow: hidden;}
-
   /* outer navbar box */
   #navbarmobile {
     background-color: rgb(13, 53, 99);
